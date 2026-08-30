@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:,">
+<title>光润通 · 目标客户查找工作流自动化工具</title>
+<style>
+  :root {
+    --primary: #2563eb;
+    --primary-dark: #1d4ed8;
+    --bg: #f3f5f8;
+    --card: #ffffff;
+    --border: #e3e7ee;
+    --text: #1f2937;
+    --muted: #6b7280;
+    --green: #16a34a;
+    --red: #dc2626;
+    --amber: #d97706;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: "Microsoft YaHei", "PingFang SC", "Segoe UI", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.55;
+  }
+  header {
+    background: linear-gradient(135deg, #1e3a8a, #2563eb);
+    color: #fff;
+    padding: 22px 28px 20px;
+  }
+  header h1 { margin: 0 0 4px; font-size: 22px; }
+  header .sub { margin: 0; opacity: .85; font-size: 13px; }
+  main { max-width: 1180px; margin: 0 auto; padding: 20px 16px 60px; }
+  section {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 18px 20px;
+    margin-bottom: 18px;
+  }
+  section h2 {
+    margin: 0 0 12px;
+    font-size: 16px;
+    color: var(--primary-dark);
+    border-left: 4px solid var(--primary);
+    padding-left: 10px;
+  }
+  .grid-4 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 12px;
+  }
+  .stat {
+    background: #f8fafc;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 10px 14px;
+  }
+  .stat .k { font-size: 12px; color: var(--muted); }
+  .stat .v { font-size: 18px; font-weight: 700; margin-top: 2px; }
+  .stat .v.blue { color: var(--primary); }
+  .stat .v.green { color: var(--green); }
+  .stat .v.red { color: var(--red); }
+
+  .note {
+    display: none;
+    margin: 12px 0;
+    padding: 10px 14px;
+    border-radius: 8px;
+    font-size: 13px;
+  }
+  .note-ok { background: #ecfdf5; color: #065f46; border: 1px solid #a7f3d0; }
+  .note-err { background: #fef2f2; color: #991b1b; border: 1px solid #fecaca; }
+
+  textarea, input, select {
+    font: inherit;
+    color: var(--text);
+    border: 1px solid #d1d5db;
+    border-radius: 7px;
+    padding: 8px 10px;
+    background: #fff;
+  }
+  textarea:focus, input:focus, select:focus {
+    outline: 2px solid rgba(37, 99, 235, .35);
+    border-color: var(--primary);
+  }
+  .btn {
+    display: inline-block;
+    border: none;
+    border-radius: 7px;
+    padding: 9px 16px;
+    font: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    background: var(--primary);
+    cursor: pointer;
+    transition: background .15s;
+  }
+  .btn:hover { background: var(--primary-dark); }
+  .btn.small { padding: 4px 9px; font-size: 12px; font-weight: 500; background: #eef2ff; color: var(--primary-dark); }
+  .btn.small:hover { background: #e0e7ff; }
+  .btn.danger { background: #fee2e2; color: var(--red); }
+  .btn.danger:hover { background: #fecaca; }
+  .btn.gray { background: #f3f4f6; color: var(--text); }
+  .btn.gray:hover { background: #e5e7eb; }
+  .btn-row { margin-top: 10px; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+
+  .kw-row { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+  .kw {
+    border: 1px solid #bfdbfe;
+    background: #eff6ff;
+    color: var(--primary-dark);
+    border-radius: 999px;
+    padding: 4px 12px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .kw:hover { background: #dbeafe; }
+
+  #cand-input { width: 100%; min-height: 96px; resize: vertical; }
+  .hint { font-size: 12px; color: var(--muted); margin-top: 6px; }
+
+  .card {
+    border: 1px solid var(--border);
+    border-radius: 9px;
+    padding: 12px 14px;
+    margin-bottom: 12px;
+    background: #fbfcfe;
+  }
+  .row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+  .row + .row { margin-top: 8px; }
+  .r1 .in-name { flex: 1 1 280px; min-width: 240px; font-weight: 600; }
+  .r2 .in-addr { flex: 1 1 320px; }
+  .r2 .in-scope { flex: 1 1 320px; }
+  .r3 { font-size: 12.5px; color: #374151; gap: 12px; }
+  .r3 label { display: inline-flex; align-items: center; gap: 4px; cursor: pointer; }
+  .r4 select { flex: 0 1 auto; }
+  .r4 .src-label { font-size: 12px; color: var(--muted); }
+  .r4 .in-src { flex: 1 1 220px; min-width: 180px; font-size: 13px; }
+  .r5 .in-remark { width: 100%; resize: vertical; font-size: 13px; }
+  .row.fail { font-size: 12px; color: var(--red); background: #fef2f2; border: 1px solid #fecaca; border-radius: 6px; padding: 6px 10px; }
+  .badge {
+    display: inline-block;
+    border-radius: 999px;
+    padding: 3px 10px;
+    font-size: 12px;
+    font-weight: 600;
+    white-space: nowrap;
+    max-width: 260px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .badge-green { background: #dcfce7; color: #166534; }
+  .badge-red { background: #fee2e2; color: #991b1b; }
+  .badge-amber { background: #fef3c7; color: #92400e; }
+  .badge-gray { background: #f3f4f6; color: #4b5563; }
+  .tag {
+    border-radius: 6px;
+    padding: 3px 8px;
+    font-size: 12px;
+  }
+  .tag-rerun { background: #ede9fe; color: #5b21b6; }
+  .empty { color: var(--muted); font-size: 13px; padding: 14px 4px; }
+  #cand-summary { font-size: 13px; color: var(--muted); margin-top: 10px; }
+
+  .out-toolbar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 10px; }
+  #out-text {
+    width: 100%;
+    min-height: 180px;
+    resize: vertical;
+    font-family: Consolas, "Courier New", monospace;
+    font-size: 13px;
+    white-space: pre;
+  }
+
+  .hist-item {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 8px 12px;
+    margin-bottom: 8px;
+    font-size: 13px;
+  }
+  .hist-label { flex: 1 1 240px; }
+
+  details { border: 1px solid var(--border); border-radius: 8px; padding: 10px 14px; margin-top: 10px; }
+  details summary { cursor: pointer; font-weight: 600; font-size: 14px; }
+  details ol, details ul { margin: 10px 0 4px; padding-left: 22px; font-size: 13px; }
+  details li { margin-bottom: 4px; }
+  .checklist { columns: 1; font-size: 13px; color: #374151; }
+  footer { text-align: center; color: var(--muted); font-size: 12px; padding: 18px 10px 30px; }
+  code { background: #f1f5f9; border-radius: 4px; padding: 1px 5px; font-size: 12.5px; }
+  @media (max-width: 640px) {
+    .r1 .in-name { flex-basis: 100%; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>光润通 · 目标客户查找工作流自动化工具</h1>
+  <p class="sub">查找客户 → 筛选客户 → 输出客户 全自动流水线 · 去重库首次输入、自动记忆、可导出</p>
+</header>
+
+<main>
+  <div id="note" class="note"></div>
+
+  <!-- 去重库管理 -->
+  <section>
+    <h2>去重库（首次输入，自动记忆，可导出）</h2>
+    <div class="grid-4">
+      <div class="stat"><div class="k">去重库 A（本机记忆）</div><div class="v blue" id="stat-a">-</div></div>
+      <div class="stat"><div class="k">去重库 B（历史输出自动累积）</div><div class="v green" id="stat-b">-</div></div>
+      <div class="stat"><div class="k">合并去重库（A ∪ B）</div><div class="v red" id="stat-total">-</div></div>
+      <div class="stat"><div class="k">输出计数</div><div class="v" id="stat-counter">-</div></div>
+    </div>
+    <div class="btn-row">
+      <label class="btn small" style="cursor:pointer;">上传 Excel/JSON/TXT 载入去重库A
+        <input type="file" accept=".xlsx,.xls,.json,.txt,.csv" style="display:none" onchange="GRTUI.loadDedupFile(this)">
+      </label>
+      <button class="btn small" onclick="GRTUI.exportDedupA()">导出去重库A</button>
+      <button class="btn small danger" onclick="GRTUI.clearDedupA()">清空去重库A</button>
+      <button class="btn small" onclick="GRTUI.exportBackup()">导出数据备份</button>
+      <label class="btn small" style="cursor:pointer;">导入数据备份
+        <input type="file" accept=".json,application/json" style="display:none" onchange="GRTUI.importBackup(this)">
+      </label>
+      <button class="btn small danger" onclick="GRTUI.clearB()">清空去重库B</button>
+      <button class="btn small danger" onclick="GRTUI.clearAll()">清空全部数据</button>
+    </div>
+    <details>
+      <summary>粘贴公司名并入去重库A（无文件时的备用方式）</summary>
+      <textarea id="dedup-paste" style="width:100%;min-height:70px;margin-top:8px;" placeholder="每行一个公司名称，例如：&#10;北京某某科技有限公司&#10;天津某某制造有限公司"></textarea>
+      <div class="btn-row"><button class="btn small" onclick="GRTUI.pasteDedupA()">并入去重库A</button></div>
+    </details>
+    <details>
+      <summary>导入历史去重库B（可选）</summary>
+      <textarea id="b-import-text" style="width:100%;min-height:70px;margin-top:8px;" placeholder="每行一个公司名称，例如：&#10;北京某某科技有限公司&#10;天津某某制造有限公司"></textarea>
+      <div class="btn-row"><button class="btn small" onclick="GRTUI.importBText()">并入去重库B</button></div>
+    </details>
+    <div class="hint" style="margin-top:8px;">
+      首次使用：上传《查找汇总表格.xlsx》或导出的「去重库A JSON」即可，之后同浏览器自动记忆、无需重复上传。
+      换设备时用「导出去重库A / 导出数据备份」迁移，朋友也可以导入同一份去重库使用。
+      所有数据只保存在本机浏览器，不会上传到任何服务器。
+    </div>
+  </section>
+
+  <!-- 自动查找 -->
+  <section>
+    <h2>自动查找：一键获取候选（查找 → 筛选）</h2>
+    <div class="btn-row">
+      <button class="btn" id="btn-fetch" onclick="GRTUI.fetchCandidates()">一键获取最新候选</button>
+      <label class="btn gray" style="cursor:pointer;">导入候选JSON（本地/离线）
+        <input type="file" accept=".json,application/json" style="display:none" onchange="GRTUI.importCandidatesFile(this)">
+      </label>
+      <button class="btn small danger" onclick="GRTUI.clearCandidates()">清空候选池</button>
+    </div>
+    <div class="hint" style="margin-top:8px;">
+      候选由 GitHub Actions 每日自动查找（工作流关键词 × 京津冀），结果自动累积为候选池；
+      本工具自动完成标准化去重、业务线分类、备注生成，命中去重库的条目自动标红剔除。
+      你只需逐家确认五项校验，然后点「生成输出」。
+    </div>
+  </section>
+
+  <!-- 候选录入 -->
+  <section>
+    <h2>手动录入候选（备用/补充）</h2>
+    <textarea id="cand-input" placeholder="每行一家公司，支持三种格式：&#10;1) 仅公司名称：北京某某科技有限公司&#10;2) 公司名称【Tab】注册地址：北京某某科技有限公司&#9;北京市海淀区中关村大街1号&#10;3) 公司名称【Tab】注册地址【Tab】经营范围&#10;也支持直接粘贴历史输出格式：名称【Tab】业务线【Tab】电话【Tab】姓名【Tab】邮箱【Tab】备注【Tab】地址"></textarea>
+    <div class="btn-row">
+      <button class="btn" onclick="GRTUI.addCandidates()">添加候选并自动查重</button>
+    </div>
+    <div class="hint">正常流程用上方「一键获取最新候选」；此处用于手动补充/修正。粘贴后系统立即与合并去重库比对，命中的条目自动标红。</div>
+    <div class="kw-row">
+      <span style="font-size:12px;color:var(--muted);align-self:center;">步骤1 快捷搜索：</span>
+      <span class="kw" onclick="GRTUI.baiduKw('服务器 生产 厂家')">服务器 生产 厂家</span>
+      <span class="kw" onclick="GRTUI.baiduKw('光端机 研发 厂家')">光端机 研发 厂家</span>
+      <span class="kw" onclick="GRTUI.baiduKw('防火墙 制造 厂家')">防火墙 制造 厂家</span>
+      <span class="kw" onclick="GRTUI.baiduKw('工控机 组装 厂家')">工控机 组装 厂家</span>
+      <span class="kw" onclick="GRTUI.baiduKw('网闸 生产 厂家')">网闸 生产 厂家</span>
+      <span class="kw" onclick="GRTUI.baiduKw('OEM 服务器')">OEM 服务器</span>
+      <span class="kw" onclick="GRTUI.baiduKw('ODM 网络安全硬件')">ODM 网络安全硬件</span>
+      <span class="kw" onclick="GRTUI.baiduKw('信创整机生产商')">信创整机生产商</span>
+    </div>
+  </section>
+
+  <!-- 候选池与校验 -->
+  <section>
+    <h2>候选池与五项校验（筛选）</h2>
+    <div id="cand-list"></div>
+    <div id="cand-summary"></div>
+    <div class="hint" style="margin-top:8px;">
+      操作说明：红色 = 命中去重库（不会输出）；勾选五项校验后显示“✔ 可输出”。
+      遇到曾用名 → 点“曾用名→重跑”输入现用法定全称，系统会重置全部校验并重新查重（步骤3强制重跑流程）。
+      点“百度核验 / 企查查 / 天眼查”可打开对应页面完成双源交叉验证。
+    </div>
+  </section>
+
+  <!-- 输出 -->
+  <section>
+    <h2>生成输出（点击即出）</h2>
+    <div class="out-toolbar">
+      <label style="font-size:13px;">每批输出数量：
+        <select id="out-count">
+          <option value="20" selected>20 家</option>
+          <option value="25">25 家</option>
+          <option value="30">30 家</option>
+          <option value="50">50 家</option>
+          <option value="100">100 家</option>
+          <option value="200">200 家</option>
+          <option value="all">全部通过项（上限200）</option>
+        </select>
+      </label>
+      <button class="btn" onclick="GRTUI.generate()">生成输出</button>
+      <button class="btn gray" onclick="GRTUI.copyOutput()">一键复制</button>
+      <button class="btn gray" onclick="GRTUI.downloadOutput()">下载 .txt</button>
+    </div>
+    <textarea id="out-text" readonly placeholder="生成后的输出将显示在这里。格式：制表符分隔，字段顺序 公司名称、匹配业务线、电话、姓名、邮箱、备注、地址；末尾自动标注输出时间与第N次输出。"></textarea>
+    <div class="hint" style="margin-top:8px;">
+      输出后公司名称自动加入去重库B（下次录入自动排重）；计数按日期重置，同一天内每次输出递增（步骤9）。
+      电话/姓名/邮箱字段按要求保持为空。
+    </div>
+  </section>
+
+  <!-- 历史 -->
+  <section>
+    <h2>历史输出</h2>
+    <div id="hist-list"></div>
+  </section>
+
+  <!-- 说明 -->
+  <section>
+    <h2>使用说明与执行检查清单</h2>
+    <details open>
+      <summary>三步快速上手</summary>
+      <ol>
+        <li>首次使用：上传去重库A（Excel/JSON/TXT），自动记忆，无需重复上传。</li>
+        <li>点“一键获取最新候选”：系统自动查找并累积候选池，自动去重、分类业务线、生成备注。</li>
+        <li>逐家确认五项校验后点“生成输出”，一键复制或下载。输出自动归档历史并累积去重库B。</li>
+      </ol>
+    </details>
+    <details>
+      <summary>执行检查清单（每次输出前自查，按优先级排序）</summary>
+      <div class="checklist">
+        <ol>
+          <li>优先级0 - 前置去重：所有候选进入候选池时即已通过标准化比对排重，最终名单无重复。</li>
+          <li>优先级1 - 曾用名处理：所有公司名称均为现用法定全称，遇曾用名已强制重跑并全部通过。</li>
+          <li>优先级2 - 公司名称均通过公开渠道（至少两个来源）获取并核验（非AI编造）。</li>
+          <li>优先级3 - 所有地址均为京津冀地区（北京/天津/河北）。</li>
+          <li>优先级4 - 所有公司均具备硬件研发、生产制造或OEM/ODM代工实体属性（非纯贸易/纯软件）。</li>
+          <li>优先级5 - 匹配业务线属于四类之一（服务器/信创整机、数据中心、网络安全、工业通信）。</li>
+          <li>优先级6 - 备注包含具体光润通产品和匹配逻辑，且包含实体属性描述。</li>
+          <li>优先级7 - 电话/姓名/邮箱全为空。</li>
+          <li>优先级8 - 输出格式正确（制表符分隔，无多余空格）。</li>
+          <li>优先级9 - 输出时间标注完整。</li>
+        </ol>
+      </div>
+    </details>
+    <details>
+      <summary>工作流步骤摘要（V3.1）</summary>
+      <ol>
+        <li>目标客户查找：天眼查/企查查、网络公开信息、招聘网站、行业名录（禁止编造）。</li>
+        <li>目标画像：京津冀存续法人实体，四类优先行业 + 硬件研产/OEM/ODM 实体属性。</li>
+        <li>真实数据源 + 前置实时去重 + 曾用名强制重跑：先比对合并去重库（A ∪ B），再逐条核验五项。</li>
+        <li>去重库维护：A 静态，B 每次输出后自动累积，标准化规则一致。</li>
+        <li>业务线分类：四类中选最核心业务。</li>
+        <li>生成匹配理由：格式为“[实体属性 + 主营业务]，需采购/集成[具体产品]”。</li>
+        <li>输出批次与格式：每批 20-30 家（上限200），制表符分隔，字段顺序固定。</li>
+        <li>输出示例：公司名称、匹配业务线、电话、姓名、邮箱、备注、地址。</li>
+        <li>输出时间标注：YYYY年MM月DD日 第N次输出；跨天重置。</li>
+        <li>错误处理：输出前逐条复核，发现错误立即声明并重新输出。</li>
+        <li>数据源不足：不足10家时输出全部剩余并说明；无新客户时输出空表并列出已尝试渠道。</li>
+      </ol>
+    </details>
+  </section>
+</main>
+
+<footer>
+  去重库A/B、历史输出等所有数据仅保存在本机浏览器（localStorage），不会上传到任何服务器；仓库与网页不含客户名单。<br>
+  建议定期“导出数据备份”以防浏览器缓存被清理。
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
