@@ -299,6 +299,8 @@
     <h2>候选池与校验（AI 自动验证）</h2>
     <div class="btn-row">
       <button class="btn" onclick="GRTUI.verifyAll()">全部 AI 验证</button>
+      <button class="btn gray" onclick="GRTUI.exportCandidatesXlsx()">导出初筛名单(Excel)</button>
+      <button class="btn gray" onclick="GRTUI.exportCandidatesTsv()">导出初筛名单(制表符文本)</button>
     </div>
     <details>
       <summary>AI 验证设置（可选）</summary>
@@ -331,6 +333,7 @@
     <div class="btn-row">
       <button class="btn" onclick="GRTUI.checkNamesOnly()">开始查重</button>
       <button class="btn gray" onclick="GRTUI.addNamecheckFresh()">未命中的加入候选池</button>
+      <button class="btn gray" onclick="GRTUI.exportNamecheckTsv()">导出结果(制表符)</button>
     </div>
     <div id="namecheck-result" style="margin-top:10px;"></div>
     <div id="namecheck-summary" class="hint" style="margin-top:8px;"></div>

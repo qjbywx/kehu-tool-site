@@ -71,6 +71,21 @@ const noAddr = Object.assign({}, good, { address: '' });
 eq(GRT.rowPass(noAddr), true, 'pass: 无地址也可输出（地址类查验已去除）');
 eq(GRT.rowFailReasons(noAddr).length, 0, 'pass: 无地址不产生未通过原因');
 
+// ---------- 初筛名单导出（Excel / 制表符） ----------
+const er = GRT.exportRows([{
+  name: '北京测试公司', bizline: '网络安全', dedupOk: true,
+  checks: { a: true, b: true, d: true, e: true },
+  verify: { summary: '云端AI查验 08:00 · ①✓ ②✓ ④✓ ⑤✓' },
+  remark: '备注', sources: 'https://example.com'
+}]);
+eq(er.length, 1, 'exportRows: 行数');
+eq(er[0]['公司名称'], '北京测试公司', 'exportRows: 名称列');
+eq(er[0]['匹配业务线'], '网络安全', 'exportRows: 业务线列');
+eq(er[0]['状态'], '可输出', 'exportRows: 状态列（可输出）');
+eq(er[0]['云端查验'].indexOf('云端AI查验') !== -1, true, 'exportRows: 云端查验列');
+const erDup = GRT.exportRows([{ name: 'X公司', dedupOk: false, checks: {} }]);
+eq(erDup[0]['状态'], '命中去重库', 'exportRows: 状态列（命中去重库）');
+
 if (failed) {
   console.error('\n共 ' + failed + ' 项失败');
   process.exit(1);

@@ -19,8 +19,10 @@ const SHOT = process.argv[3] || path.join(ROOT, '.ui_preview.png');
   });
   const page = await browser.newPage({ viewport: { width: 1280, height: 1000 } });
   const errors = [];
+  const downloads = [];
   page.on('console', function (m) { if (m.type() === 'error') errors.push(m.text()); });
   page.on('pageerror', function (e) { errors.push(String(e)); });
+  page.on('download', function (d) { downloads.push(d.suggestedFilename()); });
 
   await page.goto(BASE);
   await page.waitForTimeout(600);
@@ -82,6 +84,18 @@ const SHOT = process.argv[3] || path.join(ROOT, '.ui_preview.png');
   console.log('OUTPUT_START');
   console.log(out);
   console.log('OUTPUT_END');
+
+  // 4. 一键导出初筛名单
+  await page.click('button:has-text("导出初筛名单(制表符文本)")');
+  await page.waitForTimeout(800);
+  const tsvFiles = downloads.filter(function (n) { return n.endsWith('.txt'); });
+  if (!tsvFiles.length) throw new Error('未触发制表符文本下载');
+  console.log('TSV_DOWNLOAD', tsvFiles[0]);
+  await page.click('button:has-text("导出初筛名单(Excel)")');
+  await page.waitForTimeout(5000); // 等待在线加载 Excel 组件
+  const xlsxFiles = downloads.filter(function (n) { return n.endsWith('.xlsx'); });
+  if (xlsxFiles.length) console.log('XLSX_DOWNLOAD', xlsxFiles[0]);
+  else console.log('XLSX_DOWNLOAD_SKIPPED (组件未加载，逻辑已由单测验证)');
 
   await page.screenshot({ path: SHOT, fullPage: true });
   console.log('SCREENSHOT', SHOT);

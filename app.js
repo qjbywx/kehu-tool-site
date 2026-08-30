@@ -107,6 +107,20 @@ GRT.buildRemark = function (bizline, product, scope) {
   }
 };
 
+// 初筛名单导出行（供 Excel / 制表符文本导出共用）
+GRT.exportRows = function (candidates) {
+  return (candidates || []).map(function (c) {
+    return {
+      '公司名称': c.name || '',
+      '匹配业务线': c.bizline || '',
+      '状态': c.dedupOk ? (GRT.allChecks(c) ? '可输出' : '待校验') : '命中去重库',
+      '云端查验': c.verify ? c.verify.summary : (c.dedupOk ? '未核验' : '命中去重库'),
+      '备注': c.remark || '',
+      '来源': c.sources || ''
+    };
+  });
+};
+
 GRT.allChecks = function (c) {
   return !!(c && c.checks && c.checks.a && c.checks.b && c.checks.d && c.checks.e);
 };
@@ -635,7 +649,7 @@ function addDedupNames(names) {
 function ensureXlsx(cb) {
   if (typeof XLSX !== 'undefined') { cb(); return; }
   const s = document.createElement('script');
-  s.src = 'https://cdn.sheetjs.com/xlsx-0.20.3/package/dist/xlsx.full.min.js';
+  s.src = 'https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js';
   s.onload = cb;
   s.onerror = function () {
     showNote('Excel 解析组件加载失败（需联网）。请改用 JSON 或粘贴文本载入去重库A。', 'err');
@@ -848,6 +862,57 @@ GRTUI.clearCandidates = function () {
   showNote('候选池已清空。', 'ok');
 };
 
+/* ---------- 一键导出初筛名单（Excel / 制表符文本） ---------- */
+function tsvFromRows(rows) {
+  if (!rows.length) return '';
+  const keys = Object.keys(rows[0]);
+  const clean = function (v) {
+    return String(v == null ? '' : v).replace(/\r?\n/g, ' ').replace(/\t/g, ' ');
+  };
+  const lines = [keys.join('\t')];
+  rows.forEach(function (r) {
+    lines.push(keys.map(function (k) { return clean(r[k]); }).join('\t'));
+  });
+  return lines.join('\n');
+}
+
+GRTUI.exportCandidatesTsv = function () {
+  const rows = GRT.exportRows(state.candidates);
+  if (!rows.length) { showNote('候选池为空，无可导出内容。', 'err'); return; }
+  const d = new Date();
+  download('初筛名单_' + d.getFullYear() + pad2(d.getMonth() + 1) + pad2(d.getDate()) + '.txt',
+    '\ufeff' + tsvFromRows(rows), 'text/tab-separated-values;charset=utf-8');
+  showNote('已导出初筛名单（制表符文本）：共 ' + rows.length + ' 家。', 'ok');
+};
+
+GRTUI.exportCandidatesXlsx = function () {
+  const rows = GRT.exportRows(state.candidates);
+  if (!rows.length) { showNote('候选池为空，无可导出内容。', 'err'); return; }
+  ensureXlsx(function () {
+    try {
+      const ws = XLSX.utils.json_to_sheet(rows);
+      const wb = XLSX.utils.book_new();
+      XLSX.utils.book_append_sheet(wb, ws, '初筛名单');
+      const d = new Date();
+      XLSX.writeFile(wb, '初筛名单_' + d.getFullYear() + pad2(d.getMonth() + 1) + pad2(d.getDate()) + '.xlsx');
+      showNote('已导出初筛名单（Excel）：共 ' + rows.length + ' 家。', 'ok');
+    } catch (e) {
+      showNote('Excel 导出失败：' + e.message, 'err');
+    }
+  });
+};
+
+GRTUI.exportNamecheckTsv = function () {
+  const rows = (window._namecheckRows || []).map(function (r) {
+    return { '公司名称': r.name, '查重结果': r.status, '命中明细': r.note };
+  });
+  if (!rows.length) { showNote('「只查验公司名字」还没有结果可导出。', 'err'); return; }
+  const d = new Date();
+  download('查重结果_' + d.getFullYear() + pad2(d.getMonth() + 1) + pad2(d.getDate()) + '.txt',
+    '\ufeff' + tsvFromRows(rows), 'text/tab-separated-values;charset=utf-8');
+  showNote('已导出查重结果：共 ' + rows.length + ' 家。', 'ok');
+};
+
 /* ---------- 五项校验：AI 验证 / 自动初筛 ---------- */
 function autoVerify(c) {
   // 基于现有证据的内置初筛：有证据的项自动勾选，无法确认的项明确标注原因
@@ -1041,6 +1106,7 @@ GRTUI.checkNamesOnly = function () {
   }
   $('namecheck-summary').textContent = '共 ' + rows.length +
     ' 家：未命中 ' + fresh + '，命中A ' + hitA + '，命中B ' + hitB + '，本批重复 ' + dupBatch;
+  window._namecheckRows = rows;
   window._namecheckFresh = rows.filter(function (r) { return r.status === '未命中'; })
     .map(function (r) { return r.name; });
 };

@@ -35,6 +35,7 @@ const els = {};
 ].forEach(function (id) { els[id] = makeEl(id); });
 
 const store = {};
+const xlsxCalls = [];
 const cloudVerify = {
   a: { pass: true, reason: '官网可访问，未见注销字样' },
   b: { pass: true, reason: '现用法定全称' },
@@ -76,6 +77,14 @@ const sandbox = {
         });
       }
     });
+  },
+  XLSX: {
+    utils: {
+      json_to_sheet: function () { return {}; },
+      book_new: function () { return { Sheets: {}, SheetNames: [] }; },
+      book_append_sheet: function (wb, ws, name) { wb.SheetNames.push(name); wb.Sheets[name] = ws; }
+    },
+    writeFile: function (wb, name) { xlsxCalls.push(name); }
   },
   localStorage: {
     getItem: function (k) { return store[k] || null; },
@@ -163,6 +172,21 @@ const wait = function (ms) { return new Promise(function (r) { setTimeout(r, ms)
   // 6. 曾用名重跑
   GRTUI.rerun(fresh2);
   assert(els['cand-list'].innerHTML.indexOf('已触发曾用名重跑') !== -1, '曾用名重跑标记出现');
+
+  // 7. 一键导出初筛名单（Excel / 制表符文本）
+  const backups = [];
+  sandbox.document.createElement = function () {
+    const el = makeEl('dyn');
+    el.click = function () { backups.push(el); };
+    return el;
+  };
+  GRTUI.exportCandidatesTsv();
+  assert(backups.length === 1 && backups[0].download.indexOf('初筛名单') !== -1 && backups[0].download.endsWith('.txt'),
+    '导出初筛名单(制表符)触发下载');
+  GRTUI.exportCandidatesXlsx();
+  assert(xlsxCalls.length === 1 && xlsxCalls[0].endsWith('.xlsx'), '导出初筛名单(Excel)调用 writeFile');
+  GRTUI.exportNamecheckTsv();
+  assert(backups.length === 2 && backups[1].download.indexOf('查重结果') !== -1, '只查名字结果可导出(制表符)');
 
   if (failed) {
     console.error('\n共 ' + failed + ' 项失败');
