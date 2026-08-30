@@ -48,19 +48,21 @@ const SHOT = process.argv[3] || path.join(ROOT, '.ui_preview.png');
     const badge = await card.$eval('.badge', function (el) { return el.textContent; });
     if (badge.indexOf('✔ 可输出') !== -1 || badge.indexOf('待校验') !== -1) {
       const id = await card.getAttribute('data-id');
-      const addr = await card.$eval('.in-addr', function (el) { return el.value; });
-      if (!addr.trim()) {
-        // 逐字输入，验证输入框可连续输入（防止整列表重绘导致无法输入）
-        const addrInput = '.card[data-id="' + id + '"] .in-addr';
-        await page.fill(addrInput, '');
-        await page.type(addrInput, '北京市海淀区中关村', { delay: 25 });
-        const typed = await page.inputValue(addrInput);
-        if (typed.indexOf('海淀') === -1) throw new Error('地址输入框无法连续输入');
-      }
-      await page.click('.card[data-id="' + id + '"] button:has-text("AI 验证")');
+      // 逐字输入公司名并删除，验证输入框可连续输入（防止整列表重绘导致无法输入）
+      const nameInput = '.card[data-id="' + id + '"] .in-name';
+      const origName = await page.inputValue(nameInput);
+      await page.click(nameInput);
+      await page.keyboard.type('A', { delay: 30 });
+      await page.keyboard.press('End');
+      await page.keyboard.press('Backspace');
+      const nameAfter = await page.inputValue(nameInput);
+      if (nameAfter !== origName) throw new Error('名称输入框无法连续输入');
+      await page.click('.card[data-id="' + id + '"] button:has-text("验证")');
       await page.waitForTimeout(400);
-      const btnText = await page.textContent('.card[data-id="' + id + '"] button:has-text("重新验证")');
-      if (btnText.indexOf('重新验证') === -1) throw new Error('验证后按钮未变为「重新验证」');
+      const btnText = await page.textContent('.card[data-id="' + id + '"] button:has-text("验证")');
+      if (btnText.indexOf('重新验证') === -1 && btnText.indexOf('AI 验证') === -1) {
+        throw new Error('验证按钮状态异常：' + btnText);
+      }
       // 自动初筛无法确认的项（如①存续、④双源），人工补充勾选后输出
       const left = await page.$$('.card[data-id="' + id + '"] .r3 input[type=checkbox]');
       for (const ch of left) {

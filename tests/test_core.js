@@ -49,10 +49,10 @@ eq(/Bypass网卡/.test(r3) && /非纯贸易商/.test(r3), true, 'remark: 网络�
 const r4 = GRT.buildRemark('工业通信', '', '');
 eq(/工业通信组件/.test(r4), true, 'remark: 工业通信含组件');
 
-// ---------- 五项校验与输出判定（步骤10） ----------
+// ---------- 四项校验与输出判定（已去除地址类查验） ----------
 const good = {
   name: '北京某某科技有限公司', address: '北京市海淀区', bizline: '网络安全', remark: '备注',
-  checks: { a: true, b: true, c: true, d: true, e: true }, dedupOk: true
+  checks: { a: true, b: true, d: true, e: true }, dedupOk: true
 };
 eq(GRT.rowPass(good), true, 'pass: 全部通过');
 eq(GRT.rowFailReasons(good).length, 0, 'pass: 无未通过原因');
@@ -61,15 +61,15 @@ const dup = Object.assign({}, good, { dedupOk: false, dedupNote: '命中去重�
 eq(GRT.rowPass(dup), false, 'fail: 命中去重库不输出');
 eq(GRT.rowFailReasons(dup).length, 1, 'fail: 仅报去重原因');
 
-const badAddr = Object.assign({}, good, { address: '上海市浦东新区' });
-eq(GRT.rowPass(badAddr), true, 'pass: 地址不在京津冀仍可输出（仅提示，人工复核）');
-eq(GRT.rowFailReasons(badAddr).some(function (r) { return /京津冀/.test(r); }), true, 'fail: 地址提示包含京津冀关键词');
-
 const noRemark = Object.assign({}, good, { remark: '' });
 eq(GRT.rowPass(noRemark), false, 'fail: 备注为空不输出');
 
-const noChecks = Object.assign({}, good, { checks: { a: true, b: true, c: true, d: true, e: false } });
-eq(GRT.rowPass(noChecks), false, 'fail: 五项校验缺一不输出');
+const noChecks = Object.assign({}, good, { checks: { a: true, b: true, d: true, e: false } });
+eq(GRT.rowPass(noChecks), false, 'fail: 四项校验缺一不输出');
+
+const noAddr = Object.assign({}, good, { address: '' });
+eq(GRT.rowPass(noAddr), true, 'pass: 无地址也可输出（地址类查验已去除）');
+eq(GRT.rowFailReasons(noAddr).length, 0, 'pass: 无地址不产生未通过原因');
 
 if (failed) {
   console.error('\n共 ' + failed + ' 项失败');

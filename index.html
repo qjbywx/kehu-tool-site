@@ -146,6 +146,9 @@
   .r5 .in-remark { width: 100%; resize: vertical; font-size: 13px; }
   .row.fail { font-size: 12px; color: var(--red); background: #fef2f2; border: 1px solid #fecaca; border-radius: 6px; padding: 6px 10px; }
   .row.verify { font-size: 12px; color: #115e59; background: #f0fdfa; border: 1px solid #99f6e4; border-radius: 6px; padding: 6px 10px; }
+  .nc-row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; border-bottom: 1px dashed #e5e7eb; padding: 5px 2px; font-size: 13px; }
+  .nc-name { font-weight: 600; }
+  .nc-note { color: var(--muted); font-size: 12px; }
   .badge {
     display: inline-block;
     border-radius: 999px;
@@ -266,14 +269,14 @@
     <div class="hint" style="margin-top:8px;">
       候选由 GitHub Actions 每日自动查找（工作流关键词 × 京津冀），结果自动累积为候选池；
       本工具自动完成标准化去重、业务线分类、备注生成，命中去重库的条目自动标红剔除。
-      你只需逐家确认五项校验，然后点「生成输出」。
+      你只需查看云端查验结果，然后点「生成输出」。
     </div>
   </section>
 
   <!-- 候选录入 -->
   <section>
     <h2>手动录入候选（备用/补充）</h2>
-    <textarea id="cand-input" placeholder="每行一家公司，支持三种格式：&#10;1) 仅公司名称：北京某某科技有限公司&#10;2) 公司名称【Tab】注册地址：北京某某科技有限公司&#9;北京市海淀区中关村大街1号&#10;3) 公司名称【Tab】注册地址【Tab】经营范围&#10;也支持直接粘贴历史输出格式：名称【Tab】业务线【Tab】电话【Tab】姓名【Tab】邮箱【Tab】备注【Tab】地址"></textarea>
+    <textarea id="cand-input" placeholder="每行一家公司，支持两种格式：&#10;1) 仅公司名称：北京某某科技有限公司&#10;2) 公司名称【Tab】经营范围：北京某某科技有限公司&#9;生产、研发、制造&#10;也支持直接粘贴历史输出格式：名称【Tab】业务线【Tab】电话【Tab】姓名【Tab】邮箱【Tab】备注【Tab】地址（地址列会被忽略）"></textarea>
     <div class="btn-row">
       <button class="btn" onclick="GRTUI.addCandidates()">添加候选并自动查重</button>
     </div>
@@ -293,7 +296,7 @@
 
   <!-- 候选池与校验 -->
   <section>
-    <h2>候选池与五项校验（AI 自动验证）</h2>
+    <h2>候选池与校验（AI 自动验证）</h2>
     <div class="btn-row">
       <button class="btn" onclick="GRTUI.verifyAll()">全部 AI 验证</button>
     </div>
@@ -307,16 +310,32 @@
       </div>
       <div class="hint">
         兼容 OpenAI 格式的接口均可（OpenAI、DeepSeek 等）。Key 只保存在本机浏览器，随“导出数据备份”导出。
-        不配置时，“AI 验证”使用内置自动初筛；其中①工商存续状态只有配置 AI/工商数据源才能确认。
+        不配置时由服务器端“云端AI查验”（每日自动抓取网页核验）与内置自动初筛共同完成，无需任何 API。
       </div>
     </details>
     <div id="cand-list"></div>
     <div id="cand-summary"></div>
     <div class="hint" style="margin-top:8px;">
-      操作说明：红色 = 命中去重库（不会输出）。每家候选点“AI 验证”（或上方“全部 AI 验证”）自动完成五项校验，
-      验证过的公司按钮变为“重新验证”，可随时重跑。校验结果会显示每项通过情况与原因。
+      操作说明：红色 = 命中去重库（不会输出）。候选池中的公司由服务器每日自动抓取网页核验（云端AI查验），
+      结果自动应用；也可点“AI 验证 / 全部 AI 验证”手动重跑，验证过的公司按钮会变为“重新验证”。
+      校验项为四项：①存续/在业 ②现用法定全称 ④双源交叉验证 ⑤实体研产属性（已按你的要求去除地址类查验）。
       遇到曾用名 → 点“曾用名→重跑”输入现用法定全称，系统会重置全部校验并重新查重（步骤3强制重跑流程）。
       点“百度核验 / 企查查 / 天眼查”可打开对应页面完成双源交叉验证。
+    </div>
+  </section>
+
+  <!-- 只查验公司名字 -->
+  <section>
+    <h2>只查验公司名字（纯查重，不做核验）</h2>
+    <textarea id="namecheck-input" style="width:100%;min-height:90px;" placeholder="每行一个公司名称（也支持 名称【Tab】其他信息，只取第一列）&#10;例如：&#10;北京某某科技有限公司&#10;天津某某制造有限公司"></textarea>
+    <div class="btn-row">
+      <button class="btn" onclick="GRTUI.checkNamesOnly()">开始查重</button>
+      <button class="btn gray" onclick="GRTUI.addNamecheckFresh()">未命中的加入候选池</button>
+    </div>
+    <div id="namecheck-result" style="margin-top:10px;"></div>
+    <div id="namecheck-summary" class="hint" style="margin-top:8px;"></div>
+    <div class="hint" style="margin-top:6px;">
+      用于你自己找到的公司名单：只比对去重库A、去重库B和本批候选，不做任何网络核验、不要求地址。
     </div>
   </section>
 
@@ -339,7 +358,7 @@
       <button class="btn gray" onclick="GRTUI.copyOutput()">一键复制</button>
       <button class="btn gray" onclick="GRTUI.downloadOutput()">下载 .txt</button>
     </div>
-    <textarea id="out-text" readonly placeholder="生成后的输出将显示在这里。格式：制表符分隔，字段顺序 公司名称、匹配业务线、电话、姓名、邮箱、备注、地址；末尾自动标注输出时间与第N次输出。"></textarea>
+    <textarea id="out-text" readonly placeholder="生成后的输出将显示在这里。格式：制表符分隔，字段顺序 公司名称、匹配业务线、电话、姓名、邮箱、备注（已去除地址列）；末尾自动标注输出时间与第N次输出。"></textarea>
     <div class="hint" style="margin-top:8px;">
       输出后公司名称自动加入去重库B（下次录入自动排重）；计数按日期重置，同一天内每次输出递增（步骤9）。
       电话/姓名/邮箱字段按要求保持为空。
@@ -360,7 +379,7 @@
       <ol>
         <li>首次使用：上传去重库A（Excel/JSON/TXT），自动记忆，无需重复上传。</li>
         <li>点“一键获取最新候选”：系统自动查找并累积候选池，自动去重、分类业务线、生成备注。</li>
-        <li>点“全部 AI 验证”自动完成五项校验（可配置 AI 接口），验证过的公司可点“重新验证”。</li>
+        <li>点“全部 AI 验证”自动完成四项校验（云端AI查验 + 自动初筛，无需 API），验证过的公司可点“重新验证”。</li>
         <li>点“生成输出”，一键复制或下载。输出自动归档历史并累积去重库B。</li>
       </ol>
     </details>
@@ -371,7 +390,7 @@
           <li>优先级0 - 前置去重：所有候选进入候选池时即已通过标准化比对排重，最终名单无重复。</li>
           <li>优先级1 - 曾用名处理：所有公司名称均为现用法定全称，遇曾用名已强制重跑并全部通过。</li>
           <li>优先级2 - 公司名称均通过公开渠道（至少两个来源）获取并核验（非AI编造）。</li>
-          <li>优先级3 - 所有地址均为京津冀地区（北京/天津/河北）。</li>
+          <li>优先级3 - （已按要求去除地址类查验，输出不含地址列）。</li>
           <li>优先级4 - 所有公司均具备硬件研发、生产制造或OEM/ODM代工实体属性（非纯贸易/纯软件）。</li>
           <li>优先级5 - 匹配业务线属于四类之一（服务器/信创整机、数据中心、网络安全、工业通信）。</li>
           <li>优先级6 - 备注包含具体光润通产品和匹配逻辑，且包含实体属性描述。</li>
@@ -386,12 +405,12 @@
       <ol>
         <li>目标客户查找：天眼查/企查查、网络公开信息、招聘网站、行业名录（禁止编造）。</li>
         <li>目标画像：京津冀存续法人实体，四类优先行业 + 硬件研产/OEM/ODM 实体属性。</li>
-        <li>真实数据源 + 前置实时去重 + 曾用名强制重跑：先比对合并去重库（A ∪ B），再逐条核验五项。</li>
+        <li>真实数据源 + 前置实时去重 + 曾用名强制重跑：先比对合并去重库（A ∪ B），再逐条核验四项（无地址类）。</li>
         <li>去重库维护：A 静态，B 每次输出后自动累积，标准化规则一致。</li>
         <li>业务线分类：四类中选最核心业务。</li>
         <li>生成匹配理由：格式为“[实体属性 + 主营业务]，需采购/集成[具体产品]”。</li>
         <li>输出批次与格式：每批 20-30 家（上限200），制表符分隔，字段顺序固定。</li>
-        <li>输出示例：公司名称、匹配业务线、电话、姓名、邮箱、备注、地址。</li>
+        <li>输出示例：公司名称、匹配业务线、电话、姓名、邮箱、备注（已去除地址列）。</li>
         <li>输出时间标注：YYYY年MM月DD日 第N次输出；跨天重置。</li>
         <li>错误处理：输出前逐条复核，发现错误立即声明并重新输出。</li>
         <li>数据源不足：不足10家时输出全部剩余并说明；无新客户时输出空表并列出已尝试渠道。</li>

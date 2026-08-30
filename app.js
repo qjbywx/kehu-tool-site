@@ -108,13 +108,13 @@ GRT.buildRemark = function (bizline, product, scope) {
 };
 
 GRT.allChecks = function (c) {
-  return !!(c && c.checks && c.checks.a && c.checks.b && c.checks.c && c.checks.d && c.checks.e);
+  return !!(c && c.checks && c.checks.a && c.checks.b && c.checks.d && c.checks.e);
 };
 
 // 一条候选是否可输出（步骤10 复核逻辑）
 GRT.rowPass = function (c) {
   return !!(c && c.name && GRT.norm(c.name) && c.dedupOk && GRT.allChecks(c) &&
-    c.address && c.bizline && c.remark);
+    c.bizline && c.remark);
 };
 
 // 未通过原因清单（供界面显示）
@@ -124,11 +124,8 @@ GRT.rowFailReasons = function (c) {
   else if (!c.dedupOk) reasons.push(c.dedupNote || '命中去重库');
   if (!c.checks.a) reasons.push('① 工商状态（存续/在业）未确认');
   if (!c.checks.b) reasons.push('② 现用法定全称未确认');
-  if (!c.checks.c) reasons.push('③ 注册地址京津冀未确认');
   if (!c.checks.d) reasons.push('④ 双源交叉验证未确认');
   if (!c.checks.e) reasons.push('⑤ 实体研发/生产属性未确认');
-  if (!c.address) reasons.push('未填写注册地址');
-  else if (!/北京|天津|河北/.test(c.address)) reasons.push('地址不含京津冀关键词，请复核');
   if (!c.bizline) reasons.push('未选择匹配业务线');
   if (!c.remark) reasons.push('备注为空');
   return reasons;
@@ -276,14 +273,12 @@ function candCard(c) {
       '<button class="btn small danger" onclick="GRTUI.del(\'' + c.id + '\')">删除</button>' +
     '</div>' +
     '<div class="row r2">' +
-      '<input class="in-addr" value="' + esc(c.address) + '" oninput="GRTUI.editAddr(\'' + c.id + '\', this.value)" placeholder="注册地址（须京津冀，如：北京市海淀区…）" />' +
       '<input class="in-scope" value="' + esc(c.scope) + '" oninput="GRTUI.editScope(\'' + c.id + '\', this.value)" placeholder="经营范围 / 实体依据（可选，用于生成备注）" />' +
     '</div>' +
     '<div class="row r3">' +
-      '<span class="check-label">五项校验：</span>' +
+      '<span class="check-label">校验项（AI 自动查验）：</span>' +
       '<label><input type="checkbox" ' + (checks.a ? 'checked' : '') + ' onchange="GRTUI.toggleCheck(\'' + c.id + '\',\'a\',this.checked)" />① 存续/在业</label>' +
       '<label><input type="checkbox" ' + (checks.b ? 'checked' : '') + ' onchange="GRTUI.toggleCheck(\'' + c.id + '\',\'b\',this.checked)" />② 现用法定全称</label>' +
-      '<label><input type="checkbox" ' + (checks.c ? 'checked' : '') + ' onchange="GRTUI.toggleCheck(\'' + c.id + '\',\'c\',this.checked)" />③ 京津冀地址</label>' +
       '<label><input type="checkbox" ' + (checks.d ? 'checked' : '') + ' onchange="GRTUI.toggleCheck(\'' + c.id + '\',\'d\',this.checked)" />④ 双源交叉验证</label>' +
       '<label><input type="checkbox" ' + (checks.e ? 'checked' : '') + ' onchange="GRTUI.toggleCheck(\'' + c.id + '\',\'e\',this.checked)" />⑤ 实体研产属性</label>' +
       (c.rerun ? '<span class="tag tag-rerun">已触发曾用名重跑：须重新完成全部校验</span>' : '') +
@@ -369,7 +364,7 @@ GRTUI.addCandidates = function () {
       product: p.product || '',
       remark: p.remark || '',
       sources: '',
-      checks: { a: false, b: false, c: false, d: false, e: false },
+      checks: { a: false, b: false, d: false, e: false },
       rerun: false
     });
     added++;
@@ -459,7 +454,7 @@ GRTUI.rerun = function (id) {
   const n = newName.trim();
   if (!n) { showNote('未输入现用全称，操作已取消。', 'err'); return; }
   c.name = n;
-  c.checks = { a: false, b: false, c: false, d: false, e: false };
+  c.checks = { a: false, b: false, d: false, e: false };
   c.rerun = true;
   refreshDedup();
   renderAll();
@@ -514,11 +509,11 @@ GRTUI.generate = function () {
   if (countMode !== 'all') rows = passed.slice(0, parseInt(countMode, 10));
 
   const lines = rows.map(function (r) {
-    return [r.name.trim(), r.bizline, '', '', '', r.remark.trim().replace(/\r?\n/g, ' '), r.address.trim()].join('\t');
+    return [r.name.trim(), r.bizline, '', '', '', r.remark.trim().replace(/\r?\n/g, ' ')].join('\t');
   });
   const counter = GRT.nextCounter(state.counter, GRT.todayKey());
   const timeLine = '输出时间：' + GRT.dateLabel() + ' 第' + counter.n + '次输出';
-  const text = '公司名称\t匹配业务线\t电话\t姓名\t邮箱\t备注\t地址\n' + lines.join('\n') + '\n' + timeLine;
+  const text = '公司名称\t匹配业务线\t电话\t姓名\t邮箱\t备注\n' + lines.join('\n') + '\n' + timeLine;
 
   $('out-text').value = text;
   rows.forEach(function (r) {
@@ -729,7 +724,7 @@ function importCandidates(list) {
     const k = GRT.norm(name);
     if (have.has(k)) continue;
     have.add(k);
-    state.candidates.push({
+    const cand = {
       id: genId(),
       name: name,
       address: item.address_hint || '',
@@ -738,9 +733,14 @@ function importCandidates(list) {
       product: '',
       remark: item.bizline ? GRT.buildRemark(item.bizline, '', item.scope_hint || '') : '',
       sources: item.source_url || '',
-      checks: { a: false, b: false, c: false, d: false, e: false },
+      checks: { a: false, b: false, d: false, e: false },
       rerun: false
-    });
+    };
+    if (item.verify && typeof item.verify === 'object') {
+      // 引擎已自动核验（云端AI查验）：直接应用结果
+      applyVerdict(cand, item.verify, 'cloud', item.verify.checked_at);
+    }
+    state.candidates.push(cand);
     added++;
   }
   if (added) {
@@ -834,13 +834,10 @@ GRTUI.clearCandidates = function () {
 function autoVerify(c) {
   // 基于现有证据的内置初筛：有证据的项自动勾选，无法确认的项明确标注原因
   const v = {};
-  const blob = (c.name || '') + ' ' + (c.scope || '') + ' ' + (c.address || '') + ' ' + (c.sources || '');
+  const blob = (c.name || '') + ' ' + (c.scope || '') + ' ' + (c.sources || '');
   v.b = /(股份有限公司|有限责任公司|有限公司|集团)$/.test(c.name || '')
     ? { pass: true, reason: '名称含法定后缀' }
     : { pass: false, reason: '名称疑似不完整，需核实现用法定全称' };
-  v.c = /北京|天津|河北/.test((c.address || '') + ' ' + (c.scope || ''))
-    ? { pass: true, reason: '含京津冀地址信息' }
-    : { pass: false, reason: '缺少京津冀地址证据' };
   const domains = new Set();
   String(c.sources || '').split(/[\s,，;；]+/).forEach(function (u) {
     try { domains.add(new URL(u).hostname.replace(/^www\./, '')); } catch (e) { /* 忽略 */ }
@@ -851,37 +848,37 @@ function autoVerify(c) {
   v.e = /生产|制造|组装|研发|研制|代工|产线|硬件|设备|厂商|实业/.test(blob)
     ? { pass: true, reason: '具备实体研产特征' }
     : { pass: false, reason: '未见实体研产特征' };
-  v.a = { pass: false, reason: '存续状态需工商数据源或 AI 接口确认' };
+  v.a = { pass: false, reason: '存续状态需云端网页核验（候选池自动核验或重新验证）' };
   return v;
 }
 
-function applyVerdict(c, v, method) {
-  const labels = { a: '①工商状态', b: '②现用全称', c: '③京津冀地址', d: '④双源核验', e: '⑤实体研产' };
+function applyVerdict(c, v, method, timeStr) {
+  const labels = { a: '①工商状态', b: '②现用全称', d: '④双源核验', e: '⑤实体研产' };
   const verdict = {};
-  for (const k of ['a', 'b', 'c', 'd', 'e']) {
+  for (const k of ['a', 'b', 'd', 'e']) {
     if (!v[k] || typeof v[k].pass !== 'boolean') v[k] = { pass: false, reason: '未给出判断' };
     verdict[k] = v[k];
   }
   c.checks = {
     a: !!verdict.a.pass,
     b: !!verdict.b.pass,
-    c: !!verdict.c.pass,
     d: !!verdict.d.pass,
     e: !!verdict.e.pass
   };
   const parts = [];
-  for (const k of ['a', 'b', 'c', 'd', 'e']) {
+  for (const k of ['a', 'b', 'd', 'e']) {
     parts.push(labels[k] + (verdict[k].pass ? '✓' : '✗'));
   }
   c.verify = {
-    time: new Date().toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit' }),
+    time: timeStr || new Date().toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit' }),
     method: method,
     verdict: verdict
   };
   // 摘要：方法 + 时间 + 各项结果；附带首个未通过原因
   const failReason = Object.keys(verdict).filter(function (k) { return !verdict[k].pass; })
     .map(function (k) { return labels[k] + '：' + verdict[k].reason; }).join('；');
-  c.verify.summary = (method === 'ai' ? 'AI验证' : '自动初筛') + ' ' + c.verify.time + ' · ' +
+  const methodLabel = method === 'cloud' ? '云端AI查验' : (method === 'ai' ? 'AI验证' : '自动初筛');
+  c.verify.summary = methodLabel + ' ' + c.verify.time + ' · ' +
     parts.join(' ') + (failReason ? ' · ' + failReason : '');
 }
 
@@ -889,7 +886,6 @@ function aiVerify(c) {
   const st = state.settings || {};
   const info = {
     公司名称: c.name,
-    地址线索: c.address || c.scope || '',
     经营范围线索: c.scope || '',
     来源: c.sources || ''
   };
@@ -902,8 +898,8 @@ function aiVerify(c) {
       messages: [
         {
           role: 'system',
-          content: '你是企业情报核验助手。根据给定线索，对以下五项逐一判断并只输出JSON对象：' +
-            '{"a":{"pass":布尔,"reason":"当前工商存续/在业状态判断"},"b":{"pass":布尔,"reason":"名称是否为现用法定全称"},"c":{"pass":布尔,"reason":"注册地址是否京津冀"},"d":{"pass":布尔,"reason":"是否至少两个独立来源交叉验证"},"e":{"pass":布尔,"reason":"是否具备硬件研发/生产/OEM实体属性"}}。' +
+          content: '你是企业情报核验助手。根据给定线索，对以下四项逐一判断并只输出JSON对象：' +
+            '{"a":{"pass":布尔,"reason":"当前工商存续/在业状态判断"},"b":{"pass":布尔,"reason":"名称是否为现用法定全称"},"d":{"pass":布尔,"reason":"是否至少两个独立来源交叉验证"},"e":{"pass":布尔,"reason":"是否具备硬件研发/生产/OEM实体属性"}}。' +
             '无法确认的项 pass 填 false 并在 reason 说明缺什么证据。'
         },
         { role: 'user', content: JSON.stringify(info) }
@@ -931,7 +927,15 @@ GRTUI.verifyOne = function (id) {
   if (!c) return;
   if (!c.name || !GRT.norm(c.name)) { showNote('请先填写公司名称，再执行验证。', 'err'); return; }
   const st = state.settings || {};
-  if (st.aiKey && st.aiBaseUrl) {
+  if (c.verify && c.verify.method === 'cloud' && !(st.aiKey && st.aiBaseUrl)) {
+    // 已有云端AI查验结果：重新应用（下次自动查找会更新）
+    applyVerdict(c, c.verify.verdict, 'cloud', c.verify.time);
+    refreshDedup();
+    saveState();
+    renderAll();
+    showNote('已重新应用云端AI查验结果（' + c.verify.time +
+      '）。网页端无法自行抓取核验，最新结果会在下次自动查找时更新。', 'ok');
+  } else if (st.aiKey && st.aiBaseUrl) {
     showNote('AI 验证中：' + c.name + ' …', 'ok');
     aiVerify(c).catch(function (e) {
       showNote('AI 验证失败：' + e.message + '。可检查接口/Key 配置，或改用内置自动初筛。', 'err');
@@ -941,8 +945,8 @@ GRTUI.verifyOne = function (id) {
     refreshDedup();
     saveState();
     renderAll();
-    const left = ['a', 'b', 'c', 'd', 'e'].filter(function (k) { return !c.checks[k]; })
-      .map(function (k) { return { a: '①', b: '②', c: '③', d: '④', e: '⑤' }[k]; }).join('');
+    const left = ['a', 'b', 'd', 'e'].filter(function (k) { return !c.checks[k]; })
+      .map(function (k) { return { a: '①', b: '②', d: '④', e: '⑤' }[k]; }).join('');
     showNote('自动初筛完成。无法自动确认的项（' + (left || '无') +
       '）需配置 AI 接口或工商数据源后点「重新验证」。', 'ok');
   }
@@ -976,6 +980,74 @@ GRTUI.saveAISettings = function () {
   };
   saveState();
   showNote('AI 验证设置已保存（保存在本机浏览器，随「导出数据备份」一起导出）。', 'ok');
+};
+
+/* ---------- 只查验公司名字（纯查重，不做任何核验） ---------- */
+GRTUI.checkNamesOnly = function () {
+  const ta = $('namecheck-input');
+  const lines = String(ta.value || '').split(/\r?\n/);
+  const rows = [];
+  let hitA = 0;
+  let hitB = 0;
+  let dupBatch = 0;
+  let fresh = 0;
+  const batchMap = {};
+  state.candidates.forEach(function (c) {
+    const k = GRT.norm(c.name);
+    if (k) batchMap[k] = c.name;
+  });
+  for (const line of lines) {
+    const t = line.split(/[\t,，;；]/)[0].replace(/^["']|["']$/g, '').trim();
+    if (!t) continue;
+    const k = GRT.norm(t);
+    let status = '未命中';
+    let note = '';
+    if (dedupA.has(k)) { status = '命中A'; note = dedupA.get(k); hitA++; }
+    else if (state.dedupB[k]) { status = '命中B'; note = state.dedupB[k]; hitB++; }
+    else if (batchMap[k]) { status = '本批重复'; note = batchMap[k]; dupBatch++; }
+    else { status = '未命中'; fresh++; }
+    rows.push({ name: t, status: status, note: note });
+  }
+  const out = $('namecheck-result');
+  if (!rows.length) {
+    out.innerHTML = '<div class="empty">未输入有效公司名。</div>';
+  } else {
+    out.innerHTML = rows.map(function (r) {
+      const cls = r.status === '未命中' ? 'badge-green' : 'badge-red';
+      return '<div class="nc-row">' +
+        '<span class="badge ' + cls + '">' + esc(r.status) + '</span>' +
+        '<span class="nc-name">' + esc(r.name) + '</span>' +
+        (r.note ? '<span class="nc-note">' + esc(r.note) + '</span>' : '') +
+      '</div>';
+    }).join('');
+  }
+  $('namecheck-summary').textContent = '共 ' + rows.length +
+    ' 家：未命中 ' + fresh + '，命中A ' + hitA + '，命中B ' + hitB + '，本批重复 ' + dupBatch;
+  window._namecheckFresh = rows.filter(function (r) { return r.status === '未命中'; })
+    .map(function (r) { return r.name; });
+};
+
+GRTUI.addNamecheckFresh = function () {
+  const names = window._namecheckFresh || [];
+  if (!names.length) { showNote('没有未命中的公司可加入候选池。', 'err'); return; }
+  names.forEach(function (n) {
+    state.candidates.push({
+      id: genId(),
+      name: n,
+      address: '',
+      scope: '',
+      bizline: '',
+      product: '',
+      remark: '',
+      sources: '',
+      checks: { a: false, b: false, d: false, e: false },
+      rerun: false
+    });
+  });
+  refreshDedup();
+  saveState();
+  renderAll();
+  showNote('已将 ' + names.length + ' 家未命中公司加入候选池（可点「AI 验证」继续查验）。', 'ok');
 };
 
 GRTUI.clearB = function () {
