@@ -723,19 +723,48 @@ function importCandidates(list) {
 GRTUI.fetchCandidates = function () {
   const btn = $('btn-fetch');
   if (btn) { btn.disabled = true; btn.textContent = '获取中…'; }
-  fetch('candidates.json', { cache: 'no-store' })
-    .then(function (resp) {
-      if (!resp.ok) throw new Error('HTTP ' + resp.status);
-      return resp.json();
-    })
-    .then(function (data) {
-      const list = data.candidates || [];
-      const added = importCandidates(list);
-      showNote('已获取候选池：共 ' + list.length + ' 条，新增 ' + added +
-        ' 家（其余为重复/已存在）。命中去重库的自动标红，完成校验后即可输出。', 'ok');
+  const applyData = function (data) {
+    const list = data.candidates || [];
+    const added = importCandidates(list);
+    showNote('已获取候选池：共 ' + list.length + ' 条，新增 ' + added +
+      ' 家（其余为重复/已存在）。命中去重库的自动标红，完成校验后即可输出。', 'ok');
+  };
+  // 在线版：直接 fetch candidates.json；本地(file://)读取失败时，
+  // 回退到 <script> 加载同目录 candidates.js（本地版也能一键获取）。
+  const loadFromScript = function () {
+    return new Promise(function (resolve, reject) {
+      window.GRT_CANDIDATES = null;
+      const s = document.createElement('script');
+      s.src = 'candidates.js';
+      s.onload = function () {
+        const data = window.GRT_CANDIDATES;
+        s.remove();
+        if (data && Array.isArray(data.candidates)) resolve(data);
+        else reject(new Error('candidates.js 内容无效'));
+      };
+      s.onerror = function () {
+        s.remove();
+        reject(new Error('candidates.js 加载失败'));
+      };
+      document.head.appendChild(s);
+    });
+  };
+  // 本地(file://)无法 fetch，直接走脚本加载，避免无谓的控制台报错
+  const isFile = window.location && window.location.protocol === 'file:';
+  const fetchPromise = isFile ?
+    Promise.reject(new Error('file://')) :
+    fetch('candidates.json', { cache: 'no-store' })
+      .then(function (resp) {
+        if (!resp.ok) throw new Error('HTTP ' + resp.status);
+        return resp.json();
+      });
+  fetchPromise
+    .then(applyData)
+    .catch(function () {
+      return loadFromScript().then(applyData);
     })
     .catch(function (e) {
-      showNote('获取候选失败：' + e.message + '。本地打开时请改用「导入候选JSON」。', 'err');
+      showNote('获取候选失败：' + e.message + '。请确认 index.html、app.js、candidates.js 在同一文件夹；仍不行可用「导入候选JSON」手动选择。', 'err');
     })
     .finally(function () {
       if (btn) { btn.disabled = false; btn.textContent = '一键获取最新候选'; }

@@ -288,7 +288,15 @@ def main():
     }
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=1)
+    # 同时输出 candidates.js：本地双击打开（file://）时，浏览器无法 fetch JSON，
+    # 但可以通过 <script> 标签读取同目录 JS 文件，保证“一键获取候选”本地也能用。
+    js_path = os.path.splitext(out_path)[0] + ".js"
+    with open(js_path, "w", encoding="utf-8", newline="\n") as f:
+        f.write("window.GRT_CANDIDATES = ")
+        json.dump(payload, f, ensure_ascii=False, separators=(",", ":"))
+        f.write(";\n")
     print("结果池现有 %d 家候选（本次新增 %d 家）-> %s" % (len(merged), len(results), out_path))
+    print("已同步输出候选JS（本地版读取用）-> %s" % js_path)
     return 0
 
 

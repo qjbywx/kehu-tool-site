@@ -23,7 +23,8 @@
 双击 `index.html`：
 
 - 去重库A：粘贴公司名或上传 JSON/TXT（离线时 Excel 解析组件无法加载，请用 `build_dedup.py` 先生成 JSON）；
-- 候选：用 **“导入候选JSON”** 载入本机的 `candidates.json`（在线版才支持一键拉取）。
+- 候选：直接点 **“一键获取最新候选”** 即可（工具会自动读取同目录的 `candidates.js`，无需手动导入）；
+  请保持 `index.html`、`app.js`、`candidates.js` 在同一文件夹。若文件缺失，也可用 **“导入候选JSON”** 手动选择。
 
 ## 自动查找是怎么工作的
 
