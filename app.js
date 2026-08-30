@@ -507,6 +507,7 @@ GRTUI.generate = function () {
   const countMode = $('out-count').value;
   let rows = passed;
   if (countMode !== 'all') rows = passed.slice(0, parseInt(countMode, 10));
+  else rows = passed.slice(0, 200); // 工作流要求每批上限200
 
   const lines = rows.map(function (r) {
     return [r.name.trim(), r.bizline, '', '', '', r.remark.trim().replace(/\r?\n/g, ' ')].join('\t');
@@ -758,7 +759,8 @@ GRTUI.fetchCandidates = function () {
     const list = data.candidates || [];
     const added = importCandidates(list);
     showNote('已获取候选池：共 ' + list.length + ' 条，新增 ' + added +
-      ' 家（其余为重复/已存在）。命中去重库的自动标红，完成校验后即可输出。', 'ok');
+      ' 家（其余为重复/已存在）；本轮引擎利用网页 ' + (data.pages_used || '?') +
+      ' 个。命中去重库的自动标红，完成校验后即可输出。', 'ok');
   };
   // 在线版：直接 fetch candidates.json；本地(file://)读取失败时，
   // 回退到 <script> 加载同目录 candidates.js（本地版也能一键获取）。

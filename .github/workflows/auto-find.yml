@@ -26,6 +26,7 @@ jobs:
       - name: Run search engine
         env:
           BING_API_KEY: ${{ secrets.BING_API_KEY }}
+          SEED_OFFSET: ${{ github.run_number }}
         run: python3 search/search.py candidates.json
 
       - name: Commit candidates pool
