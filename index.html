@@ -103,6 +103,8 @@
   .btn:hover { background: var(--primary-dark); }
   .btn.small { padding: 4px 9px; font-size: 12px; font-weight: 500; background: #eef2ff; color: var(--primary-dark); }
   .btn.small:hover { background: #e0e7ff; }
+  .btn.small.ai { background: #ccfbf1; color: #115e59; }
+  .btn.small.ai:hover { background: #99f6e4; }
   .btn.danger { background: #fee2e2; color: var(--red); }
   .btn.danger:hover { background: #fecaca; }
   .btn.gray { background: #f3f4f6; color: var(--text); }
@@ -143,6 +145,7 @@
   .r4 .in-src { flex: 1 1 220px; min-width: 180px; font-size: 13px; }
   .r5 .in-remark { width: 100%; resize: vertical; font-size: 13px; }
   .row.fail { font-size: 12px; color: var(--red); background: #fef2f2; border: 1px solid #fecaca; border-radius: 6px; padding: 6px 10px; }
+  .row.verify { font-size: 12px; color: #115e59; background: #f0fdfa; border: 1px solid #99f6e4; border-radius: 6px; padding: 6px 10px; }
   .badge {
     display: inline-block;
     border-radius: 999px;
@@ -290,11 +293,28 @@
 
   <!-- 候选池与校验 -->
   <section>
-    <h2>候选池与五项校验（筛选）</h2>
+    <h2>候选池与五项校验（AI 自动验证）</h2>
+    <div class="btn-row">
+      <button class="btn" onclick="GRTUI.verifyAll()">全部 AI 验证</button>
+    </div>
+    <details>
+      <summary>AI 验证设置（可选）</summary>
+      <div class="row" style="margin-top:8px;">
+        <input id="ai-base" style="flex:1 1 280px;" placeholder="接口地址，如 https://api.openai.com/v1" />
+        <input id="ai-key" type="password" style="flex:1 1 220px;" placeholder="API Key" />
+        <input id="ai-model" style="flex:1 1 160px;" placeholder="模型，如 gpt-4o-mini / deepseek-chat" />
+        <button class="btn small" onclick="GRTUI.saveAISettings()">保存设置</button>
+      </div>
+      <div class="hint">
+        兼容 OpenAI 格式的接口均可（OpenAI、DeepSeek 等）。Key 只保存在本机浏览器，随“导出数据备份”导出。
+        不配置时，“AI 验证”使用内置自动初筛；其中①工商存续状态只有配置 AI/工商数据源才能确认。
+      </div>
+    </details>
     <div id="cand-list"></div>
     <div id="cand-summary"></div>
     <div class="hint" style="margin-top:8px;">
-      操作说明：红色 = 命中去重库（不会输出）；勾选五项校验后显示“✔ 可输出”。
+      操作说明：红色 = 命中去重库（不会输出）。每家候选点“AI 验证”（或上方“全部 AI 验证”）自动完成五项校验，
+      验证过的公司按钮变为“重新验证”，可随时重跑。校验结果会显示每项通过情况与原因。
       遇到曾用名 → 点“曾用名→重跑”输入现用法定全称，系统会重置全部校验并重新查重（步骤3强制重跑流程）。
       点“百度核验 / 企查查 / 天眼查”可打开对应页面完成双源交叉验证。
     </div>
@@ -340,7 +360,8 @@
       <ol>
         <li>首次使用：上传去重库A（Excel/JSON/TXT），自动记忆，无需重复上传。</li>
         <li>点“一键获取最新候选”：系统自动查找并累积候选池，自动去重、分类业务线、生成备注。</li>
-        <li>逐家确认五项校验后点“生成输出”，一键复制或下载。输出自动归档历史并累积去重库B。</li>
+        <li>点“全部 AI 验证”自动完成五项校验（可配置 AI 接口），验证过的公司可点“重新验证”。</li>
+        <li>点“生成输出”，一键复制或下载。输出自动归档历史并累积去重库B。</li>
       </ol>
     </details>
     <details>

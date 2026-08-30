@@ -141,7 +141,8 @@ function defaultState() {
     dedupA: [],                       // 用户载入的去重库A（首次输入，自动记忆）
     dedupB: {},
     counter: { date: '', n: 0 },
-    history: []
+    history: [],
+    settings: { aiBaseUrl: '', aiKey: '', aiModel: '' }
   };
 }
 
@@ -231,6 +232,34 @@ function candBadge(c) {
   return GRT.allChecks(c) ? { text: '✔ 可输出', cls: 'badge-green' } : { text: '待校验', cls: 'badge-amber' };
 }
 
+// 只更新单张卡片的徽章与未通过原因，不重绘整个列表（避免输入框被替换、无法连续输入）
+function updateCardUI(id) {
+  const card = document.querySelector('.card[data-id="' + id + '"]');
+  if (!card) return;
+  const c = state.candidates.find(function (x) { return x.id === id; });
+  if (!c) return;
+  const badge = candBadge(c);
+  const badgeEl = card.querySelector('.badge');
+  if (badgeEl) {
+    badgeEl.className = 'badge ' + badge.cls;
+    badgeEl.textContent = badge.text;
+  }
+  const reasons = GRT.rowFailReasons(c);
+  const failEl = card.querySelector('.fail');
+  if (reasons.length) {
+    const html = '未通过：' + reasons.map(esc).join('；');
+    if (failEl) failEl.innerHTML = html;
+    else {
+      const div = document.createElement('div');
+      div.className = 'row fail';
+      div.innerHTML = html;
+      card.appendChild(div);
+    }
+  } else if (failEl) {
+    failEl.remove();
+  }
+}
+
 function candCard(c) {
   const badge = candBadge(c);
   const reasons = GRT.rowFailReasons(c);
@@ -239,6 +268,7 @@ function candCard(c) {
     '<div class="row r1">' +
       '<span class="badge ' + badge.cls + '">' + esc(badge.text) + '</span>' +
       '<input class="in-name" value="' + esc(c.name) + '" oninput="GRTUI.editName(\'' + c.id + '\', this.value)" placeholder="公司现用法定全称（必填）" />' +
+      '<button class="btn small ai" onclick="GRTUI.verifyOne(\'' + c.id + '\')">' + (c.verify ? '重新验证' : 'AI 验证') + '</button>' +
       '<button class="btn small" onclick="GRTUI.rerun(\'' + c.id + '\')" title="遇到曾用名：输入现用全称后强制重跑全部校验">曾用名→重跑</button>' +
       '<button class="btn small" onclick="GRTUI.search(\'' + c.id + '\')">百度核验</button>' +
       '<button class="btn small" onclick="GRTUI.searchQcc(\'' + c.id + '\')">企查查</button>' +
@@ -274,6 +304,7 @@ function candCard(c) {
     '<div class="row r5">' +
       '<textarea class="in-remark" rows="2" oninput="GRTUI.editRemark(\'' + c.id + '\', this.value)" placeholder="备注：实体属性描述 + 具体产品 + 匹配逻辑（必填）">' + esc(c.remark) + '</textarea>' +
     '</div>' +
+    (c.verify ? '<div class="row verify">' + esc(c.verify.summary) + '</div>' : '') +
     (reasons.length ?
       '<div class="row fail">未通过：' + reasons.map(esc).join('；') + '</div>' : '') +
   '</div>';
@@ -355,7 +386,7 @@ GRTUI.editName = function (id, v) {
   if (!c) return;
   c.name = v;
   refreshDedup();
-  renderCandidates();
+  state.candidates.forEach(function (x) { updateCardUI(x.id); });
   saveState();
 };
 
@@ -363,7 +394,7 @@ GRTUI.editAddr = function (id, v) {
   const c = state.candidates.find(function (x) { return x.id === id; });
   if (!c) return;
   c.address = v;
-  renderCandidates();
+  updateCardUI(id);
   saveState();
 };
 
@@ -378,7 +409,7 @@ GRTUI.editBiz = function (id, v) {
   const c = state.candidates.find(function (x) { return x.id === id; });
   if (!c) return;
   c.bizline = v;
-  renderCandidates();
+  updateCardUI(id);
   saveState();
 };
 
@@ -393,7 +424,7 @@ GRTUI.editRemark = function (id, v) {
   const c = state.candidates.find(function (x) { return x.id === id; });
   if (!c) return;
   c.remark = v;
-  renderCandidates();
+  updateCardUI(id);
   saveState();
 };
 
@@ -408,7 +439,7 @@ GRTUI.toggleCheck = function (id, key, checked) {
   const c = state.candidates.find(function (x) { return x.id === id; });
   if (!c) return;
   c.checks[key] = checked;
-  renderCandidates();
+  updateCardUI(id);
   saveState();
 };
 
@@ -799,6 +830,154 @@ GRTUI.clearCandidates = function () {
   showNote('候选池已清空。', 'ok');
 };
 
+/* ---------- 五项校验：AI 验证 / 自动初筛 ---------- */
+function autoVerify(c) {
+  // 基于现有证据的内置初筛：有证据的项自动勾选，无法确认的项明确标注原因
+  const v = {};
+  const blob = (c.name || '') + ' ' + (c.scope || '') + ' ' + (c.address || '') + ' ' + (c.sources || '');
+  v.b = /(股份有限公司|有限责任公司|有限公司|集团)$/.test(c.name || '')
+    ? { pass: true, reason: '名称含法定后缀' }
+    : { pass: false, reason: '名称疑似不完整，需核实现用法定全称' };
+  v.c = /北京|天津|河北/.test((c.address || '') + ' ' + (c.scope || ''))
+    ? { pass: true, reason: '含京津冀地址信息' }
+    : { pass: false, reason: '缺少京津冀地址证据' };
+  const domains = new Set();
+  String(c.sources || '').split(/[\s,，;；]+/).forEach(function (u) {
+    try { domains.add(new URL(u).hostname.replace(/^www\./, '')); } catch (e) { /* 忽略 */ }
+  });
+  v.d = domains.size >= 2
+    ? { pass: true, reason: '双源：' + Array.from(domains).join('、') }
+    : { pass: false, reason: domains.size ? '仅单一来源，需补第二个独立来源' : '无来源记录' };
+  v.e = /生产|制造|组装|研发|研制|代工|产线|硬件|设备|厂商|实业/.test(blob)
+    ? { pass: true, reason: '具备实体研产特征' }
+    : { pass: false, reason: '未见实体研产特征' };
+  v.a = { pass: false, reason: '存续状态需工商数据源或 AI 接口确认' };
+  return v;
+}
+
+function applyVerdict(c, v, method) {
+  const labels = { a: '①工商状态', b: '②现用全称', c: '③京津冀地址', d: '④双源核验', e: '⑤实体研产' };
+  const verdict = {};
+  for (const k of ['a', 'b', 'c', 'd', 'e']) {
+    if (!v[k] || typeof v[k].pass !== 'boolean') v[k] = { pass: false, reason: '未给出判断' };
+    verdict[k] = v[k];
+  }
+  c.checks = {
+    a: !!verdict.a.pass,
+    b: !!verdict.b.pass,
+    c: !!verdict.c.pass,
+    d: !!verdict.d.pass,
+    e: !!verdict.e.pass
+  };
+  const parts = [];
+  for (const k of ['a', 'b', 'c', 'd', 'e']) {
+    parts.push(labels[k] + (verdict[k].pass ? '✓' : '✗'));
+  }
+  c.verify = {
+    time: new Date().toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit' }),
+    method: method,
+    verdict: verdict
+  };
+  // 摘要：方法 + 时间 + 各项结果；附带首个未通过原因
+  const failReason = Object.keys(verdict).filter(function (k) { return !verdict[k].pass; })
+    .map(function (k) { return labels[k] + '：' + verdict[k].reason; }).join('；');
+  c.verify.summary = (method === 'ai' ? 'AI验证' : '自动初筛') + ' ' + c.verify.time + ' · ' +
+    parts.join(' ') + (failReason ? ' · ' + failReason : '');
+}
+
+function aiVerify(c) {
+  const st = state.settings || {};
+  const info = {
+    公司名称: c.name,
+    地址线索: c.address || c.scope || '',
+    经营范围线索: c.scope || '',
+    来源: c.sources || ''
+  };
+  return fetch(String(st.aiBaseUrl || '').replace(/\/+$/, '') + '/chat/completions', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + st.aiKey },
+    body: JSON.stringify({
+      model: st.aiModel || 'gpt-4o-mini',
+      temperature: 0,
+      messages: [
+        {
+          role: 'system',
+          content: '你是企业情报核验助手。根据给定线索，对以下五项逐一判断并只输出JSON对象：' +
+            '{"a":{"pass":布尔,"reason":"当前工商存续/在业状态判断"},"b":{"pass":布尔,"reason":"名称是否为现用法定全称"},"c":{"pass":布尔,"reason":"注册地址是否京津冀"},"d":{"pass":布尔,"reason":"是否至少两个独立来源交叉验证"},"e":{"pass":布尔,"reason":"是否具备硬件研发/生产/OEM实体属性"}}。' +
+            '无法确认的项 pass 填 false 并在 reason 说明缺什么证据。'
+        },
+        { role: 'user', content: JSON.stringify(info) }
+      ]
+    })
+  }).then(function (resp) {
+    if (!resp.ok) {
+      return resp.text().then(function (t) { throw new Error('HTTP ' + resp.status + ' ' + String(t).slice(0, 160)); });
+    }
+    return resp.json();
+  }).then(function (data) {
+    const content = data.choices && data.choices[0] && data.choices[0].message &&
+      data.choices[0].message.content || '';
+    const m = content.match(/\{[\s\S]*\}/);
+    if (!m) throw new Error('AI 返回内容无法解析为 JSON');
+    const v = JSON.parse(m[0]);
+    applyVerdict(c, v, 'ai');
+    saveState();
+    renderAll();
+  });
+}
+
+GRTUI.verifyOne = function (id) {
+  const c = state.candidates.find(function (x) { return x.id === id; });
+  if (!c) return;
+  if (!c.name || !GRT.norm(c.name)) { showNote('请先填写公司名称，再执行验证。', 'err'); return; }
+  const st = state.settings || {};
+  if (st.aiKey && st.aiBaseUrl) {
+    showNote('AI 验证中：' + c.name + ' …', 'ok');
+    aiVerify(c).catch(function (e) {
+      showNote('AI 验证失败：' + e.message + '。可检查接口/Key 配置，或改用内置自动初筛。', 'err');
+    });
+  } else {
+    applyVerdict(c, autoVerify(c), 'auto');
+    refreshDedup();
+    saveState();
+    renderAll();
+    const left = ['a', 'b', 'c', 'd', 'e'].filter(function (k) { return !c.checks[k]; })
+      .map(function (k) { return { a: '①', b: '②', c: '③', d: '④', e: '⑤' }[k]; }).join('');
+    showNote('自动初筛完成。无法自动确认的项（' + (left || '无') +
+      '）需配置 AI 接口或工商数据源后点「重新验证」。', 'ok');
+  }
+};
+
+GRTUI.verifyAll = function () {
+  const list = state.candidates.filter(function (c) { return c.name && GRT.norm(c.name); });
+  if (!list.length) { showNote('候选池为空或未填写公司名称。', 'err'); return; }
+  const st = state.settings || {};
+  if (st.aiKey && st.aiBaseUrl) {
+    showNote('开始逐家 AI 验证（共 ' + list.length + ' 家）…', 'ok');
+    let chain = Promise.resolve();
+    list.forEach(function (c) {
+      chain = chain.then(function () { return aiVerify(c); });
+    });
+    chain.catch(function (e) { showNote('AI 验证中断：' + e.message, 'err'); });
+  } else {
+    list.forEach(function (c) { applyVerdict(c, autoVerify(c), 'auto'); });
+    refreshDedup();
+    saveState();
+    renderAll();
+    showNote('已自动初筛 ' + list.length + ' 家。未通过项需配置 AI 接口后点「重新验证」。', 'ok');
+  }
+};
+
+GRTUI.saveAISettings = function () {
+  state.settings = {
+    aiBaseUrl: $('ai-base').value.trim(),
+    aiKey: $('ai-key').value.trim(),
+    aiModel: $('ai-model').value.trim()
+  };
+  saveState();
+  showNote('AI 验证设置已保存（保存在本机浏览器，随「导出数据备份」一起导出）。', 'ok');
+};
+
 GRTUI.clearB = function () {
   const n = Object.keys(state.dedupB).length;
   if (!n) { showNote('去重库B为空。', 'err'); return; }
@@ -899,6 +1078,9 @@ function download(filename, text, mime) {
 function init() {
   state = loadState();
   rebuildDedupA();
+  if ($('ai-base')) $('ai-base').value = state.settings.aiBaseUrl || '';
+  if ($('ai-key')) $('ai-key').value = state.settings.aiKey || '';
+  if ($('ai-model')) $('ai-model').value = state.settings.aiModel || '';
   refreshDedup();
   renderAll();
   showNote('工具已就绪：首次使用请先载入去重库A（Excel/JSON/TXT），数据只存在本机浏览器。', 'ok');
