@@ -22,6 +22,7 @@ import time
 import urllib.parse
 import urllib.request
 import zipfile
+from concurrent.futures import ThreadPoolExecutor
 
 REGIONS = ["北京", "天津", "河北"]
 KEYWORDS = [
@@ -180,13 +181,13 @@ def in_region(title, snippet, url):
     return any(r in blob for r in REGIONS)
 
 
-def ddg_search(query):
+def ddg_search(query, timeout=25):
     url = "https://html.duckduckgo.com/html/?" + urllib.parse.urlencode({"q": query})
     req = urllib.request.Request(
         url,
         headers={"User-Agent": UA, "Accept-Language": "zh-CN,zh;q=0.9", "Accept": "text/html,application/xhtml+xml"},
     )
-    with urllib.request.urlopen(req, timeout=25) as resp:
+    with urllib.request.urlopen(req, timeout=timeout) as resp:
         page = resp.read().decode("utf-8", "ignore")
     items = []
     anchors = re.findall(r'<a[^>]*class="result__a"[^>]*href="([^"]+)"[^>]*>(.*?)</a>', page, re.S)
@@ -198,12 +199,12 @@ def ddg_search(query):
     return items
 
 
-def bing_api_search(query, key):
+def bing_api_search(query, key, timeout=25):
     url = "https://api.bing.microsoft.com/v7.0/search?" + urllib.parse.urlencode(
         {"q": query, "count": MAX_PER_QUERY, "mkt": "zh-CN", "setLang": "zh-hans"}
     )
     req = urllib.request.Request(url, headers={"Ocp-Apim-Subscription-Key": key, "User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=25) as resp:
+    with urllib.request.urlopen(req, timeout=timeout) as resp:
         data = json.loads(resp.read().decode("utf-8", "ignore"))
     items = []
     for it in (data.get("webPages") or {}).get("value", []):
@@ -305,20 +306,20 @@ def parse_attachment(url):
         return rawb.decode("gbk", "ignore")
 
 
-def find_company_page(name, search_fn):
+def find_company_page(name, search_fn, timeout=10):
     """为名单类候选搜索其公开页面（官网/信息页）。"""
     try:
-        for t, u, s in search_fn('"' + name + '"'):
+        for t, u, s in search_fn('"' + name + '"', timeout):
             if not u:
                 continue
             if is_junk(u, t):
                 continue
             if u.lower().endswith((".doc", ".docx", ".pdf", ".xls", ".xlsx")):
                 continue
-            return u
+            return u, True
     except Exception:  # noqa: BLE001
         pass
-    return ""
+    return "", False
 
 
 def verify_candidate(c, search_fn):
@@ -326,9 +327,11 @@ def verify_candidate(c, search_fn):
     name = c.get("name", "")
     snippet = c.get("scope_hint", "") or ""
     url = c.get("source_url", "") or ""
+    list_sourced = str(c.get("source_tag", "")).startswith("名单")
+    search_found = False
     # 名单类候选：先搜索公司名找到其公开页面，再核验
     if url.lower().endswith((".doc", ".docx", ".xls", ".xlsx", ".pdf")):
-        page = find_company_page(name, search_fn)
+        page, search_found = find_company_page(name, search_fn)
         if page:
             url = page
             c["source_url"] = page
@@ -372,7 +375,9 @@ def verify_candidate(c, search_fn):
         }
     # ④ 双源：搜索/名录来源 + 公司页面（页面含公司名视为官网佐证）
     name_in_page = ok and page_text and (name[:8] in page_text or name.replace(" ", "")[:8] in page_text)
-    if name_in_page:
+    if list_sourced and search_found:
+        verdict["d"] = {"pass": True, "reason": "官方名单 + 网络检索双源佐证"}
+    elif name_in_page:
         verdict["d"] = {"pass": True, "reason": "搜索/名录来源 + 公司页面双源佐证"}
     elif ok:
         verdict["d"] = {"pass": True, "reason": "来源页面可访问，双源佐证"}
@@ -414,7 +419,7 @@ def main():
         seen.add(key)
         kept.append(c)
 
-    search_fn = (lambda q: bing_api_search(q, bing_key)) if bing_key else ddg_search
+    search_fn = (lambda q, timeout=25: bing_api_search(q, bing_key, timeout)) if bing_key else ddg_search
     new_found = []
     pages_used = 0
 
@@ -524,17 +529,23 @@ def main():
             break
         if not c.get("verify"):
             to_verify.append(c)
-    for c in to_verify[:MAX_VERIFY_PER_RUN]:
+    def do_verify(c):
         try:
             c["verify"] = verify_candidate(c, search_fn)
-            pages_used += 1
-            print("  [verify] %s -> a:%s b:%s d:%s e:%s" % (
-                c["name"], c["verify"]["a"]["pass"], c["verify"]["b"]["pass"],
-                c["verify"]["d"]["pass"], c["verify"]["e"]["pass"],
-            ), file=sys.stderr)
+            return c
         except Exception as exc:  # noqa: BLE001
-            print("  [warn] 核验失败 %s: %s" % (c["name"], exc), file=sys.stderr)
-        time.sleep(0.6)
+            print("  [warn] 核验失败 %s: %s" % (c.get("name"), exc), file=sys.stderr)
+            return None
+
+    verify_targets = to_verify[:MAX_VERIFY_PER_RUN]
+    with ThreadPoolExecutor(max_workers=10) as ex:
+        for c in ex.map(do_verify, verify_targets):
+            if c is not None:
+                pages_used += 1
+                v = c["verify"]
+                print("  [verify] %s -> a:%s b:%s d:%s e:%s" % (
+                    c["name"], v["a"]["pass"], v["b"]["pass"], v["d"]["pass"], v["e"]["pass"],
+                ), file=sys.stderr)
 
     merged = kept + new_found
     merged = merged[:MAX_TOTAL]
