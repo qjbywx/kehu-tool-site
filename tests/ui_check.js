@@ -37,7 +37,7 @@ const SHOT = process.argv[3] || path.join(ROOT, '.ui_preview.png');
 
   // 2. 一键获取候选（HTTP 服务需提供 candidates.json）
   await page.click('#btn-fetch');
-  await page.waitForTimeout(800);
+  await page.waitForTimeout(2500);
   const summary = await page.textContent('#cand-summary');
   console.log('cand-summary =', summary.trim());
 
