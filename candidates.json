@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-08-30 10:44:24",
+ "generated_at": "2026-08-30 10:50:18",
  "source": "duckduckgo",
- "count": 264,
- "new_count": 6,
- "pages_used": 204,
+ "count": 396,
+ "new_count": 132,
+ "pages_used": 211,
  "candidates": [
   {
    "name": "北京金品高端科技有限公司",
@@ -4478,93 +4478,283 @@
   },
   {
    "name": "保定市智盛金属结构件制造有限公司",
-   "scope_hint": "官方名单：名单-河北专精特新",
-   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "scope_hint": "官方名单：名单-河北专精特新 来源：官方名单",
+   "source_url": "https://www.10100.com/article/89692075",
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "官方名单 + 网络检索双源佐证"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
   },
   {
    "name": "保定巽业电力工程安装有限公司",
-   "scope_hint": "官方名单：名单-河北专精特新",
-   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "scope_hint": "官方名单：名单-河北专精特新 来源：官方名单",
+   "source_url": "https://www.cbi360.net/hhb/sg_1439891/",
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": false,
+     "reason": "页面出现注销/吊销/停业等字样"
+    },
+    "d": {
+     "pass": true,
+     "reason": "官方名单 + 网络检索双源佐证"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
   },
   {
    "name": "保定亿嘉特种陶瓷制造有限公司",
-   "scope_hint": "官方名单：名单-河北专精特新",
-   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "scope_hint": "官方名单：名单-河北专精特新 来源：官方名单",
+   "source_url": "http://www.bdyjtc.com/",
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "官方名单 + 网络检索双源佐证"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
   },
   {
    "name": "保定中亚电气有限公司",
-   "scope_hint": "官方名单：名单-河北专精特新",
-   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "scope_hint": "官方名单：名单-河北专精特新 来源：官方名单",
+   "source_url": "http://bdzhongya.com/",
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "官方名单 + 网络检索双源佐证"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
   },
   {
    "name": "河北博菲特丝网制造有限公司",
-   "scope_hint": "官方名单：名单-河北专精特新",
-   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "scope_hint": "官方名单：名单-河北专精特新 来源：官方名单",
+   "source_url": "https://www.zhipin.com/companys/3ce81c3dc519786303V539u1FFQ~.html",
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "官方名单 + 网络检索双源佐证"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
   },
   {
    "name": "河北沪工起重设备集团有限公司",
-   "scope_hint": "官方名单：名单-河北专精特新",
-   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "scope_hint": "官方名单：名单-河北专精特新 来源：官方名单",
+   "source_url": "http://www.hugojt.com/",
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "官方名单 + 网络检索双源佐证"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
   },
   {
    "name": "河北华恩纺织品制造有限公司",
-   "scope_hint": "官方名单：名单-河北专精特新",
-   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "scope_hint": "官方名单：名单-河北专精特新 来源：官方名单",
+   "source_url": "https://www.1688.com/factory/b2b-2485001458.html",
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "官方名单 + 网络检索双源佐证"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
   },
   {
    "name": "河北嘉德电力器材有限公司",
-   "scope_hint": "官方名单：名单-河北专精特新",
-   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "scope_hint": "官方名单：名单-河北专精特新 来源：官方名单",
+   "source_url": "https://www.qcc.com/firm/bd3dea697cb463bd12dd0b9fde22faab.html",
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "官方名单 + 网络检索双源佐证"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
   },
   {
    "name": "河北科迪新能源科技有限公司",
-   "scope_hint": "官方名单：名单-河北专精特新",
-   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "scope_hint": "官方名单：名单-河北专精特新 来源：官方名单",
+   "source_url": "https://www.liepin.com/company/13584183/",
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "官方名单 + 网络检索双源佐证"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
   },
   {
    "name": "河北同兴电气有限公司",
-   "scope_hint": "官方名单：名单-河北专精特新",
-   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "scope_hint": "官方名单：名单-河北专精特新 来源：官方名单",
+   "source_url": "https://www.qcc.com/firm/697fadee4b8cdd0cfc217826bd086fce.html",
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "官方名单 + 网络检索双源佐证"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
   },
   {
    "name": "河北优格电气设备有限公司",
@@ -4573,7 +4763,26 @@
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
   },
   {
    "name": "恒正电气集团有限公司",
@@ -4582,7 +4791,26 @@
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
   },
   {
    "name": "普锐救生装备河北有限公司",
@@ -4591,7 +4819,26 @@
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
   },
   {
    "name": "沧州大海纸箱设备制造有限公司",
@@ -4600,7 +4847,26 @@
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
   },
   {
    "name": "沧州海洋防爆特种工具制造有限公司",
@@ -4609,7 +4875,26 @@
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
   },
   {
    "name": "沧州浩泰管道装备制造有限公司",
@@ -4618,7 +4903,26 @@
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
   },
   {
    "name": "沧州华阳耐火保温材料有限公司",
@@ -4627,7 +4931,26 @@
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
   },
   {
    "name": "沧州建升建筑防水材料有限公司",
@@ -4636,7 +4959,26 @@
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
   },
   {
    "name": "沧州瑞盛管道制造有限公司",
@@ -5524,6 +5866,3702 @@
      "reason": "搜索/名录来源 + 公司页面双源佐证"
     },
     "checked_at": "2026-08-30 09:43"
+   }
+  },
+  {
+   "name": "天津滨海新区工厂",
+   "scope_hint": "2025年3月6日，天津滨海新区工厂内，当邦迪汽车系统（TI Fluid Systems，以下简称\"邦迪\"）的工程师按下启动键，这条邦迪在全球的首条全自动专用的电子水泵生产线正式落地。 这是邦迪在华40年本土化战略的深化，也是代表了其坚定推动下一代热管理技术的决心。",
+   "source_url": "https://server.zhiding.cn/server/2025/0310/3164128.shtml",
+   "bizline": "工业通信",
+   "keyword": "垂直-至顶网-摘要",
+   "first_seen": "2026-08-30",
+   "source_tag": "垂直-至顶网-摘要",
+   "verify": {
+    "b": {
+     "pass": false,
+     "reason": "名称缺少法定全称后缀（有限公司/集团等），疑似不完整"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "福升威尔（河北）智能控制技术有限公司",
+   "scope_hint": "属中国自动化学会会员单位。 主要经营自动控制设备、嵌入式系统及系统集成商，无风扇工业计算机、嵌入式工业计算机、工业平板电脑、特种加固计算机、加固串口服务器、加固网络交换机、加固便携机、加固显示器、以及OEM/ODM 产品。",
+   "source_url": "https://fswe-hb2024.cn.made-in-china.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-08-30",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "河北德迈传动机械有限公司",
+   "scope_hint": "河北德迈传动机械有限公司是升降机，换向器，减速机的 生产制造厂家，竭诚为您提供全新 的HD系列转向箱，T系列螺旋锥齿轮换向器，DMDT系列电动推杆等系列产品。",
+   "source_url": "https://demai123.cn.made-in-china.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-08-30",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "秦皇岛新远船舶机械设备有限公司",
+   "scope_hint": "秦皇岛新远船舶机械设备有限公司,位于河北省秦皇岛市海港区河北省秦皇岛市经济技术开发区温泉湖路7号,是一家专注于船锚、锚链、船用护舷、靠球、船用五金配件、锚绳、其它船舶和水运器材部件行业、主要提供船舶柴油机配件、增压器、空压机、分油机、泵辅、冰机产品的贸易批发型企业 ...",
+   "source_url": "https://qhdsino.cn.made-in-china.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-08-30",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "保定特创电力科技有限公司",
+   "scope_hint": "保定特创电力科技有限公司,位于河北省保定市新市区保定市竞秀街295号,是一家专注于电气控制系统行业、主要提供防孤岛装置、逆功率监控装置、光伏防逆流装置、保护测控装置、故障解列装置、电能质量监测装置、逆变测控装置、综合保护装置产品的生产制造型企业。欢迎各界朋友莅临参观 ...",
+   "source_url": "https://hbdtcdl.cn.made-in-china.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-08-30",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "保定时华电子科技有限公司",
+   "scope_hint": "保定时华电子科技有限公司,位于河北省保定市新市区中关村数字经济产业园6号楼101,是一家专注于电缆分接箱、高压开关柜、高压成套电器、低压开关柜、变压器、开关柜、箱变、变压器行业、主要提供箱式变电站、KYN28-12高压中置柜、户内环网柜、GGD低压成套 ...",
+   "source_url": "https://adyy622sh.cn.made-in-china.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-08-30",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "「天津瑞津科技有限公司",
+   "scope_hint": "瑞津科技是天津瑞津科技有限公司旗下品牌。 瑞鹄汽车模具股份有限公司 成立于2002年3月，座落于安徽省芜湖市国家级经济技术开发区，是一家致力于汽车车身制造的高端装备——冲压模具、焊装自动化生产线的开发、设计、制造和销售一体的高新技术企业。",
+   "source_url": "https://m.zhipin.com/companys/dffa8ae1a12e5d011HF-3Nm8F1M~.html",
+   "bizline": "",
+   "keyword": "招聘-BOSS",
+   "first_seen": "2026-08-30",
+   "source_tag": "招聘-BOSS",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "「天津比亚迪汽车有限公司",
+   "scope_hint": "BOSS直聘为求职者提供2026年天津比亚迪汽车有限公司招聘信息，更有天津比亚迪汽车有限公司的品牌信息（天津比亚迪）、公司简介、公司地址、产品介绍、公司环境、CEO高管资料以及在线的BOSS们，天津比亚迪汽车有限公司正在线直聘职位，找工作就登录BOSS直聘网站或APP，直接与Boss开聊吧!",
+   "source_url": "https://refund.zhipin.com/companys/3a8048f84e2cca931nd63dS0.html",
+   "bizline": "",
+   "keyword": "招聘-BOSS",
+   "first_seen": "2026-08-30",
+   "source_tag": "招聘-BOSS",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "「天津东方泰瑞科技有限公司",
+   "scope_hint": "BOSS直聘为求职者提供2026年天津东方泰瑞科技有限公司招聘信息，更有天津东方泰瑞科技有限公司的品牌信息、公司简介、公司地址、产品介绍、公司环境、CEO高管资料以及在线的BOSS们，天津东方泰瑞科技有限公司正在线直聘职位，找工作就登录BOSS直聘网站或APP，直接与Boss开聊吧!",
+   "source_url": "https://refund.zhipin.com/companys/384c53e09f2b66031Hxz0924.html",
+   "bizline": "",
+   "keyword": "招聘-BOSS",
+   "first_seen": "2026-08-30",
+   "source_tag": "招聘-BOSS",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "「先天下（天津）劳务有限公司",
+   "scope_hint": "BOSS直聘为求职者提供2026年先天下（天津）劳务有限公司招聘信息，更有先天下（天津）劳务有限公司的品牌信息（天津先天下劳务，先天下劳务，先天下公司）、公司简介、公司地址、产品介绍、公司环境、CEO高管资料以及在线的BOSS们，先天下（天津）劳务有限公司正在线直聘职位，找工作就登录 ...",
+   "source_url": "https://m.zhipin.com/companys/e2be4e2632a2b0831HJz2dm9GFA~.html",
+   "bizline": "",
+   "keyword": "招聘-BOSS",
+   "first_seen": "2026-08-30",
+   "source_tag": "招聘-BOSS",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "「天津电子厂",
+   "scope_hint": "电子厂生产主管 7-10K 天津津南区咸水沽 5-10年 本科 岗位职责: 1. 负责电子厂生产流程的监督与管理 2.优化生产流程，提升生产效率和产品质量 3.负责新产品测试 任职要求： 1. 具备出色的组织和管理能力 2",
+   "source_url": "https://www.zhipin.com/zhaopin/66951252f32dd9811nNy3tW-Fg~~/",
+   "bizline": "",
+   "keyword": "招聘-BOSS",
+   "first_seen": "2026-08-30",
+   "source_tag": "招聘-BOSS",
+   "verify": {
+    "b": {
+     "pass": false,
+     "reason": "名称缺少法定全称后缀（有限公司/集团等），疑似不完整"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "北京天融信网络安全技术有限公司",
+   "scope_hint": "近日，北京天融信网络安全技术有限公司旗下天融信工控安全隔离与信息交换系统TopIGap在下一代互联网国家工程中心-全球IPv6测试中心（www.IPv6Ready.org.cn）正式通过IPv6 Ready核心协议Phase-2测试，并荣获由国际组织IPv6 Forum颁发的IPv6 Ready Logo Phase-2认证证书（Logo ID：02-C-0",
+   "source_url": "https://m.it168.com/article_6510808.html",
+   "bizline": "网络安全",
+   "keyword": "垂直-IT168-摘要",
+   "first_seen": "2026-08-30",
+   "source_tag": "垂直-IT168-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "锐捷睿易发布\"智驾云\"及五大新品：企业工厂",
+   "scope_hint": "在工业制造与中小企业数字化转型的浪潮中，网络基础设施的\"自动驾驶\"能力正从理想走向现实。6月10日，锐捷网络旗下SMB子品牌锐捷睿易在北京体验中心举行媒体见面会，正式提出\"企业工厂网络进入智驾云时代\"这一理念，并发布了以\"智驾云\"云管理平台为核心的五大产品组合：超级AP ...",
+   "source_url": "https://ai.it168.com/a2026/0616/6934/000006934852.shtml",
+   "bizline": "服务器/信创整机",
+   "keyword": "垂直-IT168",
+   "first_seen": "2026-08-30",
+   "source_tag": "垂直-IT168",
+   "verify": {
+    "b": {
+     "pass": false,
+     "reason": "名称缺少法定全称后缀（有限公司/集团等），疑似不完整"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "北京）电气科技有限公司",
+   "scope_hint": "简介 新能动力（北京）电气科技有限公司位于中关村高科技园区，是国家高新技术企业，从事电力电子及新能源高端装备制造，致力于电能质量治理、电网节能、尖端大型电力电子装备等领域产品的研发、生产、销售与服务。 新能动力独到的技术研发能力，赢得了行业内普遍赞誉。产品广泛应用于 ...",
+   "source_url": "https://special.zhaopin.com/pagepublish/17551332/index.html",
+   "bizline": "",
+   "keyword": "招聘-智联-摘要",
+   "first_seen": "2026-08-30",
+   "source_tag": "招聘-智联-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "北京博科测试系统股份有限公司",
+   "scope_hint": "职Q职场社区为您提供最全面的北京博科测试系统股份有限公司的最新职位信息、点评、问答、面试反馈、工资水平、职位信息等。北京博科测试系统股份有限公司（股票代码：301598.SZ）成立于2006年，是一家专注于高端测试设备与技术服务的国家级高新技术企业，于2024年在深圳证券交易所创业板成功 ...",
+   "source_url": "https://zq.zhaopin.com/companyDetail/CZ284058710",
+   "bizline": "",
+   "keyword": "招聘-智联",
+   "first_seen": "2026-08-30",
+   "source_tag": "招聘-智联",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "页面可访问，未见注销/吊销字样"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "【河北跃动纪元科技有限公司",
+   "scope_hint": "猎聘为您提供2026年河北跃动纪元科技有限公司招聘信息，可查询河北跃动纪元科技有限公司招聘信息，河北跃动纪元科技有限公司招聘职位，以及河北跃动纪元科技有限公司职位薪资。求职找工作就上猎聘。",
+   "source_url": "https://m.liepin.com/company/gs123527384/zhaopin/",
+   "bizline": "",
+   "keyword": "招聘-猎聘",
+   "first_seen": "2026-08-30",
+   "source_tag": "招聘-猎聘",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "天津芯嵛半导体设备有限公司",
+   "scope_hint": "天津芯嵛半导体设备有限公司 (曾用名：天津鑫钰半导体设备有限公司) ，成立于2023年，位于天津市，是一家以从事专用设备制造业为主的企业。企业注册资本500万人民币，实缴资本500万人民币。通过天眼查大数据分析，天津芯嵛半导体设备有限公司专利信息8条；此外企业还拥有行政许可2个。",
+   "source_url": "https://tax.tianyancha.com/6206001916",
+   "bizline": "网络安全",
+   "keyword": "工商-天眼查",
+   "first_seen": "2026-08-30",
+   "source_tag": "工商-天眼查",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "天津鑫钰半导体设备有限公司",
+   "scope_hint": "天津芯嵛半导体设备有限公司 (曾用名：天津鑫钰半导体设备有限公司) ，成立于2023年，位于天津市，是一家以从事专用设备制造业为主的企业。企业注册资本500万人民币，实缴资本500万人民币。通过天眼查大数据分析，天津芯嵛半导体设备有限公司专利信息8条；此外企业还拥有行政许可2个。",
+   "source_url": "https://tax.tianyancha.com/6206001916",
+   "bizline": "网络安全",
+   "keyword": "工商-天眼查-摘要",
+   "first_seen": "2026-08-30",
+   "source_tag": "工商-天眼查-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "机箱机柜专业制造厂",
+   "scope_hint": "河北万德机柜制造有限公司 河北万德机柜制造有限公司致力于通讯机柜、服务器器机柜等的研发与制造，目前厂区占地30000平米，其中车间面积约为12000平米，拥有员工100多人，配置先进的自动化生产线，形成完善的质量管理体系，已通过ISO 9001 管理体系认证。",
+   "source_url": "https://gb.china-wonder.cn/",
+   "bizline": "服务器/信创整机",
+   "keyword": "通用",
+   "first_seen": "2026-08-30",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": false,
+     "reason": "名称缺少法定全称后缀（有限公司/集团等），疑似不完整"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "河北万德机柜制造有限公司",
+   "scope_hint": "河北万德机柜制造有限公司 河北万德机柜制造有限公司致力于通讯机柜、服务器器机柜等的研发与制造，目前厂区占地30000平米，其中车间面积约为12000平米，拥有员工100多人，配置先进的自动化生产线，形成完善的质量管理体系，已通过ISO 9001 管理体系认证。",
+   "source_url": "https://gb.china-wonder.cn/",
+   "bizline": "服务器/信创整机",
+   "keyword": "通用-摘要",
+   "first_seen": "2026-08-30",
+   "source_tag": "通用-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "河北电子机箱机柜生产厂",
+   "scope_hint": "当前国内电子机箱机柜市场需求稳步增长，河北作为华北核心制造基地聚集多家实力厂商。本次排行围绕资质合规、定制能力、交付时效三大核心维度，对5家本地头部生产厂家进行实地抽检对比，为采购方提供客观参考。",
+   "source_url": "https://www.hangyeob.com/archives/587030.html",
+   "bizline": "服务器/信创整机",
+   "keyword": "通用",
+   "first_seen": "2026-08-30",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": false,
+     "reason": "名称缺少法定全称后缀（有限公司/集团等），疑似不完整"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": false,
+     "reason": "页面出现注销/吊销/停业等字样"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "河北泽雷特电子科技有限公司",
+   "scope_hint": "2. 生产管理体系标准化，品质与交付有保障。泽雷特电子完全实现了生产工业化、标准化、专业化和模块化，通过ISO9001质量管理体系认证（证书编码：18525Q10960R1S），该认证覆盖企业生产全流程，从原材料采购、产品生产组装到终出厂检验，均按照规范要求执行，有助于保障IT机柜、河北服务器机柜 ...",
+   "source_url": "https://www.cnblogs.com/xypt-xw/p/22605741",
+   "bizline": "服务器/信创整机",
+   "keyword": "通用",
+   "first_seen": "2026-08-30",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "河北一赫电气设备有限公司",
+   "scope_hint": "河北一赫电器设备有限公司 河北一赫电气设备有限公司（春珲泓业）创建于素有中国钣金城的河北省青县，是一家集工业自动化、网络工程、通信工程、电力工程等行业研究开发生产于一体的专业公司。春珲泓业公司主要生产户外机柜、铁路机柜、数据中心机柜、标准机柜、电力机柜、多媒体监控 ...",
+   "source_url": "http://www.chunhuihongye.com/",
+   "bizline": "数据中心",
+   "keyword": "通用",
+   "first_seen": "2026-08-30",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "河北一赫电器设备有限公司",
+   "scope_hint": "河北一赫电器设备有限公司 河北一赫电气设备有限公司（春珲泓业）创建于素有中国钣金城的河北省青县，是一家集工业自动化、网络工程、通信工程、电力工程等行业研究开发生产于一体的专业公司。春珲泓业公司主要生产户外机柜、铁路机柜、数据中心机柜、标准机柜、电力机柜、多媒体监控 ...",
+   "source_url": "http://www.chunhuihongye.com/",
+   "bizline": "数据中心",
+   "keyword": "通用-摘要",
+   "first_seen": "2026-08-30",
+   "source_tag": "通用-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "河北鸿源机箱设备有限公司",
+   "scope_hint": "河北鸿源简介 更多内容 >> 河北鸿源机箱设备有限公司（原青县兴宇电子机箱厂）是专门从事设计、制造机箱、机柜、控制台等产品的专业厂家，已有二十多年的生产经验，所生产的产品已广泛用于地铁、消防、医疗、自控、通讯、广播、邮电、音像、教学仪器等行业的设备当中，收获客户信赖。也 ...",
+   "source_url": "http://hebeihongyuanjx.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "通用",
+   "first_seen": "2026-08-30",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "河北华腾亿州电气设备有限公司",
+   "scope_hint": "华腾机柜的主要产品有：工业控制柜1、控制箱、网络机1323柜、服务器机柜,挂墙机柜、开放式机架、配线架、配电柜、配电箱 ...",
+   "source_url": "http://xhhtjs.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "通用",
+   "first_seen": "2026-08-30",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "香河奥尔利金属制品有限公司",
+   "scope_hint": "香河奥尔利金属制品有限公司始建于1998年，位于河北省香河县。 作为一家专业从事机柜、冷通道、控制台等金属制品研发、生产和销售的企业，我们致力于为客户提供高质量、全方位的解决方案。",
+   "source_url": "http://aelmetal.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "通用",
+   "first_seen": "2026-08-30",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "2026年知名的河北数据中心智能机柜厂",
+   "scope_hint": "比如河北泽雷特电子科技有限公司作为本地深耕行业10余年的企业，产品资质齐全，研发生产实力扎实，服务响应速度快，是大部分项目的优先选择。 Q：智能机柜的采购一般需要提前多久下单？",
+   "source_url": "https://www.cnblogs.com/xypt-xw/p/20056742",
+   "bizline": "数据中心",
+   "keyword": "通用",
+   "first_seen": "2026-08-30",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": false,
+     "reason": "名称缺少法定全称后缀（有限公司/集团等），疑似不完整"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "北京首佳讯通通信技术有限公司",
+   "scope_hint": "千兆双端口光纤网卡 在单个PCI Express* 插槽中应用2个千兆位光纤服务器网卡,可在插槽有限的服务器中应用两个高性能PCI Express* 1000BASE-SX,1000BASE-LX,1000BASE-TX网卡。凭借先进的服务器 特性，实现多千兆位可扩展性，延长 正常运行时间。",
+   "source_url": "http://www.shoujianet.com/chinese/products.asp?classid=39",
+   "bizline": "服务器/信创整机",
+   "keyword": "通用",
+   "first_seen": "2026-08-30",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "北京东大金智科技股份有限公司",
+   "scope_hint": "北京东大金智科技股份有限公司（简称东大金智）成立于 2005 年，总部位于北京市中关村科技园区昌平园，是北京市\"专精特新\"中小企业。公司在大数据中心、网络安全、工业安全、边缘计算、智能制造、工业互联网、工控等领域，深耕十多年，建立了研发、生产、销售、服务等各方面的高水平高 ...",
+   "source_url": "https://www.gkzhan.com/st186498/",
+   "bizline": "数据中心",
+   "keyword": "通用",
+   "first_seen": "2026-08-30",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "「北京光纤生产」北京光纤生产公司",
+   "scope_hint": "顺企网「北京光纤生产」公司黄页，为您找到13家主营北京光纤生产的厂家和供应商，另有2个北京光纤生产相关产品，可查询公司地址、联系电话和主营业务，北京光纤生产企业可免费注册发布。",
+   "source_url": "https://b2b.11467.com/search/-53174eac51497ea4751f4ea7.htm",
+   "bizline": "工业通信",
+   "keyword": "通用",
+   "first_seen": "2026-08-30",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": false,
+     "reason": "名称缺少法定全称后缀（有限公司/集团等），疑似不完整"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "北京华林通润科技有限公司",
+   "scope_hint": "公司自主研发生产的产品均通过FCC、CE、ROHS等国际权威认证以及国家行业认证，并已广泛运用于政府机关、军工企业、电信运营商、银行、证券、高等院校等企事业单位，以及互联网数据中心、云计算、工业自动化、机器视觉等专业领域。",
+   "source_url": "http://hualintr.com/",
+   "bizline": "数据中心",
+   "keyword": "通用",
+   "first_seen": "2026-08-30",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "北京光润通科技发展有限公司",
+   "scope_hint": "公司简介： 光润通创建于2008年，目前是国内知名的光纤企业之一，GRT是一家集研发、生产、销售于一体，拥有自主知识产权和自主品牌的高科技企业。公司专注于研发、生产、销售光纤网络产品，核心产品主要有光纤网卡、光纤模块、波分设备、光纤收发器、光纤跳线、光分路器等。公司现主营 ...",
+   "source_url": "https://beijing0183259.11467.com/",
+   "bizline": "工业通信",
+   "keyword": "通用",
+   "first_seen": "2026-08-30",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "优利系统服务（天津）有限公司",
+   "scope_hint": "简介：优利系统服务（天津）有限公司，成立于1999-02-11，法定代表人为姚燕春（YAN CHUN YAO），注册地位于天津经济技术开发区第二大街35号阳光银座大厦A座十一层1107-A室，经营范围包括计算机网络服务；组装、开发、集成、安装调试及销售各种功能的电脑网络系统并提供与电子信息设备和系统有关 ...",
+   "source_url": "https://www.tianyancha.com/company/896509579?nav=nav-main-baseInfo&hi=s",
+   "bizline": "服务器/信创整机",
+   "keyword": "工商-天眼查",
+   "first_seen": "2026-08-30",
+   "source_tag": "工商-天眼查",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "天津远目科技有限公司",
+   "scope_hint": "简介：天津远目科技有限公司，成立于2012-05-14，法定代表人为邢伯成，注册地位于天津市宝坻区牛家牌乡李家牌村（6排29号），经营范围包括计算机软件技术开发、转让、咨询；计算机系统服务及咨询；计算机网络、计算机安全防范设备的安装及维护；文化教育信息咨询服务；知识产权代理（评估 ...",
+   "source_url": "https://www.tianyancha.com/company/172889571",
+   "bizline": "服务器/信创整机",
+   "keyword": "工商-天眼查",
+   "first_seen": "2026-08-30",
+   "source_tag": "工商-天眼查",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "河北鑫创智能科技有限责任公司",
+   "scope_hint": "河北鑫创智能科技有限责任公司,位于河北省石家庄市正定县金河国际商务B座,是一家专注于冷却设备、电工仪器仪表、停车场设备、传感器、专用电气设备、道闸、其它停车场设备、温湿度仪表、自动化仪器设备行业、主要提供智慧农业、智能硬件、冷链冷库、智慧停车、智慧水利、继电器、传感器 ...",
+   "source_url": "https://hb-xczn.cn.made-in-china.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-08-30",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "河北）智能控制技术有限公司",
+   "scope_hint": "福升威尔（河北）智能控制技术有限公司是无风扇工业计算机，嵌入式工业计算机，工业平板电脑的 生产制造厂家，竭诚为您提供全新 的工控机WIPC-7110双网多串口1U上架式，福升威尔WIPC-8281DP 上架式无风扇工控机，WIPC-7261 无风扇工控机 2U上架式等系列产品。",
+   "source_url": "https://fswe-hb2024.cn.made-in-china.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "B2B-中国制造网-摘要",
+   "first_seen": "2026-08-30",
+   "source_tag": "B2B-中国制造网-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "河北达信电子科技有限公司",
+   "scope_hint": "公司介绍 河北达信电子科技有限公司,位于河北省石家庄市鹿泉市光谷科技园A5楼六层601室,是一家专注于反偷拍、反窃听器材行业、主要提供安检门、测温门、 反制设备、非线性节点探测设备、手机探测器、信 产品的生产制造型企业。",
+   "source_url": "https://hbdxdz.cn.made-in-china.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-08-30",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "保定市中和机械设备制造有限公司",
+   "scope_hint": "HWIR200GZ高压工业热风机 公司介绍 保定市中和机械设备制造有限公司,位于河北省保定市清苑县河北保定清苑区发展西街320号,是一家专注于化工实验设备行业、主要提供烤热缩管设备产品的生产制造型企业。 欢迎各界朋友莅临参观、指导和业务洽谈。",
+   "source_url": "https://uvhuawei.cn.made-in-china.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-08-30",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "河北捷开电气设备有限公司",
+   "scope_hint": "箱变厂家说光伏升压箱变 1000Var箱变 国网充电桩箱变YBP-630KVA定制 诚信档案 河北捷开电气设备有限公司 经营模式：生产制造 所在地区：河北省 沧州市 认证信息： 身份认证",
+   "source_url": "https://jk18519393938.cn.made-in-china.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-08-30",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "「廊坊建丰彩钢结构工程有限公司",
+   "scope_hint": "廊坊建丰彩钢结构工程有限公司创设于2014-04-29 。公司总部位于河北省廊坊市大厂回族自治县邵府乡双臼村市场范围为钢结构工程设计、施工、咨询服务；活动房销售、租赁、加工及安装；异形箱式房、集成房屋的技术研发及设计；钢结构、彩钢板及配件、广告围挡、塑钢门窗、涂料、装饰材料和 ...",
+   "source_url": "https://m.zhipin.com/gongsis/12f11b3c317f3724i3V-2dm5EVtZ.html",
+   "bizline": "",
+   "keyword": "招聘-BOSS",
+   "first_seen": "2026-08-30",
+   "source_tag": "招聘-BOSS",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "「河北三聚元钢结构工程有限公司",
+   "scope_hint": "公司简介 河北三聚元是河北三聚元钢结构工程有限公司旗下品牌。 河北三聚元是专业生产钢结构构件及彩钢制品的企业，作为1998年创立的工贸一体化建筑建材领军企业，我们深耕全球市场，产品远销160+国家和地区。",
+   "source_url": "https://www.zhipin.com/companys/fab667c542e1769303Vy2tW1EVo~.html",
+   "bizline": "",
+   "keyword": "招聘-BOSS",
+   "first_seen": "2026-08-30",
+   "source_tag": "招聘-BOSS",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "工控机生产厂",
+   "scope_hint": "AI算力高达99TOPS的独显边缘计算工控机7网口 14代深度学习机器视觉工控机GPU独显边缘计算pc 海思工控机AGV机器人控制主机带DIDO光源POE 福升威尔（河北）智能控制技术有限公司",
+   "source_url": "https://cn.made-in-china.com/search/huntb3nolimit-gongkongji_1-1.html",
+   "bizline": "服务器/信创整机",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-08-30",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": false,
+     "reason": "名称缺少法定全称后缀（有限公司/集团等），疑似不完整"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "页面可访问，未见注销/吊销字样"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "河北伊特机械设备制造有限公司",
+   "scope_hint": "伊特成立于2002年，主要从事工业自动化生产设备行业及舞台设备行业。经过多年的努力，公司发展成国内的机械设备制造企业，拥有独立的专业设计院，已获得多项及荣誉。致力于机械设备及控制系统的研究和开发，... （查看详情）",
+   "source_url": "https://yanzhaoxin.cn.made-in-china.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-08-30",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "河北佳瑞兆业电机制造有限公司",
+   "scope_hint": "河北佳瑞兆业电机制造有限公司是YE3、YE4、YE5电机，YVF电机、YEJ电磁制动，YBX3、YBX4、YBX5高效防爆电机的专业生产厂家和供应商。采购YE3、YE4、YE5电机，YVF电机、YEJ电磁制动，YBX3、YBX4、YBX5高效防爆电机相关产品请联系河北佳瑞兆业电机制造有限公司。",
+   "source_url": "https://jiaruizhaoye.cn.made-in-china.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-08-30",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "河北品高电子科技有限公司",
+   "scope_hint": "河北品高电子科技有限公司，是一家以环境科技为主的大型综合性企业，致力于气象、水文、土壤墒情、环境测量仪器的研发、服务及推广，成立于2014年，注册资金300万，研发人员20余名。提供小型气象站、土壤墒情仪器、传感器的方案和技术指导，公司以\"量身设计、精密制造\"为核心价值，稳步 ...",
+   "source_url": "https://pgdz123.cn.made-in-china.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-08-30",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "河北智通氢洁技术有限公司",
+   "scope_hint": "河北智通氢洁技术有限公司,位于河北省廊坊市三河市上元产业港南门3-2号,是一家专注于工业装配线和生产线、紧固件和连接件、紧固件和连接件、金属加工机械、钣金加工、焊接加工、机械五金加工、零件加工、喷涂加工、切割加工行业、主要提供 纯金属精密加工、阀芯阀座连接头腔体通道、 能 ...",
+   "source_url": "https://ztqj2026.cn.made-in-china.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-08-30",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "河北艾乐工控有限公司",
+   "scope_hint": "河北艾乐工控有限公司是布袋除尘器配件，低压成套设备设计，电磁脉冲阀的 生产制造厂家，竭诚为您提供全新 的直角式脉冲阀DMF-Z-高原阀袋式除尘器配件，涤纶除尘布袋 收尘布袋滤袋 涤纶针刺毡常温布袋，ASCO型直角式电磁脉冲阀型号齐全支持定制等系列产品。",
+   "source_url": "https://hbalgk141913.cn.made-in-china.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-08-30",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "北京凯胜电子科技有限公司",
+   "scope_hint": "北京凯胜电子科技有限公司是PCBA加工，SMT贴片，电路板焊接的 生产制造厂家，竭诚为您提供全新 的SMT贴片焊接-BGA焊接-PCBA代工代料，北京SMT贴片-专业smt焊接-电路板焊接-OEM加工，小批量电路板焊接组装-小批量LED组装-凯胜电子等系列产品。",
+   "source_url": "https://kaishengdianzi.cn.made-in-china.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-08-30",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "北京特高换热设备有限公司",
+   "scope_hint": "北京特高2024年研制新型换热器设备获得成功 公司介绍 北京特高换热设备有限公司,位于北京市北京市通州区张家湾镇土桥村东,是一家专注于换热器行业、主要提供特高、容积式换热器、半容积式换热器、压力罐产品的生产制造型企业。",
+   "source_url": "https://jichunman3.cn.made-in-china.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-08-30",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "天津滨海新区三格电子科技有限公司",
+   "scope_hint": "顺企网天津传输、交换设备厂家大全列表，包括天津滨海新区三格电子科技有限公司、天津市握奇网络科技有限公司、天津同德龙科技有限公司、天津市盛成机械技术有限公司等在内的230家天津传输、交换设备厂家的地址电话法人代表和联系电话等信息。",
+   "source_url": "https://www.11467.com/tianjin/search/8627.htm",
+   "bizline": "工业通信",
+   "keyword": "黄页-顺企-摘要",
+   "first_seen": "2026-08-30",
+   "source_tag": "黄页-顺企-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "天津网络交换机厂",
+   "scope_hint": "网络设备集团交换机机房设备 报价 ￥1,000.00 /台 询价 15822147427 天津星讯科技有限公司 天津 顺企网为您找到\"网络交换机动力电缆传送专用电缆、SIMATIC西门子交换机授权代理商丨天津地区一级代理、\"等10个产品，包括天津网络交换机价格、天津网络交换机图片、型号和相关天津网络交换机厂家联系 ...",
+   "source_url": "https://tianjin.11467.com/pifa-wangluojiaohuanji/",
+   "bizline": "数据中心",
+   "keyword": "黄页-顺企",
+   "first_seen": "2026-08-30",
+   "source_tag": "黄页-顺企",
+   "verify": {
+    "b": {
+     "pass": false,
+     "reason": "名称缺少法定全称后缀（有限公司/集团等），疑似不完整"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "天津传输、交换设备厂",
+   "scope_hint": "网络设备集团交换机机房设备 报价 ￥1,000.00 /台 询价 15822147427 天津星讯科技有限公司 天津 顺企网为您找到\"天津西门子交换机代理商、SIEMENS西门子BSC D900 S30861-Q486、\"等18个产品，包括天津传输、交换设备价格、天津传输、交换设备图片、型号和相关天津传输、交换设备厂家联系方式等",
+   "source_url": "https://tianjin.11467.com/pifa-chuanshujiaohuanshebei/",
+   "bizline": "数据中心",
+   "keyword": "黄页-顺企",
+   "first_seen": "2026-08-30",
+   "source_tag": "黄页-顺企",
+   "verify": {
+    "b": {
+     "pass": false,
+     "reason": "名称缺少法定全称后缀（有限公司/集团等），疑似不完整"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "天津顺维芯科技有限公司",
+   "scope_hint": "天津顺维芯科技有限公司（简称顺维芯科技）自2011年成立，专注于安防领域，是技术领先的整体解决方案及安防设备的专业供应商，顺维芯科技整合了公司及大学实验室的研发资源，开发生产出模拟监控全系列产品、网络监控全系列产品，公司集科研开发、生产制造、设计施工、销售于一体，监控 ...",
+   "source_url": "https://tianjin0279145.11467.com/",
+   "bizline": "工业通信",
+   "keyword": "黄页-顺企",
+   "first_seen": "2026-08-30",
+   "source_tag": "黄页-顺企",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "沧州海凌鑫盛工控设备有限公司",
+   "scope_hint": "简介：沧州海凌鑫盛工控设备有限公司，成立于2015-04-01，法定代表人为付君，注册地位于河北省沧州市青县金牛镇小勃鸽留村，经营范围包括智能网络控制系统设备、机箱、机柜制造、加工；机械加工；电子配件组装；pvc面板销售（不含喷涂和表面化学处理）（依法须经批准的项目，经相关部门 ...",
+   "source_url": "https://www.tianyancha.com/company/240325311",
+   "bizline": "服务器/信创整机",
+   "keyword": "工商-天眼查",
+   "first_seen": "2026-08-30",
+   "source_tag": "工商-天眼查",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "北京金华博通信息技术有限公司",
+   "scope_hint": "顺企网北京交换机厂家大全列表，包括北京金华博通信息技术有限公司、北京迪天嘉业信息科技有限责任公司、北京众瑞达昌科技有限公司、北京鑫虎网络科技有限公司等在内的444家北京交换机厂家的地址电话法人代表和联系电话等信息。5页，当前显示第1页结果，按照产品多少和注册时间排名",
+   "source_url": "https://www.11467.com/beijing/search/8441.htm",
+   "bizline": "工业通信",
+   "keyword": "黄页-顺企-摘要",
+   "first_seen": "2026-08-30",
+   "source_tag": "黄页-顺企-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "北京三凯威科技有限公司",
+   "scope_hint": "北京三凯威科技有限公司位于北京，主要经营工业交换机、POE交换机、环网管理交换机、智能运维箱、VPN、光纤收发器。欢迎了解企业介绍、产品信息和联系方式。",
+   "source_url": "https://30157485.b2b.11467.com/",
+   "bizline": "网络安全",
+   "keyword": "黄页-顺企",
+   "first_seen": "2026-08-30",
+   "source_tag": "黄页-顺企",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "金品计算机科技（天津）有限公司",
+   "scope_hint": "法人名称： 金品计算机科技（天津）有限公司 简称： 金品计算机 主要经营产品： 未提供 经营范围： 计算机软硬件技术开发、咨询、转让，计算机及辅助设备、通讯设备制造、销售、维修、租赁，计算机系统集成服务，专业化设计服务。（依法须经批准的项目，经相关部门批准后方可开展经营 ...",
+   "source_url": "https://www.11467.com/qiye/59587643.htm",
+   "bizline": "服务器/信创整机",
+   "keyword": "黄页-顺企",
+   "first_seen": "2026-08-30",
+   "source_tag": "黄页-顺企",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "天津红桥小程序设计软件开发电路板ODM厂",
+   "scope_hint": "公司新闻 北京锐志伟业科技有限公司 提供的 天津红桥小程序设计软件开发电路板ODM厂家,天津红桥小程序设计软件开发电路板ODM厂家承接成品组装、调试、老化，线束制作，软硬件开发，设计北京电路板加工厂北京锐志伟业科技有限公司OEM.ODM代加工、电子产品装配、电路板生产销售等专业代工厂。锐",
+   "source_url": "https://tianjin.11467.com/info/35557229.htm",
+   "bizline": "网络安全",
+   "keyword": "黄页-顺企",
+   "first_seen": "2026-08-30",
+   "source_tag": "黄页-顺企",
+   "verify": {
+    "b": {
+     "pass": false,
+     "reason": "名称缺少法定全称后缀（有限公司/集团等），疑似不完整"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "北京电路板加工厂北京锐志伟业科技有限公司",
+   "scope_hint": "公司新闻 北京锐志伟业科技有限公司 提供的 天津红桥小程序设计软件开发电路板ODM厂家,天津红桥小程序设计软件开发电路板ODM厂家承接成品组装、调试、老化，线束制作，软硬件开发，设计北京电路板加工厂北京锐志伟业科技有限公司OEM.ODM代加工、电子产品装配、电路板生产销售等专业代工厂。锐",
+   "source_url": "https://tianjin.11467.com/info/35557229.htm",
+   "bizline": "网络安全",
+   "keyword": "黄页-顺企-摘要",
+   "first_seen": "2026-08-30",
+   "source_tag": "黄页-顺企-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "天津红桥软件设计电路板ODM大批量焊接工厂",
+   "scope_hint": "北京锐志伟业科技有限公司 提供的 天津红桥软件设计电路板ODM大批量焊接工厂,天津红桥软件设计电路板ODM大批量焊接工厂研发、设计、生产、元器件采购，加工北京锐志伟业科技有限公司为客户一站式服务专业从事电路板，软硬件开发调试、以承接一些实验板、批量板、军工品、航天品、线类、OE",
+   "source_url": "https://tianjin.11467.com/info/35997415.htm",
+   "bizline": "网络安全",
+   "keyword": "黄页-顺企",
+   "first_seen": "2026-08-30",
+   "source_tag": "黄页-顺企",
+   "verify": {
+    "b": {
+     "pass": false,
+     "reason": "名称缺少法定全称后缀（有限公司/集团等），疑似不完整"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "天津红桥硬件设计电路板ODM北京锐志伟业科技有限公司",
+   "scope_hint": "北京锐志伟业科技有限公司 提供的 天津红桥硬件设计电路板ODM北京锐志伟业科技有限公司,天津红桥硬件设计电路板ODM北京锐志伟业科技有限公司公司按需定制针对客户在时间上的不同需求，提供给客户多种选择，对此公司推出24小时、48小时、72小时快板，最快8 ...",
+   "source_url": "https://beijing.11467.com/info/35998104.htm",
+   "bizline": "网络安全",
+   "keyword": "黄页-顺企",
+   "first_seen": "2026-08-30",
+   "source_tag": "黄页-顺企",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "天津红桥硬件设计电路板制板焊接电路板ODM厂",
+   "scope_hint": "详细 天津红桥硬件设计电路板制板焊接电路板ODM厂家 实验板、小批量、大批量焊接加工厂家 为客户提供从电路板抄板、芯片 ...",
+   "source_url": "https://blog.11467.com/b9916148.htm",
+   "bizline": "网络安全",
+   "keyword": "黄页-顺企",
+   "first_seen": "2026-08-30",
+   "source_tag": "黄页-顺企",
+   "verify": {
+    "b": {
+     "pass": false,
+     "reason": "名称缺少法定全称后缀（有限公司/集团等），疑似不完整"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "西莫罗（北京）智能科技有限公司",
+   "scope_hint": "这款西莫罗智能通道闸机防尾随安全门是一款出入口管理设备，具有多项 特点，适用于企事业单位等场所。 防尾随闸机产品特点： 1. 采用不锈钢材质制作，结实耐用，长期使用不易生锈，保证产品外形美观。 2. 采用智能卡识别方式，操作简便，提高通行效率，确保安全性。 3. 设计为单向出入方向 ...",
+   "source_url": "https://cn.made-in-china.com/gongying/bjcmolo-EoLQguNvHpIj.html",
+   "bizline": "网络安全",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-08-30",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "北京）智能科技有限公司",
+   "scope_hint": "西莫罗（北京）智能科技有限公司是人行通道闸机，闸机，闸机厂家的 生产制造厂家，竭诚为您提供全新 的西莫罗工地用立式三辊闸门禁加厚不锈钢材质，小区人脸识别全高旋转闸机门禁设备，CPW-AB2100 智慧 AI 无人值守门岗闸机等系列产品。",
+   "source_url": "https://bjcmolo.cn.made-in-china.com/",
+   "bizline": "网络安全",
+   "keyword": "B2B-中国制造网-摘要",
+   "first_seen": "2026-08-30",
+   "source_tag": "B2B-中国制造网-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "北京风速风向科技有限公司",
+   "scope_hint": "公司介绍 北京风速风向科技有限公司,位于北京市北京市密云县鼓楼东大街3号山水大厦3层313室5561 (集群注册),是一家专注于门禁考勤系统、监控保护装置、人脸识别设备行业、主要提供视频监控、人行通道实名制闸机、智慧工地、BIM系统产品的生产制造型企业。",
+   "source_url": "https://fsfxkjsmz.cn.made-in-china.com/",
+   "bizline": "网络安全",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-08-30",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "北京钱林恒兴科技股份有限公司",
+   "scope_hint": "北京钱林恒兴科技股份有限公司,位于北京市北京市丰台区北京丰台花乡高立庄616号新华国际中心C228,是一家专注于电子电气产品制造机械行业、主要提供自助机、访客机、车牌识别、通道闸、自助政务机、自助售取票机、自助打印机、自助审讯桌、自助储物柜、自助入住机、自助终端机、自助机代工 ...",
+   "source_url": "https://qianlinhengxing.cn.made-in-china.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-08-30",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "北京博科嘉诚科技有限公司",
+   "scope_hint": "北京博科嘉诚科技有限公司是Profibus网关，Profinet网关，modbus网关的专业生产厂家和供应商。采购Profibus网关，Profinet网关，modbus网关相关产品请联系北京博科嘉诚科技有限公司。",
+   "source_url": "https://zhixian330.cn.made-in-china.com/",
+   "bizline": "网络安全",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-08-30",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "北京卓奥世鹏科技有限公司",
+   "scope_hint": "北京卓奥世鹏科技有限公司是升降柱，路障机，破胎器的 生产制造厂家，竭诚为您提供全新 的出入口硬质安防如何落地？升降柱选型不能只看管材厚度，加密遥控器升降柱液压柱金属柱多功能加密道闸遥控器，升降柱行业标准体系重构：从国标到国际认证的升级路径等系列产品。",
+   "source_url": "https://zasp01.cn.made-in-china.com/",
+   "bizline": "网络安全",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-08-30",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "八棵树（北京）电气有限公司",
+   "scope_hint": "八棵树（北京）电气有限公司是无功补偿套件LC系列，控制器MSC12，有源滤波器BKSAPF的专业生产厂家和供应商。 采购无功补偿套件LC系列，控制器MSC12，有源滤波器BKSAPF相关产品请联系八棵树（北京）电气有限公司。",
+   "source_url": "https://bjbksdq.cn.made-in-china.com/",
+   "bizline": "网络安全",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-08-30",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "北京）电气有限公司",
+   "scope_hint": "八棵树（北京）电气有限公司是无功补偿套件LC系列，控制器MSC12，有源滤波器BKSAPF的专业生产厂家和供应商。 采购无功补偿套件LC系列，控制器MSC12，有源滤波器BKSAPF相关产品请联系八棵树（北京）电气有限公司。",
+   "source_url": "https://bjbksdq.cn.made-in-china.com/",
+   "bizline": "网络安全",
+   "keyword": "B2B-中国制造网-摘要",
+   "first_seen": "2026-08-30",
+   "source_tag": "B2B-中国制造网-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "河北三知电力工程设计有限公司",
+   "scope_hint": "结构设计师 7-10k 本科 1-3年 河北-石家庄市 职责描述： 负责光伏支架结构设计、光伏项目管理等相关工作。 任职要求： 1、全日制大学本科及以上院校新能源科学与工程、土木工程、岩 河北三知电力工程设计有限公司 1-50人 立即沟通 投递简历 08-14",
+   "source_url": "https://www.zhupinhr.com/zhaopin/shijiazhuang-f342-c621/",
+   "bizline": "",
+   "keyword": "招聘-通用-摘要",
+   "first_seen": "2026-08-30",
+   "source_tag": "招聘-通用-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "河北敬业新能源科技有限公司",
+   "scope_hint": "河北敬业新能源科技有限公司2026年储能结构工程师招聘信息，招聘河北石家庄储能结构工程师，介绍了河北敬业新能源科技有限公司储能结构工程师福利待遇怎么样，工作职能是什么，储能电池行业储能结构工程师招聘求职找工作就上北极星储能招聘网。",
+   "source_url": "https://hr.bjx.com.cn/jobs/1407754.html",
+   "bizline": "",
+   "keyword": "招聘-通用-摘要",
+   "first_seen": "2026-08-30",
+   "source_tag": "招聘-通用-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "页面可访问，未见注销/吊销字样"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "河北润商智能科技有限公司",
+   "scope_hint": "简介： 河北润商智能科技有限公司，成立于2020年，位于河北省石家庄市，是一家以从事软件和信息技术服务业为主的企业。企业注册资本300万人民币。通过天眼查大数据分析，河北润商智能科技有限公司共对外投资了1家企业；知识产权方面有商标信息7条，著作权信息14条。风险方面共发现企业有 收起",
+   "source_url": "https://www.tianyancha.com/company/3487391732",
+   "bizline": "网络安全",
+   "keyword": "工商-天眼查",
+   "first_seen": "2026-08-30",
+   "source_tag": "工商-天眼查",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "河北青鸟电子有限公司",
+   "scope_hint": "河北青鸟电子有限公司 (曾用名：北京惟泰安全设备有限公司) ，成立于2009年，位于河北省张家口市，是一家以从事仪器仪表制造业为主的企业。企业注册资本100000万人民币，实缴资本5000万人民币。通过天眼查大数据分析，河北青鸟电子有限公司共对外投资了5家企业，参与招投标项目284次；知识 ...",
+   "source_url": "https://tax.tianyancha.com/14081446",
+   "bizline": "网络安全",
+   "keyword": "工商-天眼查",
+   "first_seen": "2026-08-30",
+   "source_tag": "工商-天眼查",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "北京惟泰安全设备有限公司",
+   "scope_hint": "河北青鸟电子有限公司 (曾用名：北京惟泰安全设备有限公司) ，成立于2009年，位于河北省张家口市，是一家以从事仪器仪表制造业为主的企业。企业注册资本100000万人民币，实缴资本5000万人民币。通过天眼查大数据分析，河北青鸟电子有限公司共对外投资了5家企业，参与招投标项目284次；知识 ...",
+   "source_url": "https://tax.tianyancha.com/14081446",
+   "bizline": "网络安全",
+   "keyword": "工商-天眼查-摘要",
+   "first_seen": "2026-08-30",
+   "source_tag": "工商-天眼查-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "河北尚华新材料股份有限公司",
+   "scope_hint": "尚华新材:2025年年度报告 hhee尚华新材NEEQ: 874605 河北尚华新材料股份有限公司 Hebei Sunua Advanced Material Co., Ltd.年度报告重要提示 一、 公司控股股东、实际控制人、董事、监事、高级管理人员保证本报告所载资料不存在任何虚假记载、 误导性陈述或者重大遗漏，并对其内容的真实性、准确性和完整性 ...",
+   "source_url": "https://pilu.tianyancha.com/announcement/65080477bf6b5c39b831937129028155",
+   "bizline": "网络安全",
+   "keyword": "工商-天眼查-摘要",
+   "first_seen": "2026-08-30",
+   "source_tag": "工商-天眼查-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "融科联创（天津）信息技术有限公司",
+   "scope_hint": "融科联创ODM定制化服务器全面的服务器整机定制化研发能力融科联创ODM定制化服务器专为行业深度定制开发，支持无人配送、基因测序等高性能场景需求。基于客户实。",
+   "source_url": "https://www.roycom.com.cn/customized-server",
+   "bizline": "服务器/信创整机",
+   "keyword": "通用",
+   "first_seen": "2026-08-30",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "天津寺冈电子有限公司",
+   "scope_hint": "顺企网天津整机、服务器厂家大全列表，包括天津市静文商贸有限公司、天津金全力电器科技有限公司、天津寺冈电子有限公司、天津天显科技有限公司等在内的2015家天津整机、服务器厂家的地址电话法人代表和联系电话等信息。",
+   "source_url": "https://www.11467.com/tianjin/search/8388.htm",
+   "bizline": "服务器/信创整机",
+   "keyword": "通用-摘要",
+   "first_seen": "2026-08-30",
+   "source_tag": "通用-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "京金华（北京）科技有限公司",
+   "scope_hint": "京金华（北京）科技有限公司是CAN转以太网，232转CAN，485转CAN的 生产制造厂家，竭诚为您提供全新的京金华四口RS485串口服务器C485-4，京金华CAN转以太网 CAN转网络 网络转CAN，京金华CAN转以太网等系列产品。",
+   "source_url": "https://www.cn.made-in-china.com/gongying/sf101mabo-TovmGpQSuErK.html",
+   "bizline": "服务器/信创整机",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-08-30",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "锐鹰科贸 (天津)有限责任公司",
+   "scope_hint": "锐鹰科贸 (天津)有限责任公司是电源模块，缓启动，分电板PDB的专业生产厂家和供应商。采购电源模块，缓启动，分电板PDB相关产品请联系锐鹰科贸 (天津)有限责任公司。",
+   "source_url": "https://ruiying2026.cn.made-in-china.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-08-30",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "天津金卓尔电气设备有限公司",
+   "scope_hint": "天津金卓尔电气设备有限公司是配电箱，配电柜，变压器的 生产制造厂家，竭诚为您提供全新 的配电柜-金卓尔-天津-GGD，多功能仪表，GGD低压配电柜-天津金卓尔等系列产品。",
+   "source_url": "https://jinzhuoerdq.cn.made-in-china.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-08-30",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "天津吉兆源科技有限公司",
+   "scope_hint": "天津吉兆源科技有限公司是射频电源，直流电源，射频离子源的 生产制造厂家，竭诚为您提供全新 的微波电源大功率高效节能，多级脉冲电源 高品质射频电源 品质保证，远程等离子体源 射频电源 微波RPS等系列产品。",
+   "source_url": "https://gmpower2024.cn.made-in-china.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-08-30",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "天津康帝德科技有限公司",
+   "scope_hint": "天津康帝德科技有限公司是超声波发生器，超声波电源，IO模块PLC拓展模块的 生产制造厂家，竭诚为您提供全新 的康帝德大功率超声波发生器超声波清洗机电源电箱，康帝德超声波发生器40khz超声波电源稳定输出，康帝德多功能超声波发生器超声波电源28khz大功率等系列产品。",
+   "source_url": "https://kangdide.cn.made-in-china.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-08-30",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "天津瑞卡特航空设备有限公司",
+   "scope_hint": "天津瑞卡特航空设备有限公司是28v直流电源，7-HK-182蓄电池，115v静变电源的 生产制造厂家，竭诚为您提供全新 的115V航空交流静变电源 115/200V，115V200V中频静变电源装置-航空直线加电电源，28.5v便携式电源丨航空地面电源丨直线加电设备等系列产品。",
+   "source_url": "https://jiadawei.cn.made-in-china.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-08-30",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "天津固得光电科技发展有限公司",
+   "scope_hint": "天津固得光电科技发展有限公司是红外加热管，卤素加热管，石英加热管的 生产制造厂家，竭诚为您提供全新 的厂家直销海德堡cd102机5.4KW镀金卤素加热灯，厂家直销罗兰印刷机3KW镀金加热灯，厂家直供烤漆房石英红外加热管等系列产品。",
+   "source_url": "https://gmdj5888.cn.made-in-china.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-08-30",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "天津宇创自动化仪表有限公司",
+   "scope_hint": "天津宇创自动化仪表有限公司,位于天津市天津市西青区学府西路1号慧谷工业园东区D19号厂房2层,是一家专注于变送器、压力变送器行业、主要提供多参量变送器、压力变送器、差压变送器、液位变送器产品的生产制造型企业。欢迎各界朋友莅临参观、指导和业务洽谈。",
+   "source_url": "https://yuchuangzidonghua.cn.made-in-china.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-08-30",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "北京整机、服务器公司",
+   "scope_hint": "顺企网为您找到\"关于SUNNY蓄电池 -狮克电源（北京）有限公司、北京山特UPS原厂蓄电池采购规范 MT/3C3 HD机型电池适配指南、\"等840个产品，包括北京整机、服务器价格、北京整机、服务器图片、型号和相关北京整机、服务器厂家联系方式等",
+   "source_url": "https://beijing.11467.com/pifa-zhengjifuwuqi/",
+   "bizline": "服务器/信创整机",
+   "keyword": "黄页-顺企",
+   "first_seen": "2026-08-30",
+   "source_tag": "黄页-顺企",
+   "verify": {
+    "b": {
+     "pass": false,
+     "reason": "名称缺少法定全称后缀（有限公司/集团等），疑似不完整"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
+  },
+  {
+   "name": "北京旭普科技有限公司",
+   "scope_hint": "中国芯片封装银行，作为一个为全球集成电路封装市场提供封装外壳的工业引领者，凭借其母公司强大的实力，在公司成立16年来，已经拥有优良的技术支持队伍、完整的芯片和封装外壳的质量检验设施、近千平米防静电净化储存库房和巨大的现货库存能力。中国芯片封装银行为客户提供全系列的 ...",
+   "source_url": "https://beijing0403635.11467.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "黄页-顺企",
+   "first_seen": "2026-08-30",
+   "source_tag": "黄页-顺企",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
+  },
+  {
+   "name": "北京中科信电子装备有限公司",
+   "scope_hint": "北京中科信电子装备有限公司是在国家科学技术部、北京市人民政府和中国电子科技集团公司的大力支持下成立，专门从事高端离子注入机设备的总体设计技术、系统集成技术和关键单元技术及其相关工艺设备研制、开发、生产和服务的企业。是国内唯一一家提供集成电路生产线关键设备－离子注入 ...",
+   "source_url": "https://bjtongzhou043135.11467.com/about.asp",
+   "bizline": "服务器/信创整机",
+   "keyword": "黄页-顺企",
+   "first_seen": "2026-08-30",
+   "source_tag": "黄页-顺企",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:49"
+   }
+  },
+  {
+   "name": "北京市人民政府和中国电子科技集团",
+   "scope_hint": "北京中科信电子装备有限公司是在国家科学技术部、北京市人民政府和中国电子科技集团公司的大力支持下成立，专门从事高端离子注入机设备的总体设计技术、系统集成技术和关键单元技术及其相关工艺设备研制、开发、生产和服务的企业。是国内唯一一家提供集成电路生产线关键设备－离子注入 ...",
+   "source_url": "https://bjtongzhou043135.11467.com/about.asp",
+   "bizline": "服务器/信创整机",
+   "keyword": "黄页-顺企-摘要",
+   "first_seen": "2026-08-30",
+   "source_tag": "黄页-顺企-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
+  },
+  {
+   "name": "河北石龙数码科技有限公司",
+   "scope_hint": "公司简介 河北石龙数码科技有限公司成立于1991年, 注册资金1001万，成立伊始公司定位于oa办公设备提供商，公司与众多厂商合作，并得到广泛的技术和服务支持。此后公司迅速发展，规模不断壮大。2005年，随着公司业务发展的需要，开始涉足计算机系统集成及软件开发等业务领域。目前，石龙公司 ...",
+   "source_url": "https://www.11467.com/shijiazhuang/co/75889.htm",
+   "bizline": "服务器/信创整机",
+   "keyword": "黄页-顺企",
+   "first_seen": "2026-08-30",
+   "source_tag": "黄页-顺企",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
+  },
+  {
+   "name": "凡斯盾 设备（天津）有限公司",
+   "scope_hint": "凡斯盾安全设备（天津）有限公司是一家专注于生产高空安全防护产品的品牌公司，凭借多年在该行业广泛的经验打造了中国的自主品牌，包括安全带、安...",
+   "source_url": "https://cn.made-in-china.com/showroom/funsdun-companyinfo.html",
+   "bizline": "网络安全",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-08-30",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
+  },
+  {
+   "name": "天津市瑞普电子仪器公司",
+   "scope_hint": "天津市瑞普电子仪器公司是超声波清洗器，超声波清洗机，溶剂过滤器的 生产制造厂家，竭诚为您提供全新 的瑞普RP-01半导体制冷件，半导体冷阱，0.8升小型超声波清洗器（QT08）等系列产品。",
+   "source_url": "https://tjliushan.cn.made-in-china.com/",
+   "bizline": "网络安全",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-08-30",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": false,
+     "reason": "名称缺少法定全称后缀（有限公司/集团等），疑似不完整"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
+  },
+  {
+   "name": "天津众通联金属材料有限公司",
+   "scope_hint": "天津众通联金属材料有限公司是不锈钢类，涂镀类，钢管类的 生产制造厂家，竭诚为您提供全新 的316 304不锈钢厚板 开平不锈钢卷，太钢张浦 BA深拉伸加工不锈钢板， 不锈钢板 轻量化 电子设备用等系列产品。",
+   "source_url": "https://tjhhwy06.cn.made-in-china.com/",
+   "bizline": "网络安全",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-08-30",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
+  },
+  {
+   "name": "天津市富莱尔环保设备有限公司",
+   "scope_hint": "联系信息 曹顺明 先生 （经理） 电话： 查看电话号码 传真：022-29534986 地址： 天津市 武清区 中国天津市武清区杨北公路富民经济技术开发区东西陈庄 查看更多 产品索引 添加到公司收藏夹 举报",
+   "source_url": "https://fulair.cn.made-in-china.com/",
+   "bizline": "网络安全",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-08-30",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
+  },
+  {
+   "name": "度莫电子（天津）有限公司",
+   "scope_hint": "度莫电子（天津）有限公司是液位传感器，接近开关，压力传感器的专业生产厂家和供应商。采购液位传感器，接近开关，压力传感器相关产品请联系度莫电子（天津）有限公司。",
+   "source_url": "https://dumodianzi.cn.made-in-china.com/",
+   "bizline": "网络安全",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-08-30",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
+  },
+  {
+   "name": "「安信科技（天津）有限公司",
+   "scope_hint": "安信科技（天津）有限公司创立于2020-05-06 。地址位于天津市河东区七纬路83号L513，地理位置好 经营领域为一般项目：软件开发；技术服务、技术开发、技术咨询、技术交流、技术转让、技术推广；计算机系统服务；软件销售；工业控制计算机及系统销售；计算机软硬件及辅助设备零售；信息安全 ...",
+   "source_url": "https://m.zhipin.com/gongsis/8712d7e197cb8781i3V_39i9GVVZxQ~~.html",
+   "bizline": "服务器/信创整机",
+   "keyword": "招聘-BOSS",
+   "first_seen": "2026-08-30",
+   "source_tag": "招聘-BOSS",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
+  },
+  {
+   "name": "「外显基因科技（天津）有限公司",
+   "scope_hint": "外显基因科技（天津）有限公司创设于2018-09-26 。地址：天津市西青经济技术开发区大寺工业园鸿泽路18号壹零壹汽车文化广场文创馆一楼128-1-1室，交通好 主营生物技术开发、咨询、服务、转让；医疗器械技术、节能技术、计算机软硬件技术开发；医疗器械销售；中药材种植；教育信息咨询；企业 ...",
+   "source_url": "https://m.zhipin.com/gongsis/7eaa651f979d77870nJ53Nu6F1E~.html",
+   "bizline": "服务器/信创整机",
+   "keyword": "招聘-BOSS",
+   "first_seen": "2026-08-30",
+   "source_tag": "招聘-BOSS",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
+  },
+  {
+   "name": "天津华宁电子有限公司",
+   "scope_hint": "天津华宁电子有限公司硬件工程师招聘，薪资：，地点：天津，要求：3-5年，学历：本科，福利：交通补助、节日福利、通讯补贴、免费班车、住房补贴、餐补、包吃、员工旅游、带薪年假、全勤奖、加班补助、保底工资、年终奖、定期体检、补充医疗保险、五 ...",
+   "source_url": "https://www.zhipin.com/job_detail/b68947008f68ec8103xy3Ny0GFNX.html",
+   "bizline": "",
+   "keyword": "招聘-BOSS-摘要",
+   "first_seen": "2026-08-30",
+   "source_tag": "招聘-BOSS-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
+  },
+  {
+   "name": "河北乐宁科技有限公司",
+   "scope_hint": "河北乐宁科技有限公司成立于2021年，是北京乐讯科技有限公司的全资子公司。集团总公司积极响应国家环保政策号召，于2021年通过招商引资正式落地扎根张北县，是政府引进的企业，投资一期在河北省张家口市张北县张北经济开发区凯泽厂区内建设约1500平米的现代化生产基地，后续会加大二期投入 ...",
+   "source_url": "http://www.hblening.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "通用",
+   "first_seen": "2026-08-30",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
+  },
+  {
+   "name": "河北服务器公司",
+   "scope_hint": "找到 10 条河北服务器公司名单，名录按近一年人气排序，都是真实用户浏览，公司达到一定热度才能上榜，榜单每天更新，河北服务器公司头部企业：保定华智电气、河北省电子认证有限公司、石家庄和嘉科技有限公司、河北海德网络科技有限公司、河北汇友网络科技有限公司、启辰科技、石家庄 ...",
+   "source_url": "https://www.jobui.com/rank/company/view/hebei/fuwuqi/",
+   "bizline": "服务器/信创整机",
+   "keyword": "通用",
+   "first_seen": "2026-08-30",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": false,
+     "reason": "名称缺少法定全称后缀（有限公司/集团等），疑似不完整"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
+  },
+  {
+   "name": "河北省电子认证有限公司",
+   "scope_hint": "找到 10 条河北服务器公司名单，名录按近一年人气排序，都是真实用户浏览，公司达到一定热度才能上榜，榜单每天更新，河北服务器公司头部企业：保定华智电气、河北省电子认证有限公司、石家庄和嘉科技有限公司、河北海德网络科技有限公司、河北汇友网络科技有限公司、启辰科技、石家庄 ...",
+   "source_url": "https://www.jobui.com/rank/company/view/hebei/fuwuqi/",
+   "bizline": "服务器/信创整机",
+   "keyword": "通用-摘要",
+   "first_seen": "2026-08-30",
+   "source_tag": "通用-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
+  },
+  {
+   "name": "河北驰秒科技有限公司",
+   "scope_hint": "串口服务器 作为现代物联系统的关键组件，其核心功能在于实现传统工业总线接口（包含RS-232、RS-485、RS-422等）与以太网协议之间的智能互转。通过突破物理接口的传输限制，成功将各类工业现场设备的通讯距离从传统的百米级扩展至无限网络覆盖范围，为构建分布式工业物联体系奠定基础。",
+   "source_url": "https://www.chimiao.com/archives/1299",
+   "bizline": "服务器/信创整机",
+   "keyword": "通用",
+   "first_seen": "2026-08-30",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
+  },
+  {
+   "name": "河北兰硕新型材料有限公司",
+   "scope_hint": "1 承德市五岳测控技术有限公司 911308057373663224 2 大田新材料科技邯郸有限公司 91130492MA097Q3Y1L 3 河北灰鲸科技有限公司 91130293MABYG60YXC 4 保定市毅格通信自动化有限公司 9113060570075927XK 5 河北兰硕新型材料有限公司 91130102557696105W 6 河北修贝乐生 来源：官方名单",
+   "source_url": "http://www.lanshuo.net.cn/",
+   "bizline": "工业通信",
+   "keyword": "工商-企查查-摘要",
+   "first_seen": "2026-08-30",
+   "source_tag": "工商-企查查-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
+  },
+  {
+   "name": "河北卓雨防水材料有限公司",
+   "scope_hint": "1 承德市五岳测控技术有限公司 911308057373663224 2 大田新材料科技邯郸有限公司 91130492MA097Q3Y1L 3 河北灰鲸科技有限公司 91130293MABYG60YXC 4 保定市毅格通信自动化有限公司 9113060570075927XK 5 河北兰硕新型材料有限公司 91130102557696105W 6 河北修贝乐生",
+   "source_url": "https://qccdata.qichacha.com/TechnologyCompany/a4118f98cd66221677bf7509fcb75521.doc",
+   "bizline": "工业通信",
+   "keyword": "工商-企查查-摘要",
+   "first_seen": "2026-08-30",
+   "source_tag": "工商-企查查-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
+  },
+  {
+   "name": "河北龙道物联科技有限公司",
+   "scope_hint": "简介：河北龙道物联科技有限公司，成立于2019-03-19，法定代表人为张春贞，注册地位于河北省邢台市威县洺州镇光明路9号创业孵化园3楼315号，经营范围包括物联网、新能源、电子产品技术研发、技术咨询、技术服务、技术转让；互联网销售：仪器仪表、计算机、软件及辅助设备、通讯器材（不含 ...",
+   "source_url": "https://www.tianyancha.com/company/3303128010",
+   "bizline": "服务器/信创整机",
+   "keyword": "工商-天眼查",
+   "first_seen": "2026-08-30",
+   "source_tag": "工商-天眼查",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
+  },
+  {
+   "name": "河北雄安雄通网络科技有限公司",
+   "scope_hint": "简介：河北雄安雄通网络科技有限公司，成立于2019-01-03，法定代表人为张亮，注册地位于河北省保定市容城县容城镇北关村正义路176号604室，经营范围包括软件开发，计算机领域内的技术开发、技术咨询、技术推广、技术转让，应用软件服务，计算机系统集成；计算机软硬件及辅助设备、电子产品 ...",
+   "source_url": "https://www.tianyancha.com/company/3290046009",
+   "bizline": "服务器/信创整机",
+   "keyword": "工商-天眼查",
+   "first_seen": "2026-08-30",
+   "source_tag": "工商-天眼查",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
+  },
+  {
+   "name": "河北东蒲通信技术有限公司",
+   "scope_hint": "简介：河北东蒲通信技术有限公司，成立于2009年，位于河北省石家庄市，是一家以从事软件和信息技术服务业为主的企业。企业注册资本300万人民币，实缴资本300万人民币。通过天眼查大数据分析，河北东蒲通信技术有限公司参与招投标项目30次；知识产权方面有专利信息4条，著作权信息14条；此外 ...",
+   "source_url": "https://www.tianyancha.com/company/1550868926/jingzhuang",
+   "bizline": "网络安全",
+   "keyword": "工商-天眼查",
+   "first_seen": "2026-08-30",
+   "source_tag": "工商-天眼查",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
+  },
+  {
+   "name": "河北安升电力设备有限公司",
+   "scope_hint": "河北安升电力设备有限公司怎么了？经企业自评、申报，县（市、区）工信主管部门初审推荐，我局评审及现场抽查，拟推荐河北安升电力设备有限公司等200家企业为河北省创新型中小企业，现将名单予以公示。...",
+   "source_url": "https://news.tianyancha.com/ll_b4ykk137rh.html",
+   "bizline": "网络安全",
+   "keyword": "工商-天眼查-摘要",
+   "first_seen": "2026-08-30",
+   "source_tag": "工商-天眼查-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": false,
+     "reason": "页面出现注销/吊销/停业等字样"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
+  },
+  {
+   "name": "「凯姆镭（天津）流体控制设备有限公司",
+   "scope_hint": "凯姆镭（天津）流体控制设备有限公司创立于2020-07-06 。公司经营地址位于：天津市滨海高新区华苑产业区海泰华科三路1号23号楼-1，交通便利 公司经营范围为一般项目：气体、液体分离及纯净设备制造；普通阀门和旋塞制造（不含特种设备制造）；阀门和旋塞销售；阀门和旋塞研发；技术服务 ...",
+   "source_url": "https://m.zhipin.com/gongsis/c362df3aed5bf8c40nRy3di5GFo~.html",
+   "bizline": "",
+   "keyword": "招聘-BOSS",
+   "first_seen": "2026-08-30",
+   "source_tag": "招聘-BOSS",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
+  },
+  {
+   "name": "天津）流体控制设备有限公司",
+   "scope_hint": "凯姆镭（天津）流体控制设备有限公司创立于2020-07-06 。公司经营地址位于：天津市滨海高新区华苑产业区海泰华科三路1号23号楼-1，交通便利 公司经营范围为一般项目：气体、液体分离及纯净设备制造；普通阀门和旋塞制造（不含特种设备制造）；阀门和旋塞销售；阀门和旋塞研发；技术服务 ...",
+   "source_url": "https://m.zhipin.com/gongsis/c362df3aed5bf8c40nRy3di5GFo~.html",
+   "bizline": "",
+   "keyword": "招聘-BOSS-摘要",
+   "first_seen": "2026-08-30",
+   "source_tag": "招聘-BOSS-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
+  },
+  {
+   "name": "「天津丰通铝合金科技有限公司",
+   "scope_hint": "天津丰通铝合金科技有限公司于2005年06月24日创建，公司注册地址位于天津开发区泰丰路185号；主要经营以铝、镁、铜等有色金属废料为主要原材料的新型合金材料及相关产品的开发、生产、销售、并提供相关技术咨询和服务等。公司类别为有限责任公司，拥有人员1-49人，注册资本390万美元，是天津 ...",
+   "source_url": "https://m.zhipin.com/gongsis/d378d629a644534ci3Vy2NW-F1I~.html",
+   "bizline": "",
+   "keyword": "招聘-BOSS",
+   "first_seen": "2026-08-30",
+   "source_tag": "招聘-BOSS",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
+  },
+  {
+   "name": "天津全谱光电科技有限公司",
+   "scope_hint": "品牌简介 公司以光电技术为核心，聚焦研发与产业化，是专业从事光电模块、光电整机与光电系统技术和装备研制的国家级高新技术企业。经营范围涵盖光电产品的研发、生产、销售，以及仪器设备、电子元器件、计算机软硬件等，形成从核心技术到终端产品的完整链条，能够提供光电系统解决 ...",
+   "source_url": "https://www.quanpuguangdian.cn/",
+   "bizline": "工业通信",
+   "keyword": "通用",
+   "first_seen": "2026-08-30",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
+  },
+  {
+   "name": "天津瑞利光电科技有限公司",
+   "scope_hint": "顺企网天津光电子器件厂家大全列表，包括天津良益科技有限公司、天津瑞利光电科技有限公司、天津市握奇网络科技有限公司、天津利克机电设备有限公司等在内的768家天津光电子器件厂家的地址电话法人代表和联系电话等信息。8页，当前显示第1页结果，按照产品多少和注册时间排名",
+   "source_url": "https://www.11467.com/tianjin/search/5070.htm",
+   "bizline": "工业通信",
+   "keyword": "通用-摘要",
+   "first_seen": "2026-08-30",
+   "source_tag": "通用-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
+  },
+  {
+   "name": "天津利克机电设备有限公司",
+   "scope_hint": "顺企网天津光电子器件厂家大全列表，包括天津良益科技有限公司、天津瑞利光电科技有限公司、天津市握奇网络科技有限公司、天津利克机电设备有限公司等在内的768家天津光电子器件厂家的地址电话法人代表和联系电话等信息。8页，当前显示第1页结果，按照产品多少和注册时间排名",
+   "source_url": "https://www.11467.com/tianjin/search/5070.htm",
+   "bizline": "工业通信",
+   "keyword": "通用-摘要",
+   "first_seen": "2026-08-30",
+   "source_tag": "通用-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
+  },
+  {
+   "name": "清研长光（天津）光电科技有限公司",
+   "scope_hint": "清研长光 (天津)光电科技有限公司是清华大学天津高端装备研究院 水木客众创中心孵化企业，以精密光学薄膜为特色的高科技公司。 公司具备丰富的光学薄膜研发设计制备能力。 公司拥有进口直接监 控和间接监控镀膜机共三台、拥有安捷伦CARY5000和CARY7000分光 光度计，以及配套齐全的检测仪器。",
+   "source_url": "https://www.qycggd.com/",
+   "bizline": "工业通信",
+   "keyword": "通用",
+   "first_seen": "2026-08-30",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
+  },
+  {
+   "name": "天津)光电科技有限公司",
+   "scope_hint": "清研长光 (天津)光电科技有限公司是清华大学天津高端装备研究院 水木客众创中心孵化企业，以精密光学薄膜为特色的高科技公司。 公司具备丰富的光学薄膜研发设计制备能力。 公司拥有进口直接监 控和间接监控镀膜机共三台、拥有安捷伦CARY5000和CARY7000分光 光度计，以及配套齐全的检测仪器。",
+   "source_url": "https://www.qycggd.com/",
+   "bizline": "工业通信",
+   "keyword": "通用-摘要",
+   "first_seen": "2026-08-30",
+   "source_tag": "通用-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
+  },
+  {
+   "name": "单向科技 - 单向科技公司",
+   "scope_hint": "简介：北京单向科技有限公司是领先的可信数据云服务供应商，基于第三代区块链技术DAGX、可信数据引擎云GraphPoint等产品，为各行业提供可信数据服务和金融科技解决方案，目前与各主要云计算厂商展开广泛合作，共同推动数字经济产业新生态发展。",
+   "source_url": "https://www.tianyancha.com/brand/b02cf465813",
+   "bizline": "网络安全",
+   "keyword": "工商-天眼查",
+   "first_seen": "2026-08-30",
+   "source_tag": "工商-天眼查",
+   "verify": {
+    "b": {
+     "pass": false,
+     "reason": "名称缺少法定全称后缀（有限公司/集团等），疑似不完整"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
+  },
+  {
+   "name": "「天津吉诺科技有限公司",
+   "scope_hint": "BOSS直聘为求职者提供2026年天津吉诺科技有限公司招聘信息，更有天津吉诺科技有限公司的品牌信息（吉诺科技）、公司简介、公司地址、产品介绍、公司环境、CEO高管资料以及在线的BOSS们，天津吉诺科技有限公司正在线直聘10职位，找工作就登录BOSS直聘网站或APP，直接与Boss开聊吧!",
+   "source_url": "https://m.zhipin.com/companys/2e47852b3b86951a0nF43N-_.html",
+   "bizline": "工业通信",
+   "keyword": "招聘-BOSS",
+   "first_seen": "2026-08-30",
+   "source_tag": "招聘-BOSS",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
+  },
+  {
+   "name": "「天津天瞳威势电子科技有限公司",
+   "scope_hint": "天瞳威势是天津天瞳威势电子科技有限公司旗下品牌。 天津天瞳威势电子科技有限公司（简称：天瞳威视，英文名：CalmCar）成立于2015年3月，是一家世界级智能驾驶系统和下一代出行服务供应商，在苏州、天津、上海、深圳、底特律等海内外城市拥有研发中心。",
+   "source_url": "https://m.zhipin.com/companys/a1f9838601f240d61nJ93924FFQ~.html",
+   "bizline": "工业通信",
+   "keyword": "招聘-BOSS",
+   "first_seen": "2026-08-30",
+   "source_tag": "招聘-BOSS",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
+  },
+  {
+   "name": "天津天瞳威势电子科技有限公司",
+   "scope_hint": "天瞳威势是天津天瞳威势电子科技有限公司旗下品牌。 天津天瞳威势电子科技有限公司（简称：天瞳威视，英文名：CalmCar）成立于2015年3月，是一家世界级智能驾驶系统和下一代出行服务供应商，在苏州、天津、上海、深圳、底特律等海内外城市拥有研发中心。",
+   "source_url": "https://m.zhipin.com/companys/a1f9838601f240d61nJ93924FFQ~.html",
+   "bizline": "工业通信",
+   "keyword": "招聘-BOSS-摘要",
+   "first_seen": "2026-08-30",
+   "source_tag": "招聘-BOSS-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
+  },
+  {
+   "name": "不锈钢防坠网大型厂",
+   "scope_hint": "河北德康金属丝网制品有限公司是一家专注于不锈钢防坠网研发、生产与销售的实力厂家。作为不锈钢防坠的yuantouchangjia和专业供应商，公司始终坚持诚信经营，秉持\"质量第一，客户至上\"的原则，致力于为客户提供性能优异、价格合理的动物园笼舍防护网产品。产品单价为26.00元每件，结合多年 ...",
+   "source_url": "https://yejin.11467.com/info/48594249.htm",
+   "bizline": "网络安全",
+   "keyword": "黄页-顺企",
+   "first_seen": "2026-08-30",
+   "source_tag": "黄页-顺企",
+   "verify": {
+    "b": {
+     "pass": false,
+     "reason": "名称缺少法定全称后缀（有限公司/集团等），疑似不完整"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
+  },
+  {
+   "name": "河北省电气控制柜不锈钢钣金外壳加工厂",
+   "scope_hint": "河北省电气控制柜不锈钢钣金外壳加工厂家 新闻动态 更多 内蒙古自治区钣金机箱机柜外壳加工青县钣金加工厂家 2026-08-30 河北省异形钣金不锈钢机柜外壳 2026-08-30 天津市机械定制沧州钣金加工厂家 2026-08-30 北京市医疗设备外壳青县钣金加工厂家 2026-08-30",
+   "source_url": "https://cangzhou088151.11467.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "黄页-顺企-摘要",
+   "first_seen": "2026-08-30",
+   "source_tag": "黄页-顺企-摘要",
+   "verify": {
+    "b": {
+     "pass": false,
+     "reason": "名称缺少法定全称后缀（有限公司/集团等），疑似不完整"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
+  },
+  {
+   "name": "天津市机械定制沧州钣金加工厂",
+   "scope_hint": "河北省电气控制柜不锈钢钣金外壳加工厂家 新闻动态 更多 内蒙古自治区钣金机箱机柜外壳加工青县钣金加工厂家 2026-08-30 河北省异形钣金不锈钢机柜外壳 2026-08-30 天津市机械定制沧州钣金加工厂家 2026-08-30 北京市医疗设备外壳青县钣金加工厂家 2026-08-30",
+   "source_url": "https://cangzhou088151.11467.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "黄页-顺企-摘要",
+   "first_seen": "2026-08-30",
+   "source_tag": "黄页-顺企-摘要",
+   "verify": {
+    "b": {
+     "pass": false,
+     "reason": "名称缺少法定全称后缀（有限公司/集团等），疑似不完整"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
+  },
+  {
+   "name": "北京市医疗设备外壳青县钣金加工厂",
+   "scope_hint": "河北省电气控制柜不锈钢钣金外壳加工厂家 新闻动态 更多 内蒙古自治区钣金机箱机柜外壳加工青县钣金加工厂家 2026-08-30 河北省异形钣金不锈钢机柜外壳 2026-08-30 天津市机械定制沧州钣金加工厂家 2026-08-30 北京市医疗设备外壳青县钣金加工厂家 2026-08-30",
+   "source_url": "https://cangzhou088151.11467.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "黄页-顺企-摘要",
+   "first_seen": "2026-08-30",
+   "source_tag": "黄页-顺企-摘要",
+   "verify": {
+    "b": {
+     "pass": false,
+     "reason": "名称缺少法定全称后缀（有限公司/集团等），疑似不完整"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
+  },
+  {
+   "name": "北京龙鼎源科技股份有限公司",
+   "scope_hint": "北京龙鼎源科技股份有限公司是过程控制系统及控制器PLC、RTU等，技术服务，系统集成商的 生产制造厂家，竭诚为您提供全新 的龙鼎源EPC5000DCS系统 定制方案，非网管型工业交换机EICS-200SW 工控系统必配 8 换机，龙鼎源DRESS21C Pro 工业自动化信息化平台 定制方案等系列产品。",
+   "source_url": "https://ldy18010013889.cn.made-in-china.com/",
+   "bizline": "工业通信",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-08-30",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
+  },
+  {
+   "name": "河北启烁电气科技有限公司",
+   "scope_hint": "河北启烁电气科技有限公司是智能站用交直流一体化电源系统，GZDW系列直流电源屏，UPS不间断电源的 生产制造厂家，竭诚为您提供全新 的UPS柜、电力UPS屏、电力UPS电源系统，UPS不间断电源、UPS日常维护、UPS维修，通信机房电源系统、-48V电源柜、-48V电源系统等系列产品。",
+   "source_url": "https://dpk13323109178.cn.made-in-china.com/",
+   "bizline": "数据中心",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-08-30",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
+  },
+  {
+   "name": "2026年天津地区无线信号探测与信息安全加密厂",
+   "scope_hint": "2026年天津地区无线信号探测与信息安全加密厂家甄选参考 发布日期：2026年07月 随着数字化进程的加速，无线信号探测、加密通信及国密改造已成为政企单位信息安全建设的核心议题。2026年，国家密码管理局持续推进密评合规要求，GB/T 39786-2021等标准优秀落地，各行业对国密门禁、视频监控改造 ...",
+   "source_url": "https://www.zidonghua.com.cn/MSupplyChain/TechBizInfo/240109.html",
+   "bizline": "网络安全",
+   "keyword": "通用",
+   "first_seen": "2026-08-30",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": false,
+     "reason": "名称缺少法定全称后缀（有限公司/集团等），疑似不完整"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
+  },
+  {
+   "name": "众望（天津）半导体设备有限公司",
+   "scope_hint": "自主研发并生产拥有完全自主知识产权的多类型设备，主要包括自动点胶贴片机（K530、K690、F100-DDAI、K695、K810-DDAI）、手自一体键合机（WBS3001-B、WBS3001-W）、自动键合机（K790-BA、K790-WA、K790-HWA、F100-BAI、F100-WAI、F100-HWAI）等微组装关键工序的装备，主要用于集成 .",
+   "source_url": "https://www.deserved-semi.com/",
+   "bizline": "网络安全",
+   "keyword": "通用",
+   "first_seen": "2026-08-30",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "页面可访问，未见注销/吊销字样"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
+  },
+  {
+   "name": "天津光电安辰信息技术有限公司",
+   "scope_hint": "智能手机加密系统 录音屏蔽器——会议版 录音屏蔽器——单机定制版 打印监控与审计系统 手机微信加密软件 物理隔离与信息交换系统——1U 国密高安全门禁系统——单门 更多 公司动态 [2016-07-05] 李克强总理考察天津光电安辰：立足双创平台，实现企业成长",
+   "source_url": "http://toecsec.com/",
+   "bizline": "网络安全",
+   "keyword": "通用",
+   "first_seen": "2026-08-30",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:50"
+   }
+  },
+  {
+   "name": "锐翔工控 (天津)自动化机械设备有限公司",
+   "scope_hint": "电视机外框注塑移印系统 海信电视外壳LOGO移印生产线，利用注塑机械手抓取后直接印刷，有效扩展机械手功能，实现无人化作业，以免造成二次污染。 青岛海信已经全面推广开。 ...",
+   "source_url": "http://www.tjrealfly.com/",
+   "bizline": "网络安全",
+   "keyword": "通用",
+   "first_seen": "2026-08-30",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-30 10:50"
    }
   }
  ]
