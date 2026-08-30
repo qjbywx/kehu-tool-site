@@ -12,6 +12,7 @@
 环境变量：BING_API_KEY（可选）；MAX_QUERIES（默认60）；MAX_VERIFY（默认150）
 """
 import html as html_mod
+import io
 import json
 import os
 import random
@@ -20,6 +21,7 @@ import sys
 import time
 import urllib.parse
 import urllib.request
+import zipfile
 
 REGIONS = ["北京", "天津", "河北"]
 KEYWORDS = [
@@ -34,11 +36,12 @@ KEYWORDS = [
 JOB_KWS = ["硬件研发工程师", "生产测试", "工艺工程师", "结构设计", "产线管理", "嵌入式开发"]
 
 MAX_PER_QUERY = 30
-MAX_TOTAL = 300
 MAX_AGE_DAYS = 30
 MAX_QUERIES_PER_RUN = int(os.environ.get("MAX_QUERIES", "60"))
 MAX_VERIFY_PER_RUN = int(os.environ.get("MAX_VERIFY", "150"))
 MAX_LIST_PAGES = 30
+MAX_ATTACH = 20
+MAX_TOTAL = 400
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
 
@@ -49,8 +52,13 @@ COMPANY_PAT = re.compile(
     r"((?:北京|天津|河北)[\u4e00-\u9fa5A-Za-z0-9（）()·]{2,40}"
     r"(?:股份有限公司|有限责任公司|有限公司|集团|工厂|制造厂))"
 )
+ANY_PAT = re.compile(
+    r"([\u4e00-\u9fa5A-Za-z0-9（）()·]{4,45}"
+    r"(?:股份有限公司|有限责任公司|有限公司|集团|工厂|制造厂))"
+)
 ENTITY_KW = re.compile(
-    r"(生产|制造|组装|研发|研制|代工|产线|硬件|整机|设备|厂商|工厂|实业|招聘|工程师)"
+    r"(生产|制造|组装|研发|研制|代工|产线|硬件|整机|设备|厂商|工厂|实业|招聘|工程师|"
+    r"电子|通信|智能|机电|光电|电气|装备|仪器|传感|半导体|芯片|电力|能源|材料|机器人|网络安全|安防)"
 )
 DEAD_KW = re.compile(r"(注销|吊销|停业|清算|破产|已关闭|无法访问|经营异常)")
 ACTIVE_KW = re.compile(r"(成立于|成立时间|注册资金|注册资本|ICP|备案|版权所有|All Rights Reserved|主营|专注)")
@@ -73,6 +81,19 @@ LIST_QUERIES = [
     "专精特新 企业 名单 河北",
     "高新技术企业 认定 名单 天津",
     "信创 整机 厂商 名录",
+]
+
+OFFICIAL_LISTS = [
+    {
+        "url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+        "region": "北京",
+        "tag": "名单-北京专精特新",
+    },
+    {
+        "url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+        "region": "河北",
+        "tag": "名单-河北专精特新",
+    },
 ]
 
 
@@ -253,11 +274,65 @@ def extract_companies_from_text(text, base_url):
     return out
 
 
+def extract_any_companies(text):
+    """从任意文本提取公司名（名单类页面/附件：名称无需带区域前缀）。"""
+    out = []
+    for m in ANY_PAT.finditer(text or ""):
+        n = m.group(1).strip()
+        if looks_like_company(n) and n not in out:
+            out.append(n)
+    return out
+
+
+def parse_attachment(url):
+    """下载并解析名单附件（docx/doc/xlsx/html/text），返回文本。"""
+    rawb, _ = fetch_page_bytes(url, timeout=25)
+    low = url.lower()
+    if low.endswith(".docx"):
+        z = zipfile.ZipFile(io.BytesIO(rawb))
+        xml = z.read("word/document.xml").decode("utf-8", "ignore")
+        xml = re.sub(r"</w:p>", "\n", xml)
+        return re.sub(r"<[^>]+>", "", xml)
+    if low.endswith(".doc"):
+        t16 = rawb.decode("utf-16-le", "ignore")
+        t8 = rawb.decode("gbk", "ignore")
+        return t16 if t16.count("有限") >= t8.count("有限") else t8
+    if low.endswith((".xls", ".xlsx")):
+        return ""
+    try:
+        return rawb.decode("utf-8", "ignore")
+    except UnicodeDecodeError:
+        return rawb.decode("gbk", "ignore")
+
+
+def find_company_page(name, search_fn):
+    """为名单类候选搜索其公开页面（官网/信息页）。"""
+    try:
+        for t, u, s in search_fn('"' + name + '"'):
+            if not u:
+                continue
+            if is_junk(u, t):
+                continue
+            if u.lower().endswith((".doc", ".docx", ".pdf", ".xls", ".xlsx")):
+                continue
+            return u
+    except Exception:  # noqa: BLE001
+        pass
+    return ""
+
+
 def verify_candidate(c, search_fn):
     """严谨四项核验：每个校验项都给出确定结论（pass/false + 理由）。"""
     name = c.get("name", "")
     snippet = c.get("scope_hint", "") or ""
     url = c.get("source_url", "") or ""
+    # 名单类候选：先搜索公司名找到其公开页面，再核验
+    if url.lower().endswith((".doc", ".docx", ".xls", ".xlsx", ".pdf")):
+        page = find_company_page(name, search_fn)
+        if page:
+            url = page
+            c["source_url"] = page
+            c["scope_hint"] = (snippet + " 来源：官方名单").strip()
     verdict = {}
 
     # ② 现用法定全称
@@ -388,34 +463,59 @@ def main():
         print("  [%s] %s -> %d 条结果，新增 %d 家" % (tag, query, len(items), added_q), file=sys.stderr)
         time.sleep(2.2)
 
-    # 名单/目录网页抓取（补充候选，利用更多网页）
-    list_pages = []
+    # 官方名单附件（专精特新/高企等）：单个名单即可带来数百家公司，快速充实候选池
+    official_urls = [dict(o) for o in OFFICIAL_LISTS]
     for lq in LIST_QUERIES:
         try:
             for _, u, _ in search_fn(lq)[:3]:
-                if u and not is_junk(u, "") and u not in list_pages:
-                    list_pages.append(u)
+                if not u or is_junk(u, ""):
+                    continue
+                try:
+                    rawb, _ = fetch_page_bytes(u, timeout=12)
+                    raw = rawb.decode("utf-8", "ignore")
+                except Exception:  # noqa: BLE001
+                    continue
+                for m in re.finditer(r'href="([^"]+\.(?:docx?|xlsx?))"', raw, re.I):
+                    link = m.group(1)
+                    if link.startswith("//"):
+                        link = "https:" + link
+                    elif link.startswith("/"):
+                        link = urllib.parse.urljoin(u, link)
+                    region = next((r for r in REGIONS if r in lq + " " + u), "")
+                    if region and not any(x["url"] == link for x in official_urls):
+                        official_urls.append({"url": link, "region": region, "tag": "名单-动态"})
         except Exception:  # noqa: BLE001
             pass
-    dir_seeds = [
-        "https://www.11467.com/beijing/",
-        "https://www.11467.com/tianjin/",
-        "https://www.11467.com/hebei/",
-    ]
-    list_pages = (list_pages + dir_seeds)[:MAX_LIST_PAGES]
-    for lp in list_pages:
-        if len(new_found) >= 240 or pages_used >= 200:
+
+    for ol in official_urls[:MAX_ATTACH]:
+        if len(new_found) >= 260:
             break
         try:
-            text, ok = fetch_page_text(lp, timeout=10)
+            text = parse_attachment(ol["url"])
             pages_used += 1
-            if not ok:
-                continue
-            for n in extract_companies_from_text(text, lp):
-                add_candidate(n, lp, "", "名单/目录", "名单页")
-        except Exception:  # noqa: BLE001
+        except Exception as exc:  # noqa: BLE001
+            print("  [warn] 名单附件解析失败 %s: %s" % (ol["url"], exc), file=sys.stderr)
             continue
-        time.sleep(1.2)
+        cnt = 0
+        for n in extract_any_companies(text):
+            if not ENTITY_KW.search(n):
+                continue
+            k = norm_name(n)
+            if not k or k in seen:
+                continue
+            seen.add(k)
+            new_found.append({
+                "name": n,
+                "scope_hint": "官方名单：" + ol["tag"],
+                "source_url": ol["url"],
+                "bizline": classify_bizline(ol["region"] + " " + n, n),
+                "keyword": ol["tag"],
+                "first_seen": today,
+                "source_tag": ol["tag"],
+            })
+            cnt += 1
+        print("  [名单] %s（%s）-> 新增 %d 家" % (ol["tag"], ol["region"], cnt), file=sys.stderr)
+        time.sleep(1.0)
 
     # 自动核验：优先新候选，最多 MAX_VERIFY_PER_RUN 家
     to_verify = [c for c in new_found if not c.get("verify")]

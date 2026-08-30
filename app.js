@@ -725,14 +725,15 @@ function importCandidates(list) {
     const k = GRT.norm(name);
     if (have.has(k)) continue;
     have.add(k);
+    const bizline = item.bizline || guessBizline(name);
     const cand = {
       id: genId(),
       name: name,
       address: item.address_hint || '',
       scope: item.scope_hint || '',
-      bizline: item.bizline || '',
+      bizline: bizline,
       product: '',
-      remark: item.bizline ? GRT.buildRemark(item.bizline, '', item.scope_hint || '') : '',
+      remark: bizline ? GRT.buildRemark(bizline, '', item.scope_hint || '') : '',
       sources: item.source_url || '',
       checks: { a: false, b: false, d: false, e: false },
       rerun: false
@@ -750,6 +751,21 @@ function importCandidates(list) {
     renderAll();
   }
   return added;
+}
+
+// 按公司名关键词自动归类业务线（引擎未给出时兜底）
+function guessBizline(name) {
+  const blob = String(name || '');
+  const rules = [
+    ['服务器/信创整机', /服务器|信创|整机|计算机|终端|工控机|存储|计算|电脑|超算/],
+    ['数据中心', /数据中心|IDC|云|智算|超算|机房|算力|CDN|数据/],
+    ['网络安全', /防火墙|网闸|安全|加密|VPN|防护|Bypass|密码|保密|安防|网络/],
+    ['工业通信', /工业|交换机|串口|PLC|嵌入式|通信|光端机|光模块|光纤|以太网|无线|网关|电子|电气|机电|传感|仪器|光电|半导体/]
+  ];
+  for (const rule of rules) {
+    if (rule[1].test(blob)) return rule[0];
+  }
+  return '';
 }
 
 GRTUI.fetchCandidates = function () {
@@ -1038,9 +1054,9 @@ GRTUI.addNamecheckFresh = function () {
       name: n,
       address: '',
       scope: '',
-      bizline: '',
+      bizline: guessBizline(n),
       product: '',
-      remark: '',
+      remark: guessBizline(n) ? GRT.buildRemark(guessBizline(n), '', '') : '',
       sources: '',
       checks: { a: false, b: false, d: false, e: false },
       rerun: false

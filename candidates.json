@@ -1,8 +1,9 @@
 {
- "generated_at": "2026-08-30 09:10:40",
+ "generated_at": "2026-08-30 17:39:07",
  "source": "duckduckgo",
- "count": 13,
- "new_count": 2,
+ "count": 258,
+ "new_count": 245,
+ "pages_used": 5,
  "candidates": [
   {
    "name": "北京金品高端科技有限公司",
@@ -358,6 +359,2268 @@
     },
     "checked_at": "2026-08-30 09:10"
    }
+  },
+  {
+   "name": "北京博数智源人工智能科技有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-北京专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-08-30 17:38"
+   }
+  },
+  {
+   "name": "北京冠林豪泰电子科技有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-北京专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-08-30 17:38"
+   }
+  },
+  {
+   "name": "北京公维电子信息技术有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-北京专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-08-30 17:39"
+   }
+  },
+  {
+   "name": "北京康华微电子有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-北京专精特新"
+  },
+  {
+   "name": "北京科大国泰能源环境工程技术有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-北京专精特新"
+  },
+  {
+   "name": "北京索德瀚智能科技有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-北京专精特新"
+  },
+  {
+   "name": "北京中建机鼎晟机电设备有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-北京专精特新"
+  },
+  {
+   "name": "北京中力明新材料科技有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-北京专精特新"
+  },
+  {
+   "name": "光轮智能（北京）科技有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-北京专精特新"
+  },
+  {
+   "name": "易慧创新（北京）智能科技有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-北京专精特新"
+  },
+  {
+   "name": "北京派克盛宏电子科技有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-北京专精特新"
+  },
+  {
+   "name": "中际联合（北京）装备制造有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-北京专精特新"
+  },
+  {
+   "name": "华芯威半导体科技（北京）有限责任公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-北京专精特新"
+  },
+  {
+   "name": "北京基业昌达新能源技术有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-北京专精特新"
+  },
+  {
+   "name": "北京易泰克电力科技有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-北京专精特新"
+  },
+  {
+   "name": "北京鼎驰智能环保设备有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-北京专精特新"
+  },
+  {
+   "name": "北京亦城亦联智能科技有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-北京专精特新"
+  },
+  {
+   "name": "北京纪梵希装饰材料有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-北京专精特新"
+  },
+  {
+   "name": "北京华恩中实能源技术有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-北京专精特新"
+  },
+  {
+   "name": "华太圣阳（北京）新能源有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-北京专精特新"
+  },
+  {
+   "name": "北京和尔泰新材料科技有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-北京专精特新"
+  },
+  {
+   "name": "中祥国瑞新能源科技（北京）有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-北京专精特新"
+  },
+  {
+   "name": "北京维盛复合材料有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-北京专精特新"
+  },
+  {
+   "name": "中建研智能技术（北京）有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-北京专精特新"
+  },
+  {
+   "name": "国家能源集团新能源技术研究院有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-北京专精特新"
+  },
+  {
+   "name": "中烨能源（北京）有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-北京专精特新"
+  },
+  {
+   "name": "国综智投（北京）能源科技有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-北京专精特新"
+  },
+  {
+   "name": "北京电通敏智电子技术有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-北京专精特新"
+  },
+  {
+   "name": "震宇智慧（北京）新能源科技有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-北京专精特新"
+  },
+  {
+   "name": "北京坤创建科智能科技有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-北京专精特新"
+  },
+  {
+   "name": "北京恒华腾达设备安装工程有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-北京专精特新"
+  },
+  {
+   "name": "北京鹏宇兴业精密模具制造有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-北京专精特新"
+  },
+  {
+   "name": "北京盛昌益态新能源科技有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-北京专精特新"
+  },
+  {
+   "name": "贝尔智慧电子科技有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北安社应急装备制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北创联通信科技有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "工业通信",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北电立方新能源科技有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北鼎沃机械制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北都创机电工程有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北海峰电子科技有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北航达新材料科技有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北和邦能源科技有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北鸿旺达电力金具有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北华环化工设备制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北南宏新能源科技有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北欧润科学仪器股份有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北腾天焊管设备制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北天太生物质能源开发有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北纬坤电子科技有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北沃邦电力科技有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北信翔电子有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北翼辰实业集团股份有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北远江仪器仪表科技有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "坤载农林智能科技（河北）有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "石家庄艾瑞机电设备股份有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "石家庄超跃机电设备有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "石家庄创能煤矿机械制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "石家庄创天电子科技有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "石家庄菲斯特自控设备有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "石家庄海斯特电气有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "石家庄恒融世通电子科技有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "石家庄恒洋电气设备有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "石家庄精弘机械制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "石家庄精泰电气成套设备有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "石家庄军特电子科技有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "石家庄日加材料技术有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "石家庄三环通达电力设备安装工程有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "石家庄市诚达耐磨材料有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "石家庄市方远化工设备有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "石家庄市易达恒联路桥材料有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "石家庄特纳特冶金设备制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "石家庄天人农业机械装备有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "石家庄伟纵电子科技有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "承德振龙建筑材料集团有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "兴隆县一通新能源科技有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "怀来诚兴机械制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "宣化冶金环保设备制造(安装)有限责任公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "张家口广建新材料有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "张家口昊源环保设备运营有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "张家口金开利来机械制造股份有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "秦皇岛龙邦机械设备有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "秦皇岛市北斗自控设备有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "安卓（北京）卫生材料有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "浩瑞达(唐山)装饰材料有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北奥铭重型设备有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北雷捷电子工程有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北圣业机械制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北智远电子科技有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "金隅科实（曹妃甸）精密制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "滦南县振杰五金工具制造有限责任公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "迁安鼎泰五金制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "三益（玉田）新材料科技有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "唐山爱特精密机器制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "唐山迪安自动化设备有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "唐山方博新材料技术有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "唐山弘联硕实业有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "唐山宏润实业有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "唐山晶科智能科技有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "唐山开滦丽程机械设备制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "唐山乐丫实业股份有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "唐山欧格仕智能卫浴有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "唐山任氏水泥设备股份有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "唐山市曹妃甸区节能耐火材料有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "唐山市电力轻钢制品有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "唐山市丰润区兴泰耐磨材料有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "唐山市凯伦保温材料有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "唐山市康陶新材料有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "唐山天映智能科技有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "唐山同创电力设备有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "唐山五方实业有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "唐山亿德建筑材料有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "遵化市山工重型机械制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "霸州市航江龙谱机械制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "霸州市天飒电子科技有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "固安冰川制冷设备有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北福昊机械制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北领冠仪器仪表有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北星耀新材料科技有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北振创电子科技有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北中耐新材料科技有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "佳创机械设备制造（固安）有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "廊坊华宇天创能源设备有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "廊坊莱凯机械设备有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "廊坊市坤腾机械制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "廊坊思拓新能源科技有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "廊坊新龙立机械制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "廊坊兴联新材料有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "三河金锐光机电技术开发有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "沃奥芙阀门制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "西子木河北建筑材料科技有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "香河县康泰机械制造股份有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "香河洋鑫博傲钣金制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "中能兴盛（香河）半导体精密制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "保定安洁士手套制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "保定北特电气设备制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "保定贝佳宝纸塑制品制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "保定德优电气设备制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "保定东亮新能源科技有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "保定海川胶带制造股份有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "保定浩赢机械配件制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "保定宏远天成电力器材有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "保定华益材料检测有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "网络安全",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "保定欧诗琳节能材料科技有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "保定鹏浩电气科技有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "保定盛世之星箱包制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "保定市连宇机械制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "保定市万程汽车零部件制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "保定市智盛金属结构件制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "保定巽业电力工程安装有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "保定亿嘉特种陶瓷制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "保定中亚电气有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北博菲特丝网制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北沪工起重设备集团有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北华恩纺织品制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北嘉德电力器材有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北科迪新能源科技有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北同兴电气有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北优格电气设备有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "恒正电气集团有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "普锐救生装备河北有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "沧州大海纸箱设备制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "沧州海洋防爆特种工具制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "沧州浩泰管道装备制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "沧州华阳耐火保温材料有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "沧州建升建筑防水材料有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "沧州瑞盛管道制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "沧州泰昌管道装备有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "沧州新旺汽车散热器制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "东光县亿鑫纸箱设备制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北奥格流体设备有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北德泰自动化包装设备有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北鼎峰电力科技有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北方泉管道装备有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北华盾管道制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北龙锦管道装备有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北鹏鑫管道装备集团有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北省荣丰消毒设备有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北天华电气科技有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北亿健管道设备制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北中润轩机械设备有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河间市万洋线缆材料有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "九东电气有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "任丘市恒威通信设备有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "工业通信",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "任丘市金狮焊机制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "任丘市力洋压缩机制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "任丘市龙正升消防设备科技有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "任丘市泰华电力器材制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "硕方电子科技有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北创业玻璃钢电器设备有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北德润泽化工设备有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北海特克机电科技有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北华声乐器制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北金铁鼎力电气化铁路器材有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北金维新材料有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北联晶炭素新材料科技有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北龙甲冶金设备有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北万吉新材料科技有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "衡水衡通工程材料有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "林森轨道客车装备有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "柏乡县保捷新型建筑材料有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北安鑫专用汽车制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北炳辰工程材料有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北春耕机械制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北戴思装饰材料有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北汉高新材料科技有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北金石信远新材料科技有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北农临捷泰机械制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北时代电子有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北朔联新材料科技有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "华盛电力科技有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "耐普机械制造临城有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "邢台市华兴电器设备有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "邢台易成通风设备有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "焱森（河北）高科装备有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "中达（河北）轴承制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "法仕康电子科技（河北）有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "馆陶县凤明轴承制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "邯郸丰和新材料有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "邯郸峰驰精密制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "邯郸市澳嘉紧固件制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "邯郸市兴华数码安防有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "邯郸市永年区卫争紧固件制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "邯郸市中玖紧固件制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北八环轴承制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北诚帑微珠新材料有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北德龙紧固件制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北和赢电气有限责任公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北宏乾矿山支护装备有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北久金电力器材制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北量子智能科技有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北首发新材料科技有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北泰荣能源装备科技有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北天马轴承制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北万力高强度紧固件制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北万利特种车辆制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北亿森紧固件制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北运昌紧固件制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北中瑞汽车制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "天召名达门窗制造河北有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "武安市新晨耐火材料有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "中吉智能交通设施有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "定州之源汽车零部件制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北金帆伟业防水材料有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "安新县鑫丝路纺织品制造有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
+  },
+  {
+   "name": "河北乐成新材料科技有限公司",
+   "scope_hint": "官方名单：名单-河北专精特新",
+   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "bizline": "",
+   "keyword": "名单-河北专精特新",
+   "first_seen": "2026-08-30",
+   "source_tag": "名单-河北专精特新"
   }
  ]
 }
