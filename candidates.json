@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-30 10:50:18",
+ "generated_at": "2026-08-31 04:44:46",
  "source": "duckduckgo",
- "count": 396,
- "new_count": 132,
+ "count": 400,
+ "new_count": 111,
  "pages_used": 211,
  "candidates": [
   {
@@ -4982,183 +4982,563 @@
   },
   {
    "name": "沧州瑞盛管道制造有限公司",
-   "scope_hint": "官方名单：名单-河北专精特新",
-   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "scope_hint": "官方名单：名单-河北专精特新 来源：官方名单",
+   "source_url": "https://www.qcc.com/firm/16e5a6a60f968b56d0a043a57f3c509d.html",
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "官方名单 + 网络检索双源佐证"
+    },
+    "checked_at": "2026-08-31 04:44"
+   }
   },
   {
    "name": "沧州泰昌管道装备有限公司",
-   "scope_hint": "官方名单：名单-河北专精特新",
-   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "scope_hint": "官方名单：名单-河北专精特新 来源：官方名单",
+   "source_url": "http://www.taichangjituan.com/",
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "官方名单 + 网络检索双源佐证"
+    },
+    "checked_at": "2026-08-31 04:44"
+   }
   },
   {
    "name": "沧州新旺汽车散热器制造有限公司",
-   "scope_hint": "官方名单：名单-河北专精特新",
-   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "scope_hint": "官方名单：名单-河北专精特新 来源：官方名单",
+   "source_url": "https://china.cn-xw.com/index.html",
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "官方名单 + 网络检索双源佐证"
+    },
+    "checked_at": "2026-08-31 04:44"
+   }
   },
   {
    "name": "东光县亿鑫纸箱设备制造有限公司",
-   "scope_hint": "官方名单：名单-河北专精特新",
-   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "scope_hint": "官方名单：名单-河北专精特新 来源：官方名单",
+   "source_url": "http://cn.yxzxsb.cn/",
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "官方名单 + 网络检索双源佐证"
+    },
+    "checked_at": "2026-08-31 04:44"
+   }
   },
   {
    "name": "河北奥格流体设备有限公司",
-   "scope_hint": "官方名单：名单-河北专精特新",
-   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "scope_hint": "官方名单：名单-河北专精特新 来源：官方名单",
+   "source_url": "https://www.bjauge.com/index.php/about/index/sid/749.html",
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "官方名单 + 网络检索双源佐证"
+    },
+    "checked_at": "2026-08-31 04:44"
+   }
   },
   {
    "name": "河北德泰自动化包装设备有限公司",
-   "scope_hint": "官方名单：名单-河北专精特新",
-   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "scope_hint": "官方名单：名单-河北专精特新 来源：官方名单",
+   "source_url": "http://www.hebeidetai.cn/",
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "官方名单 + 网络检索双源佐证"
+    },
+    "checked_at": "2026-08-31 04:44"
+   }
   },
   {
    "name": "河北鼎峰电力科技有限公司",
-   "scope_hint": "官方名单：名单-河北专精特新",
-   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "scope_hint": "官方名单：名单-河北专精特新 来源：官方名单",
+   "source_url": "https://www.qcc.com/firm/7deec216dba363723898d6c5fd401361.html",
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "官方名单 + 网络检索双源佐证"
+    },
+    "checked_at": "2026-08-31 04:44"
+   }
   },
   {
    "name": "河北方泉管道装备有限公司",
-   "scope_hint": "官方名单：名单-河北专精特新",
-   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "scope_hint": "官方名单：名单-河北专精特新 来源：官方名单",
+   "source_url": "https://www.qcc.com/firm/0f19c39843d0cfe645d61371a765001e.html",
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "官方名单 + 网络检索双源佐证"
+    },
+    "checked_at": "2026-08-31 04:44"
+   }
   },
   {
    "name": "河北华盾管道制造有限公司",
-   "scope_hint": "官方名单：名单-河北专精特新",
-   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "scope_hint": "官方名单：名单-河北专精特新 来源：官方名单",
+   "source_url": "http://www.czhdgd.cn/",
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "官方名单 + 网络检索双源佐证"
+    },
+    "checked_at": "2026-08-31 04:44"
+   }
   },
   {
    "name": "河北龙锦管道装备有限公司",
-   "scope_hint": "官方名单：名单-河北专精特新",
-   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "scope_hint": "官方名单：名单-河北专精特新 来源：官方名单",
+   "source_url": "https://longjin8888.cn.made-in-china.com/",
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "官方名单 + 网络检索双源佐证"
+    },
+    "checked_at": "2026-08-31 04:44"
+   }
   },
   {
    "name": "河北鹏鑫管道装备集团有限公司",
-   "scope_hint": "官方名单：名单-河北专精特新",
-   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "scope_hint": "官方名单：名单-河北专精特新 来源：官方名单",
+   "source_url": "https://www.pengxin.net/",
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "官方名单 + 网络检索双源佐证"
+    },
+    "checked_at": "2026-08-31 04:44"
+   }
   },
   {
    "name": "河北省荣丰消毒设备有限公司",
-   "scope_hint": "官方名单：名单-河北专精特新",
-   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "scope_hint": "官方名单：名单-河北专精特新 来源：官方名单",
+   "source_url": "https://rongfeng.org.cn/",
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "官方名单 + 网络检索双源佐证"
+    },
+    "checked_at": "2026-08-31 04:44"
+   }
   },
   {
    "name": "河北天华电气科技有限公司",
-   "scope_hint": "官方名单：名单-河北专精特新",
-   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "scope_hint": "官方名单：名单-河北专精特新 来源：官方名单",
+   "source_url": "http://www.cnthdq.cn/",
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "官方名单 + 网络检索双源佐证"
+    },
+    "checked_at": "2026-08-31 04:44"
+   }
   },
   {
    "name": "河北亿健管道设备制造有限公司",
-   "scope_hint": "官方名单：名单-河北专精特新",
-   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "scope_hint": "官方名单：名单-河北专精特新 来源：官方名单",
+   "source_url": "http://hebeiyijiangd.com/",
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "官方名单 + 网络检索双源佐证"
+    },
+    "checked_at": "2026-08-31 04:44"
+   }
   },
   {
    "name": "河北中润轩机械设备有限公司",
-   "scope_hint": "官方名单：名单-河北专精特新",
-   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "scope_hint": "官方名单：名单-河北专精特新 来源：官方名单",
+   "source_url": "http://www.zhongrunxuan.com/",
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "官方名单 + 网络检索双源佐证"
+    },
+    "checked_at": "2026-08-31 04:44"
+   }
   },
   {
    "name": "河间市万洋线缆材料有限公司",
-   "scope_hint": "官方名单：名单-河北专精特新",
-   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "scope_hint": "官方名单：名单-河北专精特新 来源：官方名单",
+   "source_url": "http://www.wyxlcl.com/",
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "官方名单 + 网络检索双源佐证"
+    },
+    "checked_at": "2026-08-31 04:44"
+   }
   },
   {
    "name": "九东电气有限公司",
-   "scope_hint": "官方名单：名单-河北专精特新",
-   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "scope_hint": "官方名单：名单-河北专精特新 来源：官方名单",
+   "source_url": "https://www.qcc.com/firm/7e5e9ac5ea3035244186107d3f225e07.html",
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "官方名单 + 网络检索双源佐证"
+    },
+    "checked_at": "2026-08-31 04:44"
+   }
   },
   {
    "name": "任丘市恒威通信设备有限公司",
-   "scope_hint": "官方名单：名单-河北专精特新",
-   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "scope_hint": "官方名单：名单-河北专精特新 来源：官方名单",
+   "source_url": "https://www.qcc.com/firm/3d80f3c4f1ecaa6df8c678bf36bb2375.html",
    "bizline": "工业通信",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "官方名单 + 网络检索双源佐证"
+    },
+    "checked_at": "2026-08-31 04:44"
+   }
   },
   {
    "name": "任丘市金狮焊机制造有限公司",
-   "scope_hint": "官方名单：名单-河北专精特新",
-   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "scope_hint": "官方名单：名单-河北专精特新 来源：官方名单",
+   "source_url": "https://community.b-china.cn/exhibition/info/11843",
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "官方名单 + 网络检索双源佐证"
+    },
+    "checked_at": "2026-08-31 04:44"
+   }
   },
   {
    "name": "任丘市力洋压缩机制造有限公司",
-   "scope_hint": "官方名单：名单-河北专精特新",
-   "source_url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/tzgg83/2026050615473155184/2026050615464943539.doc",
+   "scope_hint": "官方名单：名单-河北专精特新 来源：官方名单",
+   "source_url": "https://www.qcc.com/firm/bbade52721896fb607ee875de1235d69.html",
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "官方名单 + 网络检索双源佐证"
+    },
+    "checked_at": "2026-08-31 04:44"
+   }
   },
   {
    "name": "任丘市龙正升消防设备科技有限公司",
@@ -5167,7 +5547,26 @@
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-31 04:44"
+   }
   },
   {
    "name": "任丘市泰华电力器材制造有限公司",
@@ -5176,7 +5575,26 @@
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-31 04:44"
+   }
   },
   {
    "name": "硕方电子科技有限公司",
@@ -5185,7 +5603,26 @@
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-31 04:44"
+   }
   },
   {
    "name": "河北创业玻璃钢电器设备有限公司",
@@ -5194,7 +5631,26 @@
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-31 04:44"
+   }
   },
   {
    "name": "河北德润泽化工设备有限公司",
@@ -5203,7 +5659,26 @@
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-31 04:44"
+   }
   },
   {
    "name": "河北海特克机电科技有限公司",
@@ -5212,7 +5687,26 @@
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-31 04:44"
+   }
   },
   {
    "name": "河北华声乐器制造有限公司",
@@ -5221,7 +5715,26 @@
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-31 04:44"
+   }
   },
   {
    "name": "河北金铁鼎力电气化铁路器材有限公司",
@@ -5230,7 +5743,26 @@
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-31 04:44"
+   }
   },
   {
    "name": "河北金维新材料有限公司",
@@ -5239,7 +5771,26 @@
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-31 04:44"
+   }
   },
   {
    "name": "河北联晶炭素新材料科技有限公司",
@@ -5248,7 +5799,26 @@
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-31 04:44"
+   }
   },
   {
    "name": "河北龙甲冶金设备有限公司",
@@ -5257,7 +5827,26 @@
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-31 04:44"
+   }
   },
   {
    "name": "河北万吉新材料科技有限公司",
@@ -5266,7 +5855,26 @@
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-31 04:44"
+   }
   },
   {
    "name": "衡水衡通工程材料有限公司",
@@ -5275,7 +5883,26 @@
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-31 04:44"
+   }
   },
   {
    "name": "林森轨道客车装备有限公司",
@@ -5284,7 +5911,26 @@
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-31 04:44"
+   }
   },
   {
    "name": "柏乡县保捷新型建筑材料有限公司",
@@ -5293,7 +5939,26 @@
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-31 04:44"
+   }
   },
   {
    "name": "河北安鑫专用汽车制造有限公司",
@@ -5302,7 +5967,26 @@
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-31 04:44"
+   }
   },
   {
    "name": "河北炳辰工程材料有限公司",
@@ -5311,7 +5995,26 @@
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-31 04:44"
+   }
   },
   {
    "name": "河北春耕机械制造有限公司",
@@ -5320,7 +6023,26 @@
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-31 04:44"
+   }
   },
   {
    "name": "河北戴思装饰材料有限公司",
@@ -5329,7 +6051,26 @@
    "bizline": "",
    "keyword": "名单-河北专精特新",
    "first_seen": "2026-08-30",
-   "source_tag": "名单-河北专精特新"
+   "source_tag": "名单-河北专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-31 04:44"
+   }
   },
   {
    "name": "河北汉高新材料科技有限公司",
@@ -9562,6 +10303,118 @@
      "reason": "搜索/名录来源 + 公司页面双源佐证"
     },
     "checked_at": "2026-08-30 10:50"
+   }
+  },
+  {
+   "name": "河北鑫端科技有限公司",
+   "scope_hint": "简介：河北鑫端科技有限公司，成立于2018-04-07，法定代表人为闫芳，注册地位于河北省石家庄市桥西区开泰街20号留营华苑45-2-201，经营范围包括计算机软硬件、照明设备、电子产品、环保设备、光伏发电设备的技术研发、技术咨询、技术转让及销售；膜结构工程、照明工程、电力工程、通讯工程 ...",
+   "source_url": "https://www.tianyancha.com/company/3173589927",
+   "bizline": "服务器/信创整机",
+   "keyword": "工商-天眼查",
+   "first_seen": "2026-08-31",
+   "source_tag": "工商-天眼查",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-31 04:43"
+   }
+  },
+  {
+   "name": "天津展望互联网络安全系统技术开发有限公司",
+   "scope_hint": "天津展望互联网络安全系统技术开发有限公司 注册于2002年12月，前身为天津展望计算机研究所（注册于1995年10月），位于天津市南开区鞍山西道时代公寓B座502室，年营业额达600万元人民币。",
+   "source_url": "https://www.11467.com/qiye/27931304.htm",
+   "bizline": "服务器/信创整机",
+   "keyword": "黄页-顺企",
+   "first_seen": "2026-08-31",
+   "source_tag": "黄页-顺企",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-31 04:43"
+   }
+  },
+  {
+   "name": "天津红桥软硬件设计电路板ODM大批量焊接工厂",
+   "scope_hint": "北京锐志伟业科技有限公司专注于电路板焊接、软硬件开发，SMT贴片加工、高密电路板焊接、 电子产品组装调试老化、元器件销售、BGA焊接及返修等。 主要承接加工各种电路板焊接加工，样板焊接，钢网制作，产品组装调试等。",
+   "source_url": "https://blog.11467.com/b8605504.htm",
+   "bizline": "网络安全",
+   "keyword": "黄页-顺企",
+   "first_seen": "2026-08-31",
+   "source_tag": "黄页-顺企",
+   "verify": {
+    "b": {
+     "pass": false,
+     "reason": "名称缺少法定全称后缀（有限公司/集团等），疑似不完整"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-08-31 04:43"
+   }
+  },
+  {
+   "name": "铵泰克（北京）科技有限公司",
+   "scope_hint": "铵泰克（北京）科技有限公司，成立于2003年，是国家级高新技术企业和北京市\"专精特新\"企业，总部位于北京，在深圳设有负责研发的全资子公司，在河北、南通设有工厂，在杭州、济南、成都、南京等地设分支服务网点。 公司秉承\"创新、协作、包容、共享\"的理念致力成为研发创新型网络安全 ...",
+   "source_url": "http://www.anntec.cn/",
+   "bizline": "网络安全",
+   "keyword": "通用",
+   "first_seen": "2026-08-31",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-08-31 04:43"
    }
   }
  ]
