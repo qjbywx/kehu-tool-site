@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-09-29 05:05:21",
+ "generated_at": "2026-09-30 04:52:00",
  "source": "duckduckgo",
- "count": 53,
- "new_count": 38,
- "pages_used": 92,
+ "count": 52,
+ "new_count": 3,
+ "pages_used": 57,
  "candidates": [
   {
    "name": "北京金品高端科技有限公司",
@@ -300,118 +300,6 @@
      "reason": "官网信息不足，双源佐证不充分"
     },
     "checked_at": "2026-08-30 17:06"
-   }
-  },
-  {
-   "name": "河北鑫端科技有限公司",
-   "scope_hint": "简介：河北鑫端科技有限公司，成立于2018-04-07，法定代表人为闫芳，注册地位于河北省石家庄市桥西区开泰街20号留营华苑45-2-201，经营范围包括计算机软硬件、照明设备、电子产品、环保设备、光伏发电设备的技术研发、技术咨询、技术转让及销售；膜结构工程、照明工程、电力工程、通讯工程 ...",
-   "source_url": "https://www.tianyancha.com/company/3173589927",
-   "bizline": "服务器/信创整机",
-   "keyword": "工商-天眼查",
-   "first_seen": "2026-08-31",
-   "source_tag": "工商-天眼查",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "公开页面未检索到注销/吊销信息"
-    },
-    "d": {
-     "pass": false,
-     "reason": "公司页面无法访问，双源佐证不足"
-    },
-    "checked_at": "2026-08-31 04:43"
-   }
-  },
-  {
-   "name": "天津展望互联网络安全系统技术开发有限公司",
-   "scope_hint": "天津展望互联网络安全系统技术开发有限公司 注册于2002年12月，前身为天津展望计算机研究所（注册于1995年10月），位于天津市南开区鞍山西道时代公寓B座502室，年营业额达600万元人民币。",
-   "source_url": "https://www.11467.com/qiye/27931304.htm",
-   "bizline": "服务器/信创整机",
-   "keyword": "黄页-顺企",
-   "first_seen": "2026-08-31",
-   "source_tag": "黄页-顺企",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "公开页面未检索到注销/吊销信息"
-    },
-    "d": {
-     "pass": false,
-     "reason": "公司页面无法访问，双源佐证不足"
-    },
-    "checked_at": "2026-08-31 04:43"
-   }
-  },
-  {
-   "name": "天津红桥软硬件设计电路板ODM大批量焊接工厂",
-   "scope_hint": "北京锐志伟业科技有限公司专注于电路板焊接、软硬件开发，SMT贴片加工、高密电路板焊接、 电子产品组装调试老化、元器件销售、BGA焊接及返修等。 主要承接加工各种电路板焊接加工，样板焊接，钢网制作，产品组装调试等。",
-   "source_url": "https://blog.11467.com/b8605504.htm",
-   "bizline": "网络安全",
-   "keyword": "黄页-顺企",
-   "first_seen": "2026-08-31",
-   "source_tag": "黄页-顺企",
-   "verify": {
-    "b": {
-     "pass": false,
-     "reason": "名称缺少法定全称后缀（有限公司/集团等），疑似不完整"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "公开页面未检索到注销/吊销信息"
-    },
-    "d": {
-     "pass": false,
-     "reason": "公司页面无法访问，双源佐证不足"
-    },
-    "checked_at": "2026-08-31 04:43"
-   }
-  },
-  {
-   "name": "铵泰克（北京）科技有限公司",
-   "scope_hint": "铵泰克（北京）科技有限公司，成立于2003年，是国家级高新技术企业和北京市\"专精特新\"企业，总部位于北京，在深圳设有负责研发的全资子公司，在河北、南通设有工厂，在杭州、济南、成都、南京等地设分支服务网点。 公司秉承\"创新、协作、包容、共享\"的理念致力成为研发创新型网络安全 ...",
-   "source_url": "http://www.anntec.cn/",
-   "bizline": "网络安全",
-   "keyword": "通用",
-   "first_seen": "2026-08-31",
-   "source_tag": "通用",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "搜索/名录来源 + 公司页面双源佐证"
-    },
-    "checked_at": "2026-08-31 04:43"
    }
   },
   {
@@ -1476,6 +1364,90 @@
      "reason": "来源页面可访问，双源佐证"
     },
     "checked_at": "2026-09-29 05:05"
+   }
+  },
+  {
+   "name": "「河北三聚元钢结构工程有限公司",
+   "scope_hint": "BOSS直聘为求职者提供2026年河北三聚元钢结构工程有限公司招聘信息，更有河北三聚元钢结构工程有限公司的品牌信息（河北三聚元）、公司简介、公司地址、产品介绍、公司环境、CEO高管资料以及在线的BOSS们，河北三聚元钢结构工程有限公司正在线直聘9职位，找工作就登录BOSS直聘网站或APP，直接 ...",
+   "source_url": "https://www.zhipin.com/companys/fab667c542e1769303Vy2tW1EVo~.html",
+   "bizline": "",
+   "keyword": "招聘-BOSS",
+   "first_seen": "2026-09-30",
+   "source_tag": "招聘-BOSS",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-09-30 04:52"
+   }
+  },
+  {
+   "name": "「河北恒维钢结构工程有限公司",
+   "scope_hint": "BOSS直聘为求职者提供2026年河北恒维钢结构工程有限公司招聘，更有河北恒维钢结构工程有限公司的公司简介、公司地址、产品介绍、公司环境、CEO高管资料以及在线的BOSS们，河北恒维钢结构工程有限公司相似直聘职位共8条，找工作就登录BOSS直聘网站或APP，直接与Boss开聊吧!",
+   "source_url": "https://www.zhipin.com/gongsis/15784b234382e464i3V42di4FFBZyw~~.html",
+   "bizline": "",
+   "keyword": "招聘-BOSS",
+   "first_seen": "2026-09-30",
+   "source_tag": "招聘-BOSS",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-09-30 04:52"
+   }
+  },
+  {
+   "name": "河北云海钢结构有限公司",
+   "scope_hint": "BOSS直聘为求职者提供2026年河北云海钢结构有限公司招聘，更有河北云海钢结构有限公司的公司简介、公司地址、产品介绍、公司环境、CEO高管资料以及在线的BOSS们，河北云海钢结构有限公司相似直聘职位共8条，找工作就登录BOSS直聘网站或APP，直接与Boss开聊吧!",
+   "source_url": "https://www.zhipin.com/gongsis/26d4859b278d78aei3V42dS-F1RSwA~~.html",
+   "bizline": "数据中心",
+   "keyword": "招聘-BOSS",
+   "first_seen": "2026-09-30",
+   "source_tag": "招聘-BOSS",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-09-30 04:52"
    }
   }
  ]
