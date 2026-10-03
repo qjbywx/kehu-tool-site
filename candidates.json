@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-02 04:54:44",
+ "generated_at": "2026-10-03 04:37:20",
  "source": "duckduckgo",
- "count": 67,
- "new_count": 9,
- "pages_used": 64,
+ "count": 68,
+ "new_count": 1,
+ "pages_used": 55,
  "candidates": [
   {
    "name": "北京金品高端科技有限公司",
@@ -1868,6 +1868,34 @@
      "reason": "搜索/名录来源 + 公司页面双源佐证"
     },
     "checked_at": "2026-10-02 04:54"
+   }
+  },
+  {
+   "name": "天津有哪些知名信创公司",
+   "scope_hint": "天津信创上市公司有XD三六零、长荣股份、恒银科技、中科曙光、海光信息、凯发电气等7家。以下是概念查询工具为您整理的天津信创上市公司的详细介绍。 1、三六零（601360） 公司下属360安全集团独家中标天津信创安全产业集群服务项目。 近30日股价上涨3.01%，",
+   "source_url": "http://www.southmoney.com/chengshi/202510/60581972.html",
+   "bizline": "服务器/信创整机",
+   "keyword": "通用",
+   "first_seen": "2026-10-03",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": false,
+     "reason": "名称缺少法定全称后缀（有限公司/集团等），疑似不完整"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-10-03 04:37"
    }
   }
  ]
