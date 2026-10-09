@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-08 05:22:31",
+ "generated_at": "2026-10-09 05:25:54",
  "source": "duckduckgo",
- "count": 300,
- "new_count": 5,
- "pages_used": 59,
+ "count": 307,
+ "new_count": 7,
+ "pages_used": 61,
  "candidates": [
   {
    "name": "北京金品高端科技有限公司",
@@ -8392,6 +8392,202 @@
      "reason": "搜索/名录来源 + 公司页面双源佐证"
     },
     "checked_at": "2026-10-08 05:22"
+   }
+  },
+  {
+   "name": "福升威尔（河北）智能控制技术有限公司",
+   "scope_hint": "福升威尔（河北）智能控制技术有限公司是无风扇工业计算机，嵌入式工业计算机，工业平板电脑的 生产制造厂家，竭诚为您提供全新 的工控机WIPC-7110双网多串口1U上架式，福升威尔WIPC-8281DP 上架式无风扇工控机，WIPC-7261 无风扇工控机 2U上架式等系列产品。",
+   "source_url": "https://fswe-hb2024.cn.made-in-china.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-10-09",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-10-09 05:25"
+   }
+  },
+  {
+   "name": "河北）智能控制技术有限公司",
+   "scope_hint": "福升威尔（河北）智能控制技术有限公司是无风扇工业计算机，嵌入式工业计算机，工业平板电脑的 生产制造厂家，竭诚为您提供全新 的工控机WIPC-7110双网多串口1U上架式，福升威尔WIPC-8281DP 上架式无风扇工控机，WIPC-7261 无风扇工控机 2U上架式等系列产品。",
+   "source_url": "https://fswe-hb2024.cn.made-in-china.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "B2B-中国制造网-摘要",
+   "first_seen": "2026-10-09",
+   "source_tag": "B2B-中国制造网-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-10-09 05:25"
+   }
+  },
+  {
+   "name": "河北蓝盈科技有限公司",
+   "scope_hint": "镍基合金网编织机 数控全自动丝网织机 公司介绍 公司简介 河北蓝盈科技有限公司自创建建以来，二十多年来我们一直致力于金属丝网编织机的生产和研发。 我们生产的SG100、SG130、SG160、SG180四个系列的金属丝网编织机，覆盖了从轻薄织... （查看详情）",
+   "source_url": "https://lanyingtech.cn.made-in-china.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-10-09",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-10-09 05:25"
+   }
+  },
+  {
+   "name": "河北伊特机械设备制造有限公司",
+   "scope_hint": "伊特成立于2002年，主要从事工业自动化生产设备行业及舞台设备行业。经过多年的努力，公司发展成国内的机械设备制造企业，拥有独立的专业设计院，已获得多项及荣誉。致力于机械设备及控制系统的研究和开发，... （查看详情）",
+   "source_url": "https://yanzhaoxin.cn.made-in-china.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-10-09",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-10-09 05:25"
+   }
+  },
+  {
+   "name": "河北艾乐工控有限公司",
+   "scope_hint": "河北艾乐工控有限公司是布袋除尘器配件，低压成套设备设计，电磁脉冲阀的 生产制造厂家，竭诚为您提供全新 的直角式脉冲阀DMF-Z-高原阀袋式除尘器配件，涤纶除尘布袋 收尘布袋滤袋 涤纶针刺毡常温布袋，ASCO型直角式电磁脉冲阀型号齐全支持定制等系列产品。",
+   "source_url": "https://hbalgk141913.cn.made-in-china.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-10-09",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-10-09 05:25"
+   }
+  },
+  {
+   "name": "河北省地龙物联科技发展有限公司",
+   "scope_hint": "河北省地龙物联科技发展有限公司,位于河北省石家庄市鹿泉市上庄镇大车行村西兴南街18号,是一家专注于载货和仓储、托盘、货架、搬运车、仓储笼、堆高车、工具车、周转箱、护角、叉车及配件行业、主要提供智能自动化立体仓库、智能自动化分拣线、货架 ...",
+   "source_url": "https://dilong123.cn.made-in-china.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-10-09",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-10-09 05:25"
+   }
+  },
+  {
+   "name": "科能腾达全资子公司",
+   "scope_hint": "近日，北京科能腾达信息技术股份有限公司全资子公司北京简网科技有限公司成功入围中国石油化工股份有限公司信息和数字化管理部的中国石化工控系统边界安全加固建设项目。该项目旨在加强各生产平台工业防火墙设备的应用，以提升石化系统的安全性和稳定性。北京简网科技有限公司以其卓越 ...",
+   "source_url": "https://news.tianyancha.com/ll_43o1d8h1dq.html",
+   "bizline": "网络安全",
+   "keyword": "工商-天眼查",
+   "first_seen": "2026-10-09",
+   "source_tag": "工商-天眼查",
+   "verify": {
+    "b": {
+     "pass": false,
+     "reason": "名称缺少法定全称后缀（有限公司/集团等），疑似不完整"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": false,
+     "reason": "页面出现注销/吊销/停业等字样"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-10-09 05:25"
    }
   }
  ]
