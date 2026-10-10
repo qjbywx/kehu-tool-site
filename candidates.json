@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-09 05:25:54",
+ "generated_at": "2026-10-10 05:09:35",
  "source": "duckduckgo",
- "count": 307,
- "new_count": 7,
- "pages_used": 61,
+ "count": 308,
+ "new_count": 1,
+ "pages_used": 56,
  "candidates": [
   {
    "name": "北京金品高端科技有限公司",
@@ -8588,6 +8588,34 @@
      "reason": "来源页面可访问，双源佐证"
     },
     "checked_at": "2026-10-09 05:25"
+   }
+  },
+  {
+   "name": "河北源头工厂",
+   "scope_hint": "河北工厂网 HEBEI INDUSTRY 中国制造 · 河北出品。 河北源头工厂名录：按产品、产业集群与区县检索，直接联系工厂洽谈批量采购与长期合作。 免费开放 · 不卖排名 · 不做付费认证 · 只转达，不撮合、不抽成 浏览 产业地图 找工厂 采购对接 企业入驻 产业集群 ...",
+   "source_url": "https://hebeigongchang.cn/",
+   "bizline": "服务器/信创整机",
+   "keyword": "通用",
+   "first_seen": "2026-10-10",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": false,
+     "reason": "名称缺少法定全称后缀（有限公司/集团等），疑似不完整"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-10-10 05:09"
    }
   }
  ]
