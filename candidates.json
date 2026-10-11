@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-10 05:09:35",
+ "generated_at": "2026-10-11 04:59:23",
  "source": "duckduckgo",
- "count": 308,
- "new_count": 1,
- "pages_used": 56,
+ "count": 316,
+ "new_count": 8,
+ "pages_used": 62,
  "candidates": [
   {
    "name": "北京金品高端科技有限公司",
@@ -8616,6 +8616,230 @@
      "reason": "搜索/名录来源 + 公司页面双源佐证"
     },
     "checked_at": "2026-10-10 05:09"
+   }
+  },
+  {
+   "name": "多串口主板生产厂",
+   "scope_hint": "青岛三棱触摸式变频控制柜生产厂家 天津天仪伯纳德执行器技术有限公司 身份认证 查看更多公司信息 > 主营产品： 电动执行器 电动执行器配件 电动执行器模块 经营模式： 贸易批发 供应产品： 50 条 公司地址： 中国天津市西青区华鼎智地",
+   "source_url": "https://cn.made-in-china.com/search/huntb3nolimit-%E5%A4%9A%E4%B8%B2%E5%8F%A3%E4%B8%BB%E6%9D%BF-1.html",
+   "bizline": "服务器/信创整机",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-10-11",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": false,
+     "reason": "名称缺少法定全称后缀（有限公司/集团等），疑似不完整"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "页面可访问，未见注销/吊销字样"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-10-11 04:59"
+   }
+  },
+  {
+   "name": "天津市景元机电有限公司",
+   "scope_hint": "天津市景元机电有限公司,位于天津市天津市津南区双港镇发港南路28号-1,是一家专注于机械五金加工、通用零部件、摩托车配件和附件、其它汽摩配件和附件、乘用车、驱动系统、转向系统、汽车零件行业、主要提供电子元器件制造、汽车零部件及配件制造、金属切削加工、医疗器械生产产品的生产 ...",
+   "source_url": "https://sizhijian.cn.made-in-china.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-10-11",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-10-11 04:59"
+   }
+  },
+  {
+   "name": "天津康帝德科技有限公司",
+   "scope_hint": "天津康帝德科技有限公司是超声波发生器，超声波电源，IO模块PLC拓展模块的 生产制造厂家，竭诚为您提供全新 的康帝德大功率超声波发生器超声波清洗机电源电箱，康帝德超声波发生器40khz超声波电源稳定输出，康帝德多功能超声波发生器超声波电源28khz大功率等系列产品。",
+   "source_url": "https://kangdide.cn.made-in-china.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-10-11",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-10-11 04:59"
+   }
+  },
+  {
+   "name": "天津金卓尔电气设备有限公司",
+   "scope_hint": "天津金卓尔电气设备有限公司是配电箱，配电柜，变压器的 生产制造厂家，竭诚为您提供全新 的配电柜-金卓尔-天津-GGD，多功能仪表，GGD低压配电柜-天津金卓尔等系列产品。",
+   "source_url": "https://jinzhuoerdq.cn.made-in-china.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-10-11",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-10-11 04:59"
+   }
+  },
+  {
+   "name": "天津瑞卡特航空设备有限公司",
+   "scope_hint": "天津瑞卡特航空设备有限公司是28v直流电源，7-HK-182蓄电池，115v静变电源的专业生产厂家和供应商。采购28v直流电源，7-HK-182蓄电池，115v静变电源相关产品请联系天津瑞卡特航空设备有限公司。",
+   "source_url": "https://jiadawei.cn.made-in-china.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-10-11",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-10-11 04:59"
+   }
+  },
+  {
+   "name": "天津鑫方盛电子商务有限公司",
+   "scope_hint": "公司介绍 鑫方盛数智科技股份有限公司创始于1989年，是国内的集数字化平台打造、工业品全品类销售以及国际贸易于一体的一站式工业品服务平台。 集团拥有海内外100多家分公司（总部设在北京），年营收超百亿元。",
+   "source_url": "https://tjxfsdzswyxgs.cn.made-in-china.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-10-11",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-10-11 04:59"
+   }
+  },
+  {
+   "name": "欧陆技术 (天津)有限公司",
+   "scope_hint": "欧陆技术 (天津)有限公司,位于天津市天津市西青区梓苑路13号鑫茂光纤园2号楼6层,是一家专注于调速器行业、主要提供直流调速器、直流调速器配件产品的生产制造型企业。欢迎各界朋友莅临参观、指导和业务洽谈。",
+   "source_url": "https://oulujinchuan.cn.made-in-china.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-10-11",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-10-11 04:59"
+   }
+  },
+  {
+   "name": "河北军通电子装备科技有限公司",
+   "scope_hint": "(73)专利权人 河北军通电子装备科技有限公司地址 050000 河北省石家庄市高新区湘江道319 号天山科技工业园6-1-502",
+   "source_url": "https://patent-image.qichacha.com/pdf/bc6ab7dbaf11ca51c9a7eaf0b6119d39.pdf",
+   "bizline": "网络安全",
+   "keyword": "工商-企查查-摘要",
+   "first_seen": "2026-10-11",
+   "source_tag": "工商-企查查-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-10-11 04:59"
    }
   }
  ]
