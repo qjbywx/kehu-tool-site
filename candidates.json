@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-11 04:59:23",
+ "generated_at": "2026-10-12 05:13:41",
  "source": "duckduckgo",
- "count": 316,
- "new_count": 8,
- "pages_used": 62,
+ "count": 319,
+ "new_count": 3,
+ "pages_used": 57,
  "candidates": [
   {
    "name": "北京金品高端科技有限公司",
@@ -8840,6 +8840,90 @@
      "reason": "来源页面可访问，双源佐证"
     },
     "checked_at": "2026-10-11 04:59"
+   }
+  },
+  {
+   "name": "中土大地国际建筑设计有限公司",
+   "scope_hint": "公司介绍 中土大地国际建筑设计有限公司成立于1997年，隶为中土建设发展集团（河北）有限公司控股子公司之一，自1997年成立以来，中土大地始终秉承\"务实 创新 敬业 报国\"的核心价值观，经过二十余年的砥砺前行，公司现已发展成为一家集勘察、设计、施工、监理、咨询和研发为一体的高科技 ...",
+   "source_url": "https://m.zhaopin.com/company/CZ434156910.htm",
+   "bizline": "",
+   "keyword": "招聘-智联",
+   "first_seen": "2026-10-12",
+   "source_tag": "招聘-智联",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": false,
+     "reason": "页面出现注销/吊销/停业等字样"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-10-12 05:13"
+   }
+  },
+  {
+   "name": "河北科工建设集团",
+   "scope_hint": "河北科工建设集团有限公司安装分公司成立于1996-05-15，P是赵兵，经营范围包含市政公用工程、钢结构工程、机电工程、消防设施工程、隧道工程、石油化工工程、管道和设备安装、园林绿化工程、管道工程、防水防腐保温工程、城市道路与照明工程、电力工程、水利水电工程设计与施工；五金产品 ...",
+   "source_url": "https://m.zhaopin.com/company/9113WROJ0NHC053O4B.htm",
+   "bizline": "",
+   "keyword": "招聘-智联",
+   "first_seen": "2026-10-12",
+   "source_tag": "招聘-智联",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": false,
+     "reason": "页面出现注销/吊销/停业等字样"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-10-12 05:13"
+   }
+  },
+  {
+   "name": "中建钢构天津有限公司",
+   "scope_hint": "中建钢构天津有限公司是中建科工征战北方地区钢结构建筑市场的核心力量，始终坚持研发、设计、制造、安装、检测于一体的全产业链商业模式，拥有强大的钢结构制造能力和钢结构项目履约能力。",
+   "source_url": "https://special.zhaopin.com/2020/sh/zjgg073058/company.html",
+   "bizline": "网络安全",
+   "keyword": "招聘-智联",
+   "first_seen": "2026-10-12",
+   "source_tag": "招聘-智联",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-10-12 05:13"
    }
   }
  ]
