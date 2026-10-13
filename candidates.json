@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-12 05:13:41",
+ "generated_at": "2026-10-13 06:13:06",
  "source": "duckduckgo",
- "count": 319,
- "new_count": 3,
- "pages_used": 57,
+ "count": 324,
+ "new_count": 5,
+ "pages_used": 59,
  "candidates": [
   {
    "name": "北京金品高端科技有限公司",
@@ -8924,6 +8924,146 @@
      "reason": "搜索/名录来源 + 公司页面双源佐证"
     },
     "checked_at": "2026-10-12 05:13"
+   }
+  },
+  {
+   "name": "河北oem公司",
+   "scope_hint": "河北OEM公司有哪些？河北OEM公司排行榜：中信戴卡、仁合益康集团有限公司、欧伏电气、唐山梦牌瓷业有限公司、汉旗电子科技（固安）有限公司、百斯图工具制造有限公司、河北光德流体控制有限公司、默勒科技汽车部件（廊坊）有限公司、科森电器、河北向阳电子集团有限公司等。榜单覆盖代 ...",
+   "source_url": "https://www.jobui.com/rank/company/view/hebei/oem/",
+   "bizline": "服务器/信创整机",
+   "keyword": "OEM",
+   "first_seen": "2026-10-13",
+   "source_tag": "OEM",
+   "verify": {
+    "b": {
+     "pass": false,
+     "reason": "名称缺少法定全称后缀（有限公司/集团等），疑似不完整"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "页面可访问，未见注销/吊销字样"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-10-13 06:13"
+   }
+  },
+  {
+   "name": "河北向阳电子集团有限公司",
+   "scope_hint": "河北OEM公司有哪些？河北OEM公司排行榜：中信戴卡、仁合益康集团有限公司、欧伏电气、唐山梦牌瓷业有限公司、汉旗电子科技（固安）有限公司、百斯图工具制造有限公司、河北光德流体控制有限公司、默勒科技汽车部件（廊坊）有限公司、科森电器、河北向阳电子集团有限公司等。榜单覆盖代 ...",
+   "source_url": "https://www.jobui.com/rank/company/view/hebei/oem/",
+   "bizline": "服务器/信创整机",
+   "keyword": "OEM-摘要",
+   "first_seen": "2026-10-13",
+   "source_tag": "OEM-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "页面可访问，未见注销/吊销字样"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-10-13 06:13"
+   }
+  },
+  {
+   "name": "河北odm公司",
+   "scope_hint": "河北ODM公司有哪些？河北ODM公司名录：欧伏电气、百斯图工具制造有限公司、唐山梦牌瓷业有限公司、北京可亚鑫德食品有限公司邯郸分公司、中船重工双威智能装备有限公司、河北德科诺家居科技集团有限公司、远东梧集科技（河北）有限公司、三河市坤方电子技术有限公司、河北合纵电子技术 ...",
+   "source_url": "https://www.jobui.com/rank/company/view/hebei/odm/",
+   "bizline": "服务器/信创整机",
+   "keyword": "OEM",
+   "first_seen": "2026-10-13",
+   "source_tag": "OEM",
+   "verify": {
+    "b": {
+     "pass": false,
+     "reason": "名称缺少法定全称后缀（有限公司/集团等），疑似不完整"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "页面可访问，未见注销/吊销字样"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-10-13 06:13"
+   }
+  },
+  {
+   "name": "河北融芯智造科技有限公司",
+   "scope_hint": "河北融芯智造科技有限公司 融芯智造致力于产品品质可靠性的提升，集智能系统和自动化设备、科学管理为一体。实现产品品质的可保障性、可追溯性、交期时效可控性为目的。 主要承接新老客户 SMT 焊接，OEM 加工，PCBA 代工，精细 SMT 贴片加工，高精密电路板焊接，BGA 焊接与维修，电子产品组装 ...",
+   "source_url": "http://rongxinzhizao.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "OEM",
+   "first_seen": "2026-10-13",
+   "source_tag": "OEM",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-10-13 06:13"
+   }
+  },
+  {
+   "name": "河北锦星电子科技有限公司",
+   "scope_hint": "关于我们 ABOUT US 河北锦星电子科技有限公司是一家电子元器件服务商，总部位于河北，致力于为全球的ODM,OEM,EMS,IDH，以及各大科研单位和院校提供全面优质的电子元器件供应链解决方案。",
+   "source_url": "http://goodstarcn.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "OEM",
+   "first_seen": "2026-10-13",
+   "source_tag": "OEM",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-10-13 06:13"
    }
   }
  ]
