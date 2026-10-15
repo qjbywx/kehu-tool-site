@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-14 04:15:39",
+ "generated_at": "2026-10-15 03:58:33",
  "source": "duckduckgo",
- "count": 326,
+ "count": 328,
  "new_count": 2,
  "pages_used": 56,
  "candidates": [
@@ -9120,6 +9120,62 @@
      "reason": "公司页面无法访问，双源佐证不足"
     },
     "checked_at": "2026-10-14 04:15"
+   }
+  },
+  {
+   "name": "石家庄数英仪器有限公司",
+   "scope_hint": "首页>> 企业招聘信息 6000-8000元 硬件研发工程师 石家庄数英仪器有限公司 发布时间：2025-10-08 浏览量：10132 工作地域： 河北省 职位类别： 工程技术人员 学历要求： 本科 招聘人数： 2",
+   "source_url": "https://career.hebut.edu.cn/home/correcruit/content/id/60013.html",
+   "bizline": "",
+   "keyword": "招聘-通用",
+   "first_seen": "2026-10-15",
+   "source_tag": "招聘-通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-10-15 03:58"
+   }
+  },
+  {
+   "name": "河北半导体研究所（中国电子科技集团",
+   "scope_hint": "[河北]河北半导体研究所（中国电子科技集团公司第十三研究所） 2026招聘研发设计 2026-08-31 [河北]保定飞凌嵌入式技术有限公司 外贸销售工程师 2026-08-31 [石家庄]苏州苏纳光电股份有限公司 芯片工艺技术员 (J10664) 2026-08-31",
+   "source_url": "https://www.yingjiesheng.com/job-005-828-953.html",
+   "bizline": "工业通信",
+   "keyword": "招聘-通用-摘要",
+   "first_seen": "2026-10-15",
+   "source_tag": "招聘-通用-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-10-15 03:58"
    }
   }
  ]
