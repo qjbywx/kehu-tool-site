@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-20 04:12:59",
+ "generated_at": "2026-10-21 04:01:10",
  "source": "duckduckgo",
- "count": 358,
- "new_count": 3,
- "pages_used": 57,
+ "count": 360,
+ "new_count": 2,
+ "pages_used": 56,
  "candidates": [
   {
    "name": "北京金品高端科技有限公司",
@@ -10016,6 +10016,62 @@
      "reason": "搜索/名录来源 + 公司页面双源佐证"
     },
     "checked_at": "2026-10-20 04:12"
+   }
+  },
+  {
+   "name": "天津创亿联合机械设备有限公司",
+   "scope_hint": "公司介绍 天津创亿联合机械设备有限公司,位于天津市天津市津南区北闸口工业园,是一家专注于螺柱焊机、切割设备、激光焊机、切割机、折弯设备行业、主要提供手持激光焊、激光切管机、去毛刺倒角一体机、3D打印机产品的生产制造型企业。",
+   "source_url": "https://frederick-luo.cn.made-in-china.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-10-21",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-10-21 04:01"
+   }
+  },
+  {
+   "name": "天津天信机械制造有限公司",
+   "scope_hint": "天津天信机械制造有限公司是泵，机械密封，搅拌器的 生产制造厂家，竭诚为您提供全新 的天信58U轴封机械密封 耐用橡胶O型 ...",
+   "source_url": "https://20218030320lxy.cn.made-in-china.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-10-21",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-10-21 04:01"
    }
   }
  ]
