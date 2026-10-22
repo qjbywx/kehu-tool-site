@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-21 04:01:10",
+ "generated_at": "2026-10-22 04:01:33",
  "source": "duckduckgo",
- "count": 360,
- "new_count": 2,
- "pages_used": 56,
+ "count": 368,
+ "new_count": 8,
+ "pages_used": 62,
  "candidates": [
   {
    "name": "北京金品高端科技有限公司",
@@ -10072,6 +10072,230 @@
      "reason": "搜索/名录来源 + 公司页面双源佐证"
     },
     "checked_at": "2026-10-21 04:01"
+   }
+  },
+  {
+   "name": "锐翔工控 (天津)自动化机械设备有限公司",
+   "scope_hint": "锐翔工控（天津）自动化机械设备有限公司主要致力于手机、汽车 、 电子及机械等行业各种非标的自动化设备、测试设备、工装夹具等的开发、生产、安装和调试；从事各类大型生产线的设计加工；承接各类生产线和大型自动化设备的安装与调试服务。锐翔工控（天津）自动化机械设备有限公司 ...",
+   "source_url": "http://www.tjrealfly.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "通用",
+   "first_seen": "2026-10-22",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-10-22 04:01"
+   }
+  },
+  {
+   "name": "天津）自动化机械设备有限公司",
+   "scope_hint": "锐翔工控（天津）自动化机械设备有限公司主要致力于手机、汽车 、 电子及机械等行业各种非标的自动化设备、测试设备、工装夹具等的开发、生产、安装和调试；从事各类大型生产线的设计加工；承接各类生产线和大型自动化设备的安装与调试服务。锐翔工控（天津）自动化机械设备有限公司 ...",
+   "source_url": "http://www.tjrealfly.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "通用-摘要",
+   "first_seen": "2026-10-22",
+   "source_tag": "通用-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-10-22 04:01"
+   }
+  },
+  {
+   "name": "天津工控机公司",
+   "scope_hint": "找到 5 条天津工控机公司名单，名录按近一年人气排序，都是真实用户浏览，公司达到一定热度才能上榜，榜单每天更新，天津工控机公司头部企业：天锻、德航（天津）智能科技有限公司、天津开发区通为科技有限公司、首汇科技（天津）有限公司、博创惠胜（天津）科技有限责任公司等。榜单 ...",
+   "source_url": "https://www.jobui.com/rank/company/view/tianjin/gongkongji/",
+   "bizline": "服务器/信创整机",
+   "keyword": "通用",
+   "first_seen": "2026-10-22",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": false,
+     "reason": "名称缺少法定全称后缀（有限公司/集团等），疑似不完整"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-10-22 04:01"
+   }
+  },
+  {
+   "name": "天津）智能科技有限公司",
+   "scope_hint": "找到 5 条天津工控机公司名单，名录按近一年人气排序，都是真实用户浏览，公司达到一定热度才能上榜，榜单每天更新，天津工控机公司头部企业：天锻、德航（天津）智能科技有限公司、天津开发区通为科技有限公司、首汇科技（天津）有限公司、博创惠胜（天津）科技有限责任公司等。榜单 ...",
+   "source_url": "https://www.jobui.com/rank/company/view/tianjin/gongkongji/",
+   "bizline": "服务器/信创整机",
+   "keyword": "通用-摘要",
+   "first_seen": "2026-10-22",
+   "source_tag": "通用-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-10-22 04:01"
+   }
+  },
+  {
+   "name": "天津英拓计算机控制技术有限公司",
+   "scope_hint": "Company Introduction 天津英拓公司经过十二年的艰苦创业,在天津工控机和工业自动化市场上的地位和知名度有了很大提高,已经成为天津市工控机市场销售规模最大,知名度最高,经营历史最悠久.集代理销售,系统集成,技术开发和服务为一体的工控著名专业化厂商。",
+   "source_url": "https://www.advantech.com.cn/zh-cn/partners/channel/480",
+   "bizline": "服务器/信创整机",
+   "keyword": "通用",
+   "first_seen": "2026-10-22",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-10-22 04:01"
+   }
+  },
+  {
+   "name": "北京凯胜电子科技有限公司",
+   "scope_hint": "北京凯胜电子科技有限公司是PCBA加工，SMT贴片，电路板焊接的 生产制造厂家，竭诚为您提供全新 的SMT贴片焊接-BGA焊接-PCBA代工代料，北京SMT贴片-专业smt焊接-电路板焊接-OEM加工，小批量电路板焊接组装-小批量LED组装-凯胜电子等系列产品。",
+   "source_url": "https://kaishengdianzi.cn.made-in-china.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-10-22",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-10-22 04:01"
+   }
+  },
+  {
+   "name": "北京博科嘉诚科技有限公司",
+   "scope_hint": "北京博科嘉诚科技有限公司是Profibus网关，Profinet网关，modbus网关的专业生产厂家和供应商。采购Profibus网关，Profinet网关，modbus网关相关产品请联系北京博科嘉诚科技有限公司。",
+   "source_url": "https://zhixian330.cn.made-in-china.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-10-22",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-10-22 04:01"
+   }
+  },
+  {
+   "name": "北京瑞源弘德科技有限公司",
+   "scope_hint": "公司介绍 北京瑞源弘德科技有限公司,位于北京市北京市大兴区北京经济技术开发区荣昌东街隆盛大厦B座10层,是一家专注于输变电设备、专用仪器仪表、电源和配电设备行业、主要提供便携X光机、探伤机、智能机器人、X光光源产品的生产制造型企业。",
+   "source_url": "https://ihongde.cn.made-in-china.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-10-22",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-10-22 04:01"
    }
   }
  ]
