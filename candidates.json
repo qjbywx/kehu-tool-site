@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-22 04:01:33",
+ "generated_at": "2026-10-23 04:04:53",
  "source": "duckduckgo",
- "count": 368,
- "new_count": 8,
- "pages_used": 62,
+ "count": 377,
+ "new_count": 9,
+ "pages_used": 63,
  "candidates": [
   {
    "name": "北京金品高端科技有限公司",
@@ -10296,6 +10296,258 @@
      "reason": "搜索/名录来源 + 公司页面双源佐证"
     },
     "checked_at": "2026-10-22 04:01"
+   }
+  },
+  {
+   "name": "石家庄市博大工控有限公司",
+   "scope_hint": "石家庄市博大工控有限公司是河北省高新技术企业，成立于1992年，厂房面积1000多平米。 公司集科研、生产、销售为一体,现有员工128人，拥有一批电力系统自动化领域的专家和技术骨干。 公司被国家经贸委列入《 全国城乡电网建设与改造所需主要设备产品及生产企业推荐目录 》,并且通过了ISO9001 ...",
+   "source_url": "http://sjzbdgk.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "通用",
+   "first_seen": "2026-10-23",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-10-23 04:04"
+   }
+  },
+  {
+   "name": "河北计发电力设备有限公司",
+   "scope_hint": "百度爱采购依托平台大数据，经评测选出2026年河北工控系统及装备十大厂家排行榜，工控系统及装备厂家前十名分别是：石家庄德兰电气设备有限公司、河北计发电力设备有限公司、保定华智电气有限公司、保定屹成电气科技有限公司、保定奥兰电气科技有限责任公司、邯郸市永年区河北铺鼎硕 ...",
+   "source_url": "https://b2bdata.baidu.com/rank/hebei/electrical-engineeringelectronics/industrial-control-systemsequipment?fid=402653184",
+   "bizline": "服务器/信创整机",
+   "keyword": "通用-摘要",
+   "first_seen": "2026-10-23",
+   "source_tag": "通用-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-10-23 04:04"
+   }
+  },
+  {
+   "name": "2026年河北工控系统及装备十大厂",
+   "scope_hint": "依托平台大数据，经评测选出2026年河北工控系统及装备十大厂家排行榜，工控系统及装备厂家前十名分别是：石家庄德兰电气设备有限公司、邯郸市永年区河北铺鼎硕自动化设备制造厂、保定奥兰电气科技有限责任公司、保定华智电气有限公司、沧州龙泰电器设备有限公司、保定屹成电气科技有限 ...",
+   "source_url": "https://b2bdata.aipage.com/rank/hebei/electrical-engineeringelectronics/industrial-control-systemsequipment",
+   "bizline": "服务器/信创整机",
+   "keyword": "通用",
+   "first_seen": "2026-10-23",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": false,
+     "reason": "名称缺少法定全称后缀（有限公司/集团等），疑似不完整"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-10-23 04:04"
+   }
+  },
+  {
+   "name": "河北铺鼎硕自动化设备制造厂",
+   "scope_hint": "依托平台大数据，经评测选出2026年河北工控系统及装备十大厂家排行榜，工控系统及装备厂家前十名分别是：石家庄德兰电气设备有限公司、邯郸市永年区河北铺鼎硕自动化设备制造厂、保定奥兰电气科技有限责任公司、保定华智电气有限公司、沧州龙泰电器设备有限公司、保定屹成电气科技有限 ...",
+   "source_url": "https://b2bdata.aipage.com/rank/hebei/electrical-engineeringelectronics/industrial-control-systemsequipment",
+   "bizline": "服务器/信创整机",
+   "keyword": "通用-摘要",
+   "first_seen": "2026-10-23",
+   "source_tag": "通用-摘要",
+   "verify": {
+    "b": {
+     "pass": false,
+     "reason": "名称缺少法定全称后缀（有限公司/集团等），疑似不完整"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-10-23 04:04"
+   }
+  },
+  {
+   "name": "天津市天寅机电有限公司",
+   "scope_hint": "顺企网天津印刷设备厂家大全列表，包括天津松上智造高新科技有限公司、天津市天寅机电有限公司科技开发分公司、天津沃弗泰克科技有限公司、天津振辉印刷设备有限公司等在内的128家天津印刷设备厂家的地址电话法人代表和联系电话等信息。2页，当前显示第1页结果，按照产品多少和注册时间 ...",
+   "source_url": "https://www.11467.com/tianjin/search/4073.htm",
+   "bizline": "网络安全",
+   "keyword": "黄页-顺企-摘要",
+   "first_seen": "2026-10-23",
+   "source_tag": "黄页-顺企-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-10-23 04:04"
+   }
+  },
+  {
+   "name": "天津振辉印刷设备有限公司",
+   "scope_hint": "顺企网天津印刷设备厂家大全列表，包括天津松上智造高新科技有限公司、天津市天寅机电有限公司科技开发分公司、天津沃弗泰克科技有限公司、天津振辉印刷设备有限公司等在内的128家天津印刷设备厂家的地址电话法人代表和联系电话等信息。2页，当前显示第1页结果，按照产品多少和注册时间 ...",
+   "source_url": "https://www.11467.com/tianjin/search/4073.htm",
+   "bizline": "网络安全",
+   "keyword": "黄页-顺企-摘要",
+   "first_seen": "2026-10-23",
+   "source_tag": "黄页-顺企-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-10-23 04:04"
+   }
+  },
+  {
+   "name": "天津博方自动化工程有限公司",
+   "scope_hint": "相关产品 德州输送机厂家生产输送机，食品输送机，链板输送机，非标定制 皮带输送机装车用输送机六九大豆输送机砖头传送带输送机 输送机大型输送机工农业输送机 带式输送机-管带输送机-管状输送机 喷码输送机药品输送机妆用输送带皮带输送机 不锈钢输送机A承重大重型不锈钢输送机A不锈钢 ...",
+   "source_url": "https://tianjin0162700.11467.com/",
+   "bizline": "网络安全",
+   "keyword": "黄页-顺企",
+   "first_seen": "2026-10-23",
+   "source_tag": "黄页-顺企",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-10-23 04:04"
+   }
+  },
+  {
+   "name": "天津非标定制工厂",
+   "scope_hint": "报价 请来电询价 品牌 星律自动化 功能 机器视觉，分选，测试 产地 天津 关键词 天津机器视觉检测,天津芯片分选机,天津非标定制,芯片自动化设备,天津非标定制,天津星律自动化， 所在地 天津市滨海高新区华苑产业区（环外）海泰发展二路12号3幢107 手机 16602600560 微信号 16602600560 邮箱 16602600560@163 ...",
+   "source_url": "https://product.11467.com/info/19705395.htm",
+   "bizline": "网络安全",
+   "keyword": "黄页-顺企",
+   "first_seen": "2026-10-23",
+   "source_tag": "黄页-顺企",
+   "verify": {
+    "b": {
+     "pass": false,
+     "reason": "名称缺少法定全称后缀（有限公司/集团等），疑似不完整"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-10-23 04:04"
+   }
+  },
+  {
+   "name": "天津凯德实业有限公司",
+   "scope_hint": "天津凯德实业有限公司位于天津，主要经营集成制氮机、CNG天然气压缩机、空气压缩机、LNG撬装式液化装置、天然气增压机、煤层气压缩机。欢迎了解企业介绍、产品信息和联系方式。",
+   "source_url": "https://tianjin0195856.11467.com/",
+   "bizline": "网络安全",
+   "keyword": "黄页-顺企",
+   "first_seen": "2026-10-23",
+   "source_tag": "黄页-顺企",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-10-23 04:04"
    }
   }
  ]
