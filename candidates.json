@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-24 03:59:12",
+ "generated_at": "2026-10-25 03:58:41",
  "source": "duckduckgo",
- "count": 384,
+ "count": 391,
  "new_count": 7,
  "pages_used": 61,
  "candidates": [
@@ -10744,6 +10744,202 @@
      "reason": "搜索/名录来源 + 公司页面双源佐证"
     },
     "checked_at": "2026-10-24 03:59"
+   }
+  },
+  {
+   "name": "河北铭坤水工机械有限公司",
+   "scope_hint": "河北铭坤水工机械有限公司 经营模式：生产制造 所在地区： 河北省 衡水市 认证信息： 工商注册信息 手机访问展示厅 锅炉风机采用变频控制的优点与报价 价格合理YCT90-4B单向 0.37KW 气动不锈钢对夹式蝶阀快开切断阀卫生级耐腐蚀单向阀门",
+   "source_url": "https://cn.made-in-china.com/gongying/mk18732873755-PezJcjLGYRDB.html",
+   "bizline": "网络安全",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-10-25",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "页面可访问，未见注销/吊销字样"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-10-25 03:58"
+   }
+  },
+  {
+   "name": "河北鸿宇通信器材有限公司",
+   "scope_hint": "现货供应400铁拓稳定土厂拌叶片配件 叶片易损件 加工定制低铁玻璃超白玻璃 诚信档案 河北鸿宇通信器材有限公司 经营模式：生产制造 所在地区：河北省 沧州市 认证信息： 身份认证",
+   "source_url": "https://hbhy9001.cn.made-in-china.com/",
+   "bizline": "网络安全",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-10-25",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-10-25 03:58"
+   }
+  },
+  {
+   "name": "河北亿保机械有限公司",
+   "scope_hint": "河北亿保机械有限公司是阀门，管件及配件，闸阀的 生产制造厂家，竭诚为您提供全新 的法兰软密封暗杆闸阀消防阀，适配器广范围法兰接头，HC41消声止回阀消音单向阀等系列产品。",
+   "source_url": "https://yibao123.cn.made-in-china.com/",
+   "bizline": "网络安全",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-10-25",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-10-25 03:58"
+   }
+  },
+  {
+   "name": "河北铭泰电力设备有限公司",
+   "scope_hint": "河北铭泰电力设备有限公司是全自动防洪闸，防汛挡水板，伸缩围栏的 生产制造厂家，竭诚为您提供全新 的防洪挡水板伸缩式可移动挡水板，全自动防洪闸水动力防淹板液压翻板式防洪门，智能型自动液压防洪闸门防洪闸生产厂家地址电话等系列产品。",
+   "source_url": "https://18531123111d.cn.made-in-china.com/",
+   "bizline": "网络安全",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-10-25",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-10-25 03:58"
+   }
+  },
+  {
+   "name": "河北德迈传动机械有限公司",
+   "scope_hint": "河北德迈传动机械有限公司是升降机，换向器，减速机的 生产制造厂家，竭诚为您提供全新 的HD系列转向箱，T系列螺旋锥齿轮换向器，DMDT系列电动推杆等系列产品。",
+   "source_url": "https://demai123.cn.made-in-china.com/",
+   "bizline": "网络安全",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-10-25",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-10-25 03:58"
+   }
+  },
+  {
+   "name": "腾翔电缆桥架 (河北)有限公司",
+   "scope_hint": "腾翔电缆桥架 (河北)有限公司,位于河北省衡水市安平县东黄城镇大同新村村北 置业13号,是一家专注于桥架、线缆配件、其它电工电气行业、主要提供网格桥架、u型钢走线架、铝合金走线架、光纤槽道产品的生产制造型企业。欢迎各界朋友莅临参观、指导和业务洽谈。",
+   "source_url": "https://txfyld.cn.made-in-china.com/",
+   "bizline": "网络安全",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-10-25",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-10-25 03:58"
+   }
+  },
+  {
+   "name": "河北捷开电气设备有限公司",
+   "scope_hint": "箱变厂家说光伏升压箱变 1000Var箱变 国网充电桩箱变YBP-630KVA定制 诚信档案 河北捷开电气设备有限公司 经营模式：生产制造 所在地区：河北省 沧州市 认证信息： 身份认证",
+   "source_url": "https://jk18519393938.cn.made-in-china.com/",
+   "bizline": "网络安全",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-10-25",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-10-25 03:58"
    }
   }
  ]
