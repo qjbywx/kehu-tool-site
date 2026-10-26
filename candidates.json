@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-25 03:58:41",
+ "generated_at": "2026-10-26 04:03:03",
  "source": "duckduckgo",
- "count": 391,
- "new_count": 7,
- "pages_used": 61,
+ "count": 396,
+ "new_count": 5,
+ "pages_used": 59,
  "candidates": [
   {
    "name": "北京金品高端科技有限公司",
@@ -10940,6 +10940,146 @@
      "reason": "搜索/名录来源 + 公司页面双源佐证"
     },
     "checked_at": "2026-10-25 03:58"
+   }
+  },
+  {
+   "name": "天津科器高新仪器设备有限公司",
+   "scope_hint": "简介： 天津科器高新仪器设备有限公司，成立于2021年，位于天津市，是一家以从事农业为主的企业。企业注册资本68万人民币。通过天眼查大数据分析，天津科器高新仪器设备有限公司拥有行政许可1个。 收起",
+   "source_url": "https://www.tianyancha.com/company/5133959633",
+   "bizline": "服务器/信创整机",
+   "keyword": "工商-天眼查",
+   "first_seen": "2026-10-26",
+   "source_tag": "工商-天眼查",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-10-26 04:03"
+   }
+  },
+  {
+   "name": "北京铁牛智能科技有限公司",
+   "scope_hint": "欢迎前来供应商网 (https://www.gys.cn)了解北京铁牛智能科技有限公司发布的单向隔离网闸--公安三所认证（数据库、PLC、61850、MQTT、OPC等协议转换）价格、厂家信息，产品和服务质量好，性价比高，为您节省采购成本!进网站查看卖家电话。",
+   "source_url": "https://www.gys.cn/jierushebei/5008991312.html",
+   "bizline": "工业通信",
+   "keyword": "通用-摘要",
+   "first_seen": "2026-10-26",
+   "source_tag": "通用-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-10-26 04:03"
+   }
+  },
+  {
+   "name": "北京爱德佳创科技有限公司",
+   "scope_hint": "系统采用专用隔离设备分隔内端主机系统和外端主机系统，与传统意义上的网闸*大的不同的是内网内置一个庞大的南向协议库，可对各种协议灵活适配，内外网主机采用非IP层的私有通信协议进行传输，让支持传统网络结构的所有协议均失效，从原理上实现切断所有的TCP连接，包括 UDP、ICMP 等其他 ...",
+   "source_url": "https://www.idejc.net/product/detail-4366309.html",
+   "bizline": "网络安全",
+   "keyword": "通用",
+   "first_seen": "2026-10-26",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-10-26 04:03"
+   }
+  },
+  {
+   "name": "北京联信永成科技有限公司",
+   "scope_hint": "北京联信永成科技有限公司，是遵循现代企业机制，专注于网络安全产品，隔离网闸，双向网闸，单向光闸，单向导入系统，能耗企业端设备。利谱，中铁.奇安信 南瑞 360 网神 网康等产品的销售。公司拥有较强的技术实力，凭借在IT行业多年成功的经验，以及在华东华北地区积极开拓的广阔市场,等 ...",
+   "source_url": "http://www.lxsucc.cn/",
+   "bizline": "网络安全",
+   "keyword": "通用",
+   "first_seen": "2026-10-26",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-10-26 04:03"
+   }
+  },
+  {
+   "name": "「北京燕邦科技有限公司",
+   "scope_hint": "二、技术架构与核心能力分析 2.1 物理隔离机制 单向隔离网闸的核心在于通过专用硬件实现内外网之间的物理断开，采用光单向传输或电子开关切换方式，确保数据仅能从低安全域向高安全域单向流动。",
+   "source_url": "https://www.yrdart.com/shangxun/brand-29401/",
+   "bizline": "网络安全",
+   "keyword": "通用",
+   "first_seen": "2026-10-26",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-10-26 04:03"
    }
   }
  ]
