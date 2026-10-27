@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-26 04:03:03",
+ "generated_at": "2026-10-27 04:24:52",
  "source": "duckduckgo",
- "count": 396,
- "new_count": 5,
- "pages_used": 59,
+ "count": 400,
+ "new_count": 6,
+ "pages_used": 60,
  "candidates": [
   {
    "name": "北京金品高端科技有限公司",
@@ -11080,6 +11080,118 @@
      "reason": "搜索/名录来源 + 公司页面双源佐证"
     },
     "checked_at": "2026-10-26 04:03"
+   }
+  },
+  {
+   "name": "天津吉诺科技有限公司",
+   "scope_hint": "天津吉诺工业智能科技有限公司 （总部） 地址：天津西青经济技术开发区赛达十支路9号 天津吉诺科技有限公司（静海厂区） 地址：天津静海经济开发区南区科技大道 电话：022-68277295/96/97/98 邮箱：sales@geneuo.com 官方公众号 视频号",
+   "source_url": "https://www.gsee-tech.cn/product/list-436.html",
+   "bizline": "工业通信",
+   "keyword": "通用",
+   "first_seen": "2026-10-27",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-10-27 04:23"
+   }
+  },
+  {
+   "name": "天津吉诺工业智能科技有限公司",
+   "scope_hint": "天津吉诺工业智能科技有限公司 （总部） 地址：天津西青经济技术开发区赛达十支路9号 天津吉诺科技有限公司（静海厂区） 地址：天津静海经济开发区南区科技大道 电话：022-68277295/96/97/98 邮箱：sales@geneuo.com 官方公众号 视频号",
+   "source_url": "https://www.gsee-tech.cn/product/list-436.html",
+   "bizline": "工业通信",
+   "keyword": "通用-摘要",
+   "first_seen": "2026-10-27",
+   "source_tag": "通用-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-10-27 04:23"
+   }
+  },
+  {
+   "name": "天津恒通通讯有限公司",
+   "scope_hint": "天津恒通通讯有限公司 公司简介 恒通通讯成立于2008年，主营业务为通信设备开发及销售、维修；货物及技术进出口；通信工程技术咨询、服务等。 公司致力于移动通信、工业局域网通信设备的研发和生产，产品覆盖通信电源、交换机、信号端口板卡等相关领域，并参与建设移动基站、工厂数据 ...",
+   "source_url": "https://www.tjhttx.net/?about/",
+   "bizline": "工业通信",
+   "keyword": "通用",
+   "first_seen": "2026-10-27",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-10-27 04:24"
+   }
+  },
+  {
+   "name": "天津市双士达电子通讯设备有限公司",
+   "scope_hint": "天津市双士达电子通讯设备有限公司成立于1997年，伴随着中国信息技术的飞跃发展勃然而出!由15位IT界骨干组成的双士达公司注册于天津南开区，属信息技术领域的高科技企业，充满朝气、充满活力。经过20年的沉淀，公司积累了众多优化的整体通讯方案，培养了一批出色的工程师。 天津市双士达 ...",
+   "source_url": "http://www.tjssd.com/",
+   "bizline": "工业通信",
+   "keyword": "通用",
+   "first_seen": "2026-10-27",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-10-27 04:23"
    }
   }
  ]
