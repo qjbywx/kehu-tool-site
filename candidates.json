@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-29 05:04:26",
+ "generated_at": "2026-10-30 05:04:05",
  "source": "duckduckgo",
- "count": 399,
- "new_count": 37,
- "pages_used": 91,
+ "count": 398,
+ "new_count": 2,
+ "pages_used": 56,
  "candidates": [
   {
    "name": "北京金品高端科技有限公司",
@@ -300,90 +300,6 @@
      "reason": "官网信息不足，双源佐证不充分"
     },
     "checked_at": "2026-08-30 17:06"
-   }
-  },
-  {
-   "name": "「河北三聚元钢结构工程有限公司",
-   "scope_hint": "BOSS直聘为求职者提供2026年河北三聚元钢结构工程有限公司招聘信息，更有河北三聚元钢结构工程有限公司的品牌信息（河北三聚元）、公司简介、公司地址、产品介绍、公司环境、CEO高管资料以及在线的BOSS们，河北三聚元钢结构工程有限公司正在线直聘9职位，找工作就登录BOSS直聘网站或APP，直接 ...",
-   "source_url": "https://www.zhipin.com/companys/fab667c542e1769303Vy2tW1EVo~.html",
-   "bizline": "",
-   "keyword": "招聘-BOSS",
-   "first_seen": "2026-09-30",
-   "source_tag": "招聘-BOSS",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "来源页面可访问，双源佐证"
-    },
-    "checked_at": "2026-09-30 04:52"
-   }
-  },
-  {
-   "name": "「河北恒维钢结构工程有限公司",
-   "scope_hint": "BOSS直聘为求职者提供2026年河北恒维钢结构工程有限公司招聘，更有河北恒维钢结构工程有限公司的公司简介、公司地址、产品介绍、公司环境、CEO高管资料以及在线的BOSS们，河北恒维钢结构工程有限公司相似直聘职位共8条，找工作就登录BOSS直聘网站或APP，直接与Boss开聊吧!",
-   "source_url": "https://www.zhipin.com/gongsis/15784b234382e464i3V42di4FFBZyw~~.html",
-   "bizline": "",
-   "keyword": "招聘-BOSS",
-   "first_seen": "2026-09-30",
-   "source_tag": "招聘-BOSS",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "来源页面可访问，双源佐证"
-    },
-    "checked_at": "2026-09-30 04:52"
-   }
-  },
-  {
-   "name": "河北云海钢结构有限公司",
-   "scope_hint": "BOSS直聘为求职者提供2026年河北云海钢结构有限公司招聘，更有河北云海钢结构有限公司的公司简介、公司地址、产品介绍、公司环境、CEO高管资料以及在线的BOSS们，河北云海钢结构有限公司相似直聘职位共8条，找工作就登录BOSS直聘网站或APP，直接与Boss开聊吧!",
-   "source_url": "https://www.zhipin.com/gongsis/26d4859b278d78aei3V42dS-F1RSwA~~.html",
-   "bizline": "数据中心",
-   "keyword": "招聘-BOSS",
-   "first_seen": "2026-09-30",
-   "source_tag": "招聘-BOSS",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "来源页面可访问，双源佐证"
-    },
-    "checked_at": "2026-09-30 04:52"
    }
   },
   {
@@ -11164,6 +11080,62 @@
      "reason": "来源页面可访问，双源佐证"
     },
     "checked_at": "2026-10-29 05:04"
+   }
+  },
+  {
+   "name": "河北三石电力设备有限公司",
+   "scope_hint": "嵌入式硬件招聘信息 智联招聘为您推荐15个嵌入式硬件2026年最新相关招聘信息，包含嵌入式硬件工程师、高级嵌入式硬件开发工程师、嵌入式开发助理等热门岗位，保定巴迪智能科技有限公司、河北三石电力设备有限公司、保定天威宝乾电力设备有限公司等优质企业，提供具备市场竞争力的薪酬 ...",
+   "source_url": "https://m.zhaopin.com/baoding/qianrushiyingjian/",
+   "bizline": "工业通信",
+   "keyword": "招聘-智联-摘要",
+   "first_seen": "2026-10-30",
+   "source_tag": "招聘-智联-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-10-30 05:04"
+   }
+  },
+  {
+   "name": "河北圣昊光电科技有限公司",
+   "scope_hint": "嵌入式软件开发工程师 7000-10000元 石家庄·裕华·宋营 3-5年 本科 河北圣昊光电科技有限公司 其它 300-499人 半导体/芯片 胡媛媛·人力资源部经理 高回复率 立即沟通",
+   "source_url": "https://www.zhaopin.com/sou/jl532/kwBL652PAV1U7MUJNMBNINK2QU10/p5",
+   "bizline": "工业通信",
+   "keyword": "招聘-智联-摘要",
+   "first_seen": "2026-10-30",
+   "source_tag": "招聘-智联-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": false,
+     "reason": "页面出现注销/吊销/停业等字样"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-10-30 05:04"
    }
   }
  ]
