@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-01 05:15:25",
+ "generated_at": "2026-11-02 05:15:20",
  "source": "duckduckgo",
- "count": 388,
- "new_count": 4,
- "pages_used": 58,
+ "count": 396,
+ "new_count": 9,
+ "pages_used": 63,
  "candidates": [
   {
    "name": "北京金品高端科技有限公司",
@@ -300,34 +300,6 @@
      "reason": "官网信息不足，双源佐证不充分"
     },
     "checked_at": "2026-08-30 17:06"
-   }
-  },
-  {
-   "name": "天津有哪些知名信创公司",
-   "scope_hint": "天津信创上市公司有XD三六零、长荣股份、恒银科技、中科曙光、海光信息、凯发电气等7家。以下是概念查询工具为您整理的天津信创上市公司的详细介绍。 1、三六零（601360） 公司下属360安全集团独家中标天津信创安全产业集群服务项目。 近30日股价上涨3.01%，",
-   "source_url": "http://www.southmoney.com/chengshi/202510/60581972.html",
-   "bizline": "服务器/信创整机",
-   "keyword": "通用",
-   "first_seen": "2026-10-03",
-   "source_tag": "通用",
-   "verify": {
-    "b": {
-     "pass": false,
-     "reason": "名称缺少法定全称后缀（有限公司/集团等），疑似不完整"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "搜索/名录来源 + 公司页面双源佐证"
-    },
-    "checked_at": "2026-10-03 04:37"
    }
   },
   {
@@ -10856,6 +10828,258 @@
      "reason": "公司页面无法访问，双源佐证不足"
     },
     "checked_at": "2026-11-01 05:15"
+   }
+  },
+  {
+   "name": "河北批发、货源、厂",
+   "scope_hint": "中国制造网为您找到 3474 条 河北 供应商和生产厂家，以及 河北 厂家的主营产品、经营模式、公司联系方式等详细信息。 您也可以借助相关 栏目寻找。 防水套管厂家 冷却塔厂家 玻璃钢厂家 等更多相关公司信息",
+   "source_url": "https://cn.made-in-china.com/SnamdwvTaxIz-gongsi-1.html",
+   "bizline": "网络安全",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-11-02",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": false,
+     "reason": "名称缺少法定全称后缀（有限公司/集团等），疑似不完整"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "页面可访问，未见注销/吊销字样"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-11-02 05:15"
+   }
+  },
+  {
+   "name": "河北犇顶工业科技有限公司",
+   "scope_hint": "河北犇顶工业科技有限公司,位于河北省衡水市安平县河北省衡水市安平县高新技术产业开发区纬二路 21 号,是一家专注于车间设备、金属丝和网、护栏、安全网行业、主要提供车间隔离网、机器人围栏、电缆桥架产品的生产制造型企业。欢迎各界朋友莅临参观、指导和业务洽谈。",
+   "source_url": "https://bdfence.cn.made-in-china.com/",
+   "bizline": "网络安全",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-11-02",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-11-02 05:15"
+   }
+  },
+  {
+   "name": "河北华卓金属丝网制品有限公司",
+   "scope_hint": "河北华卓金属丝网制品有限公司是不锈钢丝网，编织网，铜网的 生产制造厂家，竭诚为您提供全新 的锡青铜网平纹编织网屏蔽网，主动边坡防护网钢丝绳绞索网，不锈钢丝网国标304编织网等系列产品。",
+   "source_url": "https://huazhuosiw.cn.made-in-china.com/",
+   "bizline": "网络安全",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-11-02",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-11-02 05:15"
+   }
+  },
+  {
+   "name": "河北骏顺丝网制品有限公司",
+   "scope_hint": "被动型环形网 环形防护网 被动防护网厂家 公司介绍 河北骏顺丝网制品有限公司位于中国丝网生产基地——河北省安平县，地理位置好，距离首都北京200公里，东临天津新港，西邻省会石家庄，交通条件极其便利。",
+   "source_url": "https://junshunsiwang.cn.made-in-china.com/",
+   "bizline": "网络安全",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-11-02",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-11-02 05:15"
+   }
+  },
+  {
+   "name": "河北启烁电气科技有限公司",
+   "scope_hint": "河北启烁电气科技有限公司是智能站用交直流一体化电源系统，GZDW系列直流电源屏，UPS不间断电源的 生产制造厂家，竭诚为您提供全新 的UPS柜、电力UPS屏、电力UPS电源系统，UPS不间断电源、UPS日常维护、UPS维修，通信机房电源系统、-48V电源柜、-48V电源系统等系列产品。",
+   "source_url": "https://dpk13323109178.cn.made-in-china.com/",
+   "bizline": "数据中心",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-11-02",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-11-02 05:15"
+   }
+  },
+  {
+   "name": "安平县普发丝网制品有限公司",
+   "scope_hint": "安平县普发丝网制品有限公司是电焊网，抹墙网，热镀锌电焊网的 生产制造厂家，竭诚为您提供全新 的河北厂家内外墙铁丝网小丝抹墙网工地抹灰网，供应济宁建筑批荡网假山造型电焊网外墙保温网粉墙网等系列产品。",
+   "source_url": "https://pufasiwang01.cn.made-in-china.com/",
+   "bizline": "网络安全",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-11-02",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-11-02 05:15"
+   }
+  },
+  {
+   "name": "河北欧科丝网设备有限公司",
+   "scope_hint": "河北欧科丝网设备有限公司是约翰逊网焊接设备，绕丝管焊接设备，筛网焊接机的 生产制造厂家，竭诚为您提供全新 的石油基管直绕式筛管焊机，直绕型绕丝筛管设备，直绕式绕丝筛管设备，直绕型筛管机，欧科V1000型筛网机，绕丝筛管焊机等系列产品。",
+   "source_url": "https://hbouker.cn.made-in-china.com/",
+   "bizline": "网络安全",
+   "keyword": "B2B-中国制造网",
+   "first_seen": "2026-11-02",
+   "source_tag": "B2B-中国制造网",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-11-02 05:15"
+   }
+  },
+  {
+   "name": "北京中新创通信技术有限公司",
+   "scope_hint": "北京中新创通信技术有限公司位于北京，主要经营智能PDU、串口服务器、数据采集器、modbus网关、时间服务器。欢迎了解企业介绍、产品信息和联系方式。",
+   "source_url": "https://beijing0409515.11467.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "黄页-顺企",
+   "first_seen": "2026-11-02",
+   "source_tag": "黄页-顺企",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-11-02 05:15"
+   }
+  },
+  {
+   "name": "龙冠中基 (北京)网络信息技术有限公司",
+   "scope_hint": "龙冠中基(北京)网络信息技术有限公司位于北京，主要经营SDH/SMTP、PCM复用设备、PDH光端机、协议转换器、视频光端机。欢迎 ...",
+   "source_url": "https://beijing027698.11467.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "黄页-顺企",
+   "first_seen": "2026-11-02",
+   "source_tag": "黄页-顺企",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-11-02 05:15"
    }
   }
  ]
