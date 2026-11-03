@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-02 05:15:20",
+ "generated_at": "2026-11-03 05:58:57",
  "source": "duckduckgo",
- "count": 396,
- "new_count": 9,
- "pages_used": 63,
+ "count": 399,
+ "new_count": 3,
+ "pages_used": 57,
  "candidates": [
   {
    "name": "北京金品高端科技有限公司",
@@ -11080,6 +11080,90 @@
      "reason": "公司页面无法访问，双源佐证不足"
     },
     "checked_at": "2026-11-02 05:15"
+   }
+  },
+  {
+   "name": "河北服务器公司",
+   "scope_hint": "找到 11 条河北服务器公司名单，名录按近一年人气排序，都是真实用户浏览，公司达到一定热度才能上榜，榜单每天更新，河北服务器公司头部企业：保定华智电气、河北省电子认证有限公司、石家庄和嘉科技有限公司、河北海德网络科技有限公司、启辰科技、河北源梦达电子科技有限公司、河北 ...",
+   "source_url": "https://www.jobui.com/rank/company/view/hebei/fuwuqi/",
+   "bizline": "服务器/信创整机",
+   "keyword": "通用",
+   "first_seen": "2026-11-03",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": false,
+     "reason": "名称缺少法定全称后缀（有限公司/集团等），疑似不完整"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-11-03 05:58"
+   }
+  },
+  {
+   "name": "河北省电子认证有限公司",
+   "scope_hint": "找到 11 条河北服务器公司名单，名录按近一年人气排序，都是真实用户浏览，公司达到一定热度才能上榜，榜单每天更新，河北服务器公司头部企业：保定华智电气、河北省电子认证有限公司、石家庄和嘉科技有限公司、河北海德网络科技有限公司、启辰科技、河北源梦达电子科技有限公司、河北 ...",
+   "source_url": "https://www.jobui.com/rank/company/view/hebei/fuwuqi/",
+   "bizline": "服务器/信创整机",
+   "keyword": "通用-摘要",
+   "first_seen": "2026-11-03",
+   "source_tag": "通用-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-11-03 05:58"
+   }
+  },
+  {
+   "name": "河北源梦达电子科技有限公司",
+   "scope_hint": "找到 11 条河北服务器公司名单，名录按近一年人气排序，都是真实用户浏览，公司达到一定热度才能上榜，榜单每天更新，河北服务器公司头部企业：保定华智电气、河北省电子认证有限公司、石家庄和嘉科技有限公司、河北海德网络科技有限公司、启辰科技、河北源梦达电子科技有限公司、河北 ...",
+   "source_url": "https://www.jobui.com/rank/company/view/hebei/fuwuqi/",
+   "bizline": "服务器/信创整机",
+   "keyword": "通用-摘要",
+   "first_seen": "2026-11-03",
+   "source_tag": "通用-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-11-03 05:58"
    }
   }
  ]
