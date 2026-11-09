@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-08 05:19:54",
+ "generated_at": "2026-11-09 05:31:55",
  "source": "duckduckgo",
- "count": 177,
- "new_count": 0,
- "pages_used": 52,
+ "count": 182,
+ "new_count": 6,
+ "pages_used": 59,
  "candidates": [
   {
    "name": "北京金品高端科技有限公司",
@@ -300,34 +300,6 @@
      "reason": "官网信息不足，双源佐证不充分"
     },
     "checked_at": "2026-08-30 17:06"
-   }
-  },
-  {
-   "name": "河北源头工厂",
-   "scope_hint": "河北工厂网 HEBEI INDUSTRY 中国制造 · 河北出品。 河北源头工厂名录：按产品、产业集群与区县检索，直接联系工厂洽谈批量采购与长期合作。 免费开放 · 不卖排名 · 不做付费认证 · 只转达，不撮合、不抽成 浏览 产业地图 找工厂 采购对接 企业入驻 产业集群 ...",
-   "source_url": "https://hebeigongchang.cn/",
-   "bizline": "服务器/信创整机",
-   "keyword": "通用",
-   "first_seen": "2026-10-10",
-   "source_tag": "通用",
-   "verify": {
-    "b": {
-     "pass": false,
-     "reason": "名称缺少法定全称后缀（有限公司/集团等），疑似不完整"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "搜索/名录来源 + 公司页面双源佐证"
-    },
-    "checked_at": "2026-10-10 05:09"
    }
   },
   {
@@ -4948,6 +4920,174 @@
      "reason": "来源页面可访问，双源佐证"
     },
     "checked_at": "2026-11-07 05:22"
+   }
+  },
+  {
+   "name": "天津柏富防火材料有限公司",
+   "scope_hint": "关于我们 ABOUT US 天津柏富防火材料有限公司是一家集研发、生产、销售、施工于一体的防火材料大型生产厂家。主营：钢结构防火涂料（膨胀型、非膨胀型、室内室外系列齐全）、电缆防火涂料、隧道防火涂料、阻火包、有机防火堵料、防火板等一系列防火材料。... 了解我们更多>>",
+   "source_url": "http://www.tjbffh.com/",
+   "bizline": "网络安全",
+   "keyword": "通用",
+   "first_seen": "2026-11-09",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-11-09 05:31"
+   }
+  },
+  {
+   "name": "天津锐杰同创科技有限公司",
+   "scope_hint": "交换机系列 热搜关键词:天津锐杰同创,天津无线覆盖,天津WIFI覆盖,天津路由器,天津网关供应商,天津防火墙设备,天津上网行为 ...",
+   "source_url": "http://ruijietc.com/col.jsp?id=103",
+   "bizline": "网络安全",
+   "keyword": "通用",
+   "first_seen": "2026-11-09",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-11-09 05:31"
+   }
+  },
+  {
+   "name": "天津亦锦门业有限公司",
+   "scope_hint": "— ABOUT US 关于我们 天津亦锦门业有限公司是集公司主营产品：亦锦门业制造：防盗门、防火门、防火隔音门、别墅玻璃门、医疗门、防爆门窗，泄爆门窗、抗风压密闭防火门、密闭防水门、电动大门设计、制造、销售于一体的现代化公司。",
+   "source_url": "http://www.yijinmenye.com/",
+   "bizline": "网络安全",
+   "keyword": "通用",
+   "first_seen": "2026-11-09",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-11-09 05:31"
+   }
+  },
+  {
+   "name": "天津乐诚新材料科技有限公司",
+   "scope_hint": "天津乐诚新材料科技有限公司 经营模式：生产加工 地址： 天津市津南区双港镇工业园区优谷产业园5号楼 主营： 蒸压加气混凝土隔墙板,天津轻质隔墙板 业务热线:152-22445607【免长途费 联系人 王经理 先生】 0",
+   "source_url": "http://www.lechengqb.com/uks_list_22.html",
+   "bizline": "网络安全",
+   "keyword": "通用",
+   "first_seen": "2026-11-09",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-11-09 05:31"
+   }
+  },
+  {
+   "name": "天津市北辰区吉宜建筑装饰材料厂",
+   "scope_hint": "天津市北辰区吉宜建筑装饰材料厂，位于天津西外环线与津保高速交汇处的双口镇安光村。本厂是以防火防爆建筑材料和构件的研发、生产、销售、施工为一体的企业。研发生产了多种系列，硫氧镁防火板、玻镁防火板，硅酸钙防火板及配套的金属制品，通过构配件的组合，构成了防火防爆等安全 ...",
+   "source_url": "http://tjjiyi.com/",
+   "bizline": "网络安全",
+   "keyword": "通用",
+   "first_seen": "2026-11-09",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": false,
+     "reason": "名称缺少法定全称后缀（有限公司/集团等），疑似不完整"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-11-09 05:31"
+   }
+  },
+  {
+   "name": "天津升赫建筑板材有限公司",
+   "scope_hint": "天津升赫建筑板材有限公司 联系人:刘晓芸 手机:15822175348 16622375348 座机:022-60738600 E-mail:tjhtjylxy@126.com 办公地址:天津市南开区华苑海泰国际公寓1107室 工厂地址:天津市西青区王稳庄东兰坨",
+   "source_url": "http://www.tjshbc.com/cpzx/qzgqb.html",
+   "bizline": "网络安全",
+   "keyword": "通用",
+   "first_seen": "2026-11-09",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-11-09 05:31"
    }
   }
  ]
