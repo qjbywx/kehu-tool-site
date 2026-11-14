@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-13 05:53:29",
+ "generated_at": "2026-11-14 05:43:06",
  "source": "duckduckgo",
- "count": 180,
- "new_count": 0,
- "pages_used": 52,
+ "count": 183,
+ "new_count": 5,
+ "pages_used": 59,
  "candidates": [
   {
    "name": "北京金品高端科技有限公司",
@@ -300,62 +300,6 @@
      "reason": "官网信息不足，双源佐证不充分"
     },
     "checked_at": "2026-08-30 17:06"
-   }
-  },
-  {
-   "name": "石家庄数英仪器有限公司",
-   "scope_hint": "首页>> 企业招聘信息 6000-8000元 硬件研发工程师 石家庄数英仪器有限公司 发布时间：2025-10-08 浏览量：10132 工作地域： 河北省 职位类别： 工程技术人员 学历要求： 本科 招聘人数： 2",
-   "source_url": "https://career.hebut.edu.cn/home/correcruit/content/id/60013.html",
-   "bizline": "",
-   "keyword": "招聘-通用",
-   "first_seen": "2026-10-15",
-   "source_tag": "招聘-通用",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "搜索/名录来源 + 公司页面双源佐证"
-    },
-    "checked_at": "2026-10-15 03:58"
-   }
-  },
-  {
-   "name": "河北半导体研究所（中国电子科技集团",
-   "scope_hint": "[河北]河北半导体研究所（中国电子科技集团公司第十三研究所） 2026招聘研发设计 2026-08-31 [河北]保定飞凌嵌入式技术有限公司 外贸销售工程师 2026-08-31 [石家庄]苏州苏纳光电股份有限公司 芯片工艺技术员 (J10664) 2026-08-31",
-   "source_url": "https://www.yingjiesheng.com/job-005-828-953.html",
-   "bizline": "工业通信",
-   "keyword": "招聘-通用-摘要",
-   "first_seen": "2026-10-15",
-   "source_tag": "招聘-通用-摘要",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "来源页面可访问，双源佐证"
-    },
-    "checked_at": "2026-10-15 03:58"
    }
   },
   {
@@ -5032,6 +4976,146 @@
      "reason": "搜索/名录来源 + 公司页面双源佐证"
     },
     "checked_at": "2026-11-12 06:33"
+   }
+  },
+  {
+   "name": "光端机生产厂",
+   "scope_hint": "北京华创视通 (www.hcstcom.com.cn)10年经验研发生产-视频光端机,DVI光端机,HDMI光端机,SDI光端机,ASI光端机,工业交换机,工业级交换机,,poe工业交换机等通信网络设备生产厂家,数字光端机等各种光端机应用区域已遍布全国各地，产品出口到欧洲，中东，东南亚和非洲等 ...",
+   "source_url": "http://www.hcstcom.com/",
+   "bizline": "工业通信",
+   "keyword": "通用",
+   "first_seen": "2026-11-14",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": false,
+     "reason": "名称缺少法定全称后缀（有限公司/集团等），疑似不完整"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-11-14 05:43"
+   }
+  },
+  {
+   "name": "北京红门伟业信息技术有限公司",
+   "scope_hint": "北京红门伟业信息技术有限公司成立于2002年，注册于中关村科技园区的高科技企业。公司一直致力于数据通信、光通信、集成电路等领域设计与研发。主要产品有电话光端机、光纤收发器、协议转换器、PDH光端机和视频光端机等。主要商标有humanity、红脉、视尔。",
+   "source_url": "https://www.hm-it.com/",
+   "bizline": "工业通信",
+   "keyword": "通用",
+   "first_seen": "2026-11-14",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-11-14 05:43"
+   }
+  },
+  {
+   "name": "北京森润达世纪信息技术有限公司",
+   "scope_hint": "北京森润达世纪信息技术有限公司是一家专注于光纤通信传输设备的高新技术企业。从事非压缩高清光端机、视频光端机、音视频光端机、HDMI光端机、DVI光端机、VGA光端机、SDI光端机、视频会议、网络直播、视频监控、校园直播、远程培训等光纤通讯产品的技术服务和产品营销。并为行业用户提供 ...",
+   "source_url": "http://www.srdit.com/product_category/gqgdj1080p",
+   "bizline": "工业通信",
+   "keyword": "通用",
+   "first_seen": "2026-11-14",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-11-14 05:43"
+   }
+  },
+  {
+   "name": "欢迎浏览北京奇正智达高科技有限公司",
+   "scope_hint": "关于我们 -- 北京奇正智达高科技有限公司成立于2004年，长期致力于为客户提供高效、稳定、优质的网络产品解决方案。 是Silicom 的中国代理。 -- 1G/10G/40G高性能网卡，内置/外置光电bypass，Intel加速卡，高速SFP+光纤模块。",
+   "source_url": "http://silicom-china.com/",
+   "bizline": "网络安全",
+   "keyword": "通用",
+   "first_seen": "2026-11-14",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-11-14 05:43"
+   }
+  },
+  {
+   "name": "铵泰克（北京）科技有限公司",
+   "scope_hint": "基于intel、网迅、沐创、FPGA研发的千兆、万兆、隔离网卡，可以在网络安全产品上实现网络端口的数量及性能提升。",
+   "source_url": "http://www.tectec.com.cn/product.php?cid=31",
+   "bizline": "网络安全",
+   "keyword": "通用",
+   "first_seen": "2026-11-14",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-11-14 05:43"
    }
   }
  ]
