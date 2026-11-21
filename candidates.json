@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-20 06:32:36",
+ "generated_at": "2026-11-21 06:23:05",
  "source": "duckduckgo",
- "count": 190,
+ "count": 191,
  "new_count": 9,
- "pages_used": 61,
+ "pages_used": 62,
  "candidates": [
   {
    "name": "北京金品高端科技有限公司",
@@ -300,230 +300,6 @@
      "reason": "官网信息不足，双源佐证不充分"
     },
     "checked_at": "2026-08-30 17:06"
-   }
-  },
-  {
-   "name": "锐翔工控 (天津)自动化机械设备有限公司",
-   "scope_hint": "锐翔工控（天津）自动化机械设备有限公司主要致力于手机、汽车 、 电子及机械等行业各种非标的自动化设备、测试设备、工装夹具等的开发、生产、安装和调试；从事各类大型生产线的设计加工；承接各类生产线和大型自动化设备的安装与调试服务。锐翔工控（天津）自动化机械设备有限公司 ...",
-   "source_url": "http://www.tjrealfly.com/",
-   "bizline": "服务器/信创整机",
-   "keyword": "通用",
-   "first_seen": "2026-10-22",
-   "source_tag": "通用",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "搜索/名录来源 + 公司页面双源佐证"
-    },
-    "checked_at": "2026-10-22 04:01"
-   }
-  },
-  {
-   "name": "天津）自动化机械设备有限公司",
-   "scope_hint": "锐翔工控（天津）自动化机械设备有限公司主要致力于手机、汽车 、 电子及机械等行业各种非标的自动化设备、测试设备、工装夹具等的开发、生产、安装和调试；从事各类大型生产线的设计加工；承接各类生产线和大型自动化设备的安装与调试服务。锐翔工控（天津）自动化机械设备有限公司 ...",
-   "source_url": "http://www.tjrealfly.com/",
-   "bizline": "服务器/信创整机",
-   "keyword": "通用-摘要",
-   "first_seen": "2026-10-22",
-   "source_tag": "通用-摘要",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "搜索/名录来源 + 公司页面双源佐证"
-    },
-    "checked_at": "2026-10-22 04:01"
-   }
-  },
-  {
-   "name": "天津工控机公司",
-   "scope_hint": "找到 5 条天津工控机公司名单，名录按近一年人气排序，都是真实用户浏览，公司达到一定热度才能上榜，榜单每天更新，天津工控机公司头部企业：天锻、德航（天津）智能科技有限公司、天津开发区通为科技有限公司、首汇科技（天津）有限公司、博创惠胜（天津）科技有限责任公司等。榜单 ...",
-   "source_url": "https://www.jobui.com/rank/company/view/tianjin/gongkongji/",
-   "bizline": "服务器/信创整机",
-   "keyword": "通用",
-   "first_seen": "2026-10-22",
-   "source_tag": "通用",
-   "verify": {
-    "b": {
-     "pass": false,
-     "reason": "名称缺少法定全称后缀（有限公司/集团等），疑似不完整"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "搜索/名录来源 + 公司页面双源佐证"
-    },
-    "checked_at": "2026-10-22 04:01"
-   }
-  },
-  {
-   "name": "天津）智能科技有限公司",
-   "scope_hint": "找到 5 条天津工控机公司名单，名录按近一年人气排序，都是真实用户浏览，公司达到一定热度才能上榜，榜单每天更新，天津工控机公司头部企业：天锻、德航（天津）智能科技有限公司、天津开发区通为科技有限公司、首汇科技（天津）有限公司、博创惠胜（天津）科技有限责任公司等。榜单 ...",
-   "source_url": "https://www.jobui.com/rank/company/view/tianjin/gongkongji/",
-   "bizline": "服务器/信创整机",
-   "keyword": "通用-摘要",
-   "first_seen": "2026-10-22",
-   "source_tag": "通用-摘要",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "搜索/名录来源 + 公司页面双源佐证"
-    },
-    "checked_at": "2026-10-22 04:01"
-   }
-  },
-  {
-   "name": "天津英拓计算机控制技术有限公司",
-   "scope_hint": "Company Introduction 天津英拓公司经过十二年的艰苦创业,在天津工控机和工业自动化市场上的地位和知名度有了很大提高,已经成为天津市工控机市场销售规模最大,知名度最高,经营历史最悠久.集代理销售,系统集成,技术开发和服务为一体的工控著名专业化厂商。",
-   "source_url": "https://www.advantech.com.cn/zh-cn/partners/channel/480",
-   "bizline": "服务器/信创整机",
-   "keyword": "通用",
-   "first_seen": "2026-10-22",
-   "source_tag": "通用",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "搜索/名录来源 + 公司页面双源佐证"
-    },
-    "checked_at": "2026-10-22 04:01"
-   }
-  },
-  {
-   "name": "北京凯胜电子科技有限公司",
-   "scope_hint": "北京凯胜电子科技有限公司是PCBA加工，SMT贴片，电路板焊接的 生产制造厂家，竭诚为您提供全新 的SMT贴片焊接-BGA焊接-PCBA代工代料，北京SMT贴片-专业smt焊接-电路板焊接-OEM加工，小批量电路板焊接组装-小批量LED组装-凯胜电子等系列产品。",
-   "source_url": "https://kaishengdianzi.cn.made-in-china.com/",
-   "bizline": "服务器/信创整机",
-   "keyword": "B2B-中国制造网",
-   "first_seen": "2026-10-22",
-   "source_tag": "B2B-中国制造网",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "搜索/名录来源 + 公司页面双源佐证"
-    },
-    "checked_at": "2026-10-22 04:01"
-   }
-  },
-  {
-   "name": "北京博科嘉诚科技有限公司",
-   "scope_hint": "北京博科嘉诚科技有限公司是Profibus网关，Profinet网关，modbus网关的专业生产厂家和供应商。采购Profibus网关，Profinet网关，modbus网关相关产品请联系北京博科嘉诚科技有限公司。",
-   "source_url": "https://zhixian330.cn.made-in-china.com/",
-   "bizline": "服务器/信创整机",
-   "keyword": "B2B-中国制造网",
-   "first_seen": "2026-10-22",
-   "source_tag": "B2B-中国制造网",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "搜索/名录来源 + 公司页面双源佐证"
-    },
-    "checked_at": "2026-10-22 04:01"
-   }
-  },
-  {
-   "name": "北京瑞源弘德科技有限公司",
-   "scope_hint": "公司介绍 北京瑞源弘德科技有限公司,位于北京市北京市大兴区北京经济技术开发区荣昌东街隆盛大厦B座10层,是一家专注于输变电设备、专用仪器仪表、电源和配电设备行业、主要提供便携X光机、探伤机、智能机器人、X光光源产品的生产制造型企业。",
-   "source_url": "https://ihongde.cn.made-in-china.com/",
-   "bizline": "服务器/信创整机",
-   "keyword": "B2B-中国制造网",
-   "first_seen": "2026-10-22",
-   "source_tag": "B2B-中国制造网",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "搜索/名录来源 + 公司页面双源佐证"
-    },
-    "checked_at": "2026-10-22 04:01"
    }
   },
   {
@@ -5312,6 +5088,258 @@
      "reason": "搜索/名录来源 + 公司页面双源佐证"
     },
     "checked_at": "2026-11-20 06:32"
+   }
+  },
+  {
+   "name": "串口服务器生产厂",
+   "scope_hint": "安泰天讯（北京）通讯技术有限公司是一家专业的串口服务器生产厂家及品牌厂商，提供串口服务器型号、参数及报价，产品有百兆、千兆、导轨式、管理型、网管型、环网管理型、自愈环网等类型。",
+   "source_url": "http://www.attx.com.cn/index.php?m=content&c=index&a=lists&catid=416",
+   "bizline": "服务器/信创整机",
+   "keyword": "通用",
+   "first_seen": "2026-11-21",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": false,
+     "reason": "名称缺少法定全称后缀（有限公司/集团等），疑似不完整"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-11-21 06:23"
+   }
+  },
+  {
+   "name": "北京中新创科技有限公司",
+   "scope_hint": "2串口无线联网服务器 DNS-200W Internet技术提升了世界的可接入性，任何一个设备将会面临数据集中、接入、控制和二次开发的新课题，这个问题不再是没有必要的问题而是如何解决的问题，解决的方法就是使你的设备网络化。",
+   "source_url": "https://www.ntpsync.com/product/clwlxl/index.html",
+   "bizline": "服务器/信创整机",
+   "keyword": "通用",
+   "first_seen": "2026-11-21",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-11-21 06:23"
+   }
+  },
+  {
+   "name": "北京业之科电子技术有限公司",
+   "scope_hint": "北京业之科电子技术有限公司是一家工业串口服务器品牌厂家和供应商，提供工业串口服务器价格、报价、标准、规格，产品热销北京、上海、广州、深圳、济南、郑州、成都、武汉等地区。欢迎选购!",
+   "source_url": "http://www.yezke.com/ckfwq/",
+   "bizline": "服务器/信创整机",
+   "keyword": "通用-摘要",
+   "first_seen": "2026-11-21",
+   "source_tag": "通用-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-11-21 06:23"
+   }
+  },
+  {
+   "name": "北京恒远融合通信技术有限公司",
+   "scope_hint": "北京恒远融合通信技术有限公司是集数据通信设备研发、生产、销售及售后服务为一体的高科技企业。公司凝聚了资深的研发人才和业务骨干，拥有高效的企业管理平台和雄厚的技术实力。 公司成立以来，秉承质量为根，诚信为本的经营理念，为客户提供优质、高效的产品支持和售后服务。 我们的 ...",
+   "source_url": "http://www.serton.cn/",
+   "bizline": "服务器/信创整机",
+   "keyword": "通用",
+   "first_seen": "2026-11-21",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-11-21 06:23"
+   }
+  },
+  {
+   "name": "华夏佰诚（北京）科技有限公司",
+   "scope_hint": "串口服务器 硬件特点 < 串口服务器 硬件特点 · 完整的软硬件自有知识产权及产品认证 · 支持Telnet权限控制、地址过滤等安全性功能 · 支持Telnet、Serial Console、WEB控制台 (HTTP)或Windows管理工具进行管理 · 网络端通信协议支持TCP、UDP、Telnet · ARM9架构CPU，主频最高400Mhz，64M S",
+   "source_url": "http://www.huaxiabaicheng.com/ckfwq",
+   "bizline": "服务器/信创整机",
+   "keyword": "通用",
+   "first_seen": "2026-11-21",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-11-21 06:23"
+   }
+  },
+  {
+   "name": "北京三创汇澜科技有限公司",
+   "scope_hint": "北京三创汇澜科技有限公司拥有一支年轻有朝气的团体。推广和销售的产品有多串口卡、终端通信服务器、工业以太网交换机、智能通讯服务器、无线联网服务器及视频服务器等。主要行业市场有轨道交通、高速公路、城市交通、电力系统、电信系统、生产行业、水利行业。 多年来，，基于多年来 ...",
+   "source_url": "http://www.sanchuanghuilan.com/",
+   "bizline": "服务器/信创整机",
+   "keyword": "通用",
+   "first_seen": "2026-11-21",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-11-21 06:23"
+   }
+  },
+  {
+   "name": "北京集特智能科技有限公司",
+   "scope_hint": "依托平台大数据，经评测选出2026年北京服务器十大厂家排行榜，服务器厂家前十名分别是：北京集特智能科技有限公司、北京蓝美视讯科技有限公司、北京乾行捷通科技有限公司、北京京业伟梦网络科技有限公司、北京飞翔佳玉科技发展有限公司、北京铭源鼎鑫科技有限公司、北京狂铁科技有限 ...",
+   "source_url": "https://b2bdata.baidu.com/rank/k/beijing/server",
+   "bizline": "服务器/信创整机",
+   "keyword": "通用-摘要",
+   "first_seen": "2026-11-21",
+   "source_tag": "通用-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-11-21 06:23"
+   }
+  },
+  {
+   "name": "天津燃洁斯工业设备有限公司",
+   "scope_hint": "天津燃洁斯工业设备有限公司2026年脱硫工艺工程师招聘信息，招聘天津脱硫工艺工程师，介绍了天津燃洁斯工业设备有限公司脱硫工艺工程师福利待遇怎么样，工作职能是什么，废气治理行业脱硫工艺工程师招聘求职找工作就上北极星环保工程招聘网。",
+   "source_url": "https://hr.bjx.com.cn/jobs/1420756.html",
+   "bizline": "工业通信",
+   "keyword": "招聘-通用-摘要",
+   "first_seen": "2026-11-21",
+   "source_tag": "招聘-通用-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "页面可访问，未见注销/吊销字样"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-11-21 06:23"
+   }
+  },
+  {
+   "name": "天津中电新能源研究院有限公司",
+   "scope_hint": "天津中电新能源研究院有限公司2026年工艺工程师招聘信息，招聘天津工艺工程师，介绍了天津中电新能源研究院有限公司工艺工程师福利待遇怎么样，工作职能是什么，电池生产行业工艺工程师招聘求职找工作就上北极星电池生产招聘网。",
+   "source_url": "https://hr.bjx.com.cn/jobs/1418859.html?ba=SpecialEdition&bp=32643",
+   "bizline": "",
+   "keyword": "招聘-通用-摘要",
+   "first_seen": "2026-11-21",
+   "source_tag": "招聘-通用-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "页面可访问，未见注销/吊销字样"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-11-21 06:23"
    }
   }
  ]
