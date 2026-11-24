@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-23 06:43:00",
+ "generated_at": "2026-11-24 09:11:18",
  "source": "duckduckgo",
- "count": 184,
- "new_count": 6,
- "pages_used": 60,
+ "count": 190,
+ "new_count": 13,
+ "pages_used": 67,
  "candidates": [
   {
    "name": "北京金品高端科技有限公司",
@@ -300,202 +300,6 @@
      "reason": "官网信息不足，双源佐证不充分"
     },
     "checked_at": "2026-08-30 17:06"
-   }
-  },
-  {
-   "name": "河北铭坤水工机械有限公司",
-   "scope_hint": "河北铭坤水工机械有限公司 经营模式：生产制造 所在地区： 河北省 衡水市 认证信息： 工商注册信息 手机访问展示厅 锅炉风机采用变频控制的优点与报价 价格合理YCT90-4B单向 0.37KW 气动不锈钢对夹式蝶阀快开切断阀卫生级耐腐蚀单向阀门",
-   "source_url": "https://cn.made-in-china.com/gongying/mk18732873755-PezJcjLGYRDB.html",
-   "bizline": "网络安全",
-   "keyword": "B2B-中国制造网",
-   "first_seen": "2026-10-25",
-   "source_tag": "B2B-中国制造网",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "页面可访问，未见注销/吊销字样"
-    },
-    "d": {
-     "pass": true,
-     "reason": "来源页面可访问，双源佐证"
-    },
-    "checked_at": "2026-10-25 03:58"
-   }
-  },
-  {
-   "name": "河北鸿宇通信器材有限公司",
-   "scope_hint": "现货供应400铁拓稳定土厂拌叶片配件 叶片易损件 加工定制低铁玻璃超白玻璃 诚信档案 河北鸿宇通信器材有限公司 经营模式：生产制造 所在地区：河北省 沧州市 认证信息： 身份认证",
-   "source_url": "https://hbhy9001.cn.made-in-china.com/",
-   "bizline": "网络安全",
-   "keyword": "B2B-中国制造网",
-   "first_seen": "2026-10-25",
-   "source_tag": "B2B-中国制造网",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "搜索/名录来源 + 公司页面双源佐证"
-    },
-    "checked_at": "2026-10-25 03:58"
-   }
-  },
-  {
-   "name": "河北亿保机械有限公司",
-   "scope_hint": "河北亿保机械有限公司是阀门，管件及配件，闸阀的 生产制造厂家，竭诚为您提供全新 的法兰软密封暗杆闸阀消防阀，适配器广范围法兰接头，HC41消声止回阀消音单向阀等系列产品。",
-   "source_url": "https://yibao123.cn.made-in-china.com/",
-   "bizline": "网络安全",
-   "keyword": "B2B-中国制造网",
-   "first_seen": "2026-10-25",
-   "source_tag": "B2B-中国制造网",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "搜索/名录来源 + 公司页面双源佐证"
-    },
-    "checked_at": "2026-10-25 03:58"
-   }
-  },
-  {
-   "name": "河北铭泰电力设备有限公司",
-   "scope_hint": "河北铭泰电力设备有限公司是全自动防洪闸，防汛挡水板，伸缩围栏的 生产制造厂家，竭诚为您提供全新 的防洪挡水板伸缩式可移动挡水板，全自动防洪闸水动力防淹板液压翻板式防洪门，智能型自动液压防洪闸门防洪闸生产厂家地址电话等系列产品。",
-   "source_url": "https://18531123111d.cn.made-in-china.com/",
-   "bizline": "网络安全",
-   "keyword": "B2B-中国制造网",
-   "first_seen": "2026-10-25",
-   "source_tag": "B2B-中国制造网",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "搜索/名录来源 + 公司页面双源佐证"
-    },
-    "checked_at": "2026-10-25 03:58"
-   }
-  },
-  {
-   "name": "河北德迈传动机械有限公司",
-   "scope_hint": "河北德迈传动机械有限公司是升降机，换向器，减速机的 生产制造厂家，竭诚为您提供全新 的HD系列转向箱，T系列螺旋锥齿轮换向器，DMDT系列电动推杆等系列产品。",
-   "source_url": "https://demai123.cn.made-in-china.com/",
-   "bizline": "网络安全",
-   "keyword": "B2B-中国制造网",
-   "first_seen": "2026-10-25",
-   "source_tag": "B2B-中国制造网",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "搜索/名录来源 + 公司页面双源佐证"
-    },
-    "checked_at": "2026-10-25 03:58"
-   }
-  },
-  {
-   "name": "腾翔电缆桥架 (河北)有限公司",
-   "scope_hint": "腾翔电缆桥架 (河北)有限公司,位于河北省衡水市安平县东黄城镇大同新村村北 置业13号,是一家专注于桥架、线缆配件、其它电工电气行业、主要提供网格桥架、u型钢走线架、铝合金走线架、光纤槽道产品的生产制造型企业。欢迎各界朋友莅临参观、指导和业务洽谈。",
-   "source_url": "https://txfyld.cn.made-in-china.com/",
-   "bizline": "网络安全",
-   "keyword": "B2B-中国制造网",
-   "first_seen": "2026-10-25",
-   "source_tag": "B2B-中国制造网",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "搜索/名录来源 + 公司页面双源佐证"
-    },
-    "checked_at": "2026-10-25 03:58"
-   }
-  },
-  {
-   "name": "河北捷开电气设备有限公司",
-   "scope_hint": "箱变厂家说光伏升压箱变 1000Var箱变 国网充电桩箱变YBP-630KVA定制 诚信档案 河北捷开电气设备有限公司 经营模式：生产制造 所在地区：河北省 沧州市 认证信息： 身份认证",
-   "source_url": "https://jk18519393938.cn.made-in-china.com/",
-   "bizline": "网络安全",
-   "keyword": "B2B-中国制造网",
-   "first_seen": "2026-10-25",
-   "source_tag": "B2B-中国制造网",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "搜索/名录来源 + 公司页面双源佐证"
-    },
-    "checked_at": "2026-10-25 03:58"
    }
   },
   {
@@ -5144,6 +4948,370 @@
      "reason": "搜索/名录来源 + 公司页面双源佐证"
     },
     "checked_at": "2026-11-23 06:42"
+   }
+  },
+  {
+   "name": "百邦智能科技（天津）有限公司",
+   "scope_hint": "闪电发货 17：30之前的订单当天发 （特殊情况除外）",
+   "source_url": "http://www.baibangsmart.com/",
+   "bizline": "网络安全",
+   "keyword": "通用",
+   "first_seen": "2026-11-24",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-11-24 09:11"
+   }
+  },
+  {
+   "name": "河北泛海电子科技有限公司",
+   "scope_hint": "视频监控系统 视频监控系统产品包含光端收发设备、光缆终端盒、云台、云台解码器、视频矩阵、硬盘录像机、监控摄像 机。 视频监控系统组成部分包括监控前端、管理中心、监控中心、PC客户端及无线网桥。",
+   "source_url": "http://www.hbfanhai.com/",
+   "bizline": "工业通信",
+   "keyword": "通用",
+   "first_seen": "2026-11-24",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-11-24 09:11"
+   }
+  },
+  {
+   "name": "河北恒仪电子科技有限公司",
+   "scope_hint": "依托平台大数据，经评测选出2026年河北光学仪器十大厂家排行榜，光学仪器厂家前十名分别是：河北唯佳精密科技股份有限公司、廊坊力翔机械科技有限公司、涿州泓杉光学科技有限公司、沧州依航科技有限公司、河北恒仪电子科技有限公司、准源激光技术河北 ...",
+   "source_url": "https://b2bdata.baidu.com/rank/hebei/instrumentation/optical-instruments",
+   "bizline": "工业通信",
+   "keyword": "通用-摘要",
+   "first_seen": "2026-11-24",
+   "source_tag": "通用-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-11-24 09:11"
+   }
+  },
+  {
+   "name": "河北蓝思泰克光电科技有限公司",
+   "scope_hint": "河北蓝思泰克光电科技有限公司 河北蓝思泰克光电科技有限公司是一家专业从事红外光学系统、光机组件研发、生产和销售的国家级高新技术企业、科技型中小企业、省级专精特新企业，是光学行业的综合性领先企业。 公司从事光电行业已有10多年历史，从产品开发-生产加工-组装调试-检验检测 ...",
+   "source_url": "http://www.lenstechs.com/",
+   "bizline": "工业通信",
+   "keyword": "通用",
+   "first_seen": "2026-11-24",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-11-24 09:11"
+   }
+  },
+  {
+   "name": "河北光束激光科技有限公司",
+   "scope_hint": "光束激光 - 专注于激光增材制造技术的研发 生产的激光熔覆设备融入了多项公司核心专利技术，整机稳定耐用，自动化程度高。 1500 万元 企业注册资金 5000 平方米 企业厂房占地面积 30 项 专利及软件著作权证书 熔覆视频 行业应用 关于光束 企业介绍 资质证书 ...",
+   "source_url": "https://www.gsbeam.com/",
+   "bizline": "工业通信",
+   "keyword": "通用",
+   "first_seen": "2026-11-24",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-11-24 09:11"
+   }
+  },
+  {
+   "name": "2026年河北光学仪器十大厂",
+   "scope_hint": "依托平台大数据，经评测选出2026年河北光学仪器十大厂家排行榜，光学仪器厂家前十名分别是：河北唯佳精密科技股份有限公司、涿州泓杉光学科技有限公司、廊坊力翔机械科技有限公司、河北恒仪电子科技有限公司、准源激光技术河北有限公司、邢台博泉机械科技有限公司、钰展仪器设备（沧州 ...",
+   "source_url": "https://b2bdata.aipage.com/rank/hebei/instrumentation/optical-instruments",
+   "bizline": "工业通信",
+   "keyword": "通用",
+   "first_seen": "2026-11-24",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": false,
+     "reason": "名称缺少法定全称后缀（有限公司/集团等），疑似不完整"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-11-24 09:11"
+   }
+  },
+  {
+   "name": "海蓝永佳河北电子科技有限公司",
+   "scope_hint": "海蓝永佳河北电子科技有限公司坐落于京津冀协同发展核心腹地，区位优势显著，交通物流网络畅达八方，是一家集研发、加工、制造、销售于一体的现代化高精端装备配套制造企业。公司始创于2007年5月，前身为青县新瑞电子机箱厂，历经十余载创新深耕与战略升级，完成品牌焕新蝶变。目前 ...",
+   "source_url": "http://hbhailankeji.com/",
+   "bizline": "工业通信",
+   "keyword": "通用",
+   "first_seen": "2026-11-24",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-11-24 09:11"
+   }
+  },
+  {
+   "name": "河北电子科技有限公司",
+   "scope_hint": "海蓝永佳河北电子科技有限公司坐落于京津冀协同发展核心腹地，区位优势显著，交通物流网络畅达八方，是一家集研发、加工、制造、销售于一体的现代化高精端装备配套制造企业。公司始创于2007年5月，前身为青县新瑞电子机箱厂，历经十余载创新深耕与战略升级，完成品牌焕新蝶变。目前 ...",
+   "source_url": "http://hbhailankeji.com/",
+   "bizline": "工业通信",
+   "keyword": "通用-摘要",
+   "first_seen": "2026-11-24",
+   "source_tag": "通用-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "公开页面未检索到注销/吊销信息"
+    },
+    "d": {
+     "pass": false,
+     "reason": "公司页面无法访问，双源佐证不足"
+    },
+    "checked_at": "2026-11-24 09:11"
+   }
+  },
+  {
+   "name": "河北主导光电技术有限公司",
+   "scope_hint": "河北主导光电技术（LeaderVision）有限公司，国家高新技术企业，位于京津冀核心工业基地中心城市唐山国家高新区唐山科技中心，是一家专注于机器视觉核心零部件研发，生产，销售，服务一体化的科技创新公司。公司立足于机器视觉行业，随着\"中国制造2025\"凭借先进的技术和训练有素的管理 ...",
+   "source_url": "http://www.leadervision.cn/",
+   "bizline": "工业通信",
+   "keyword": "通用",
+   "first_seen": "2026-11-24",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-11-24 09:11"
+   }
+  },
+  {
+   "name": "河北主导光电技术（LeaderVision）有限公司",
+   "scope_hint": "河北主导光电技术（LeaderVision）有限公司，国家高新技术企业，位于京津冀核心工业基地中心城市唐山国家高新区唐山科技中心，是一家专注于机器视觉核心零部件研发，生产，销售，服务一体化的科技创新公司。公司立足于机器视觉行业，随着\"中国制造2025\"凭借先进的技术和训练有素的管理 ...",
+   "source_url": "http://www.leadervision.cn/",
+   "bizline": "工业通信",
+   "keyword": "通用-摘要",
+   "first_seen": "2026-11-24",
+   "source_tag": "通用-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-11-24 09:11"
+   }
+  },
+  {
+   "name": "河北光森电子科技有限公司",
+   "scope_hint": "河北光森电子成立于2011年，专注于半导体光电探测器芯片的研发、制造及销售，拥有优秀技术专家团队，经过10余年的探索及优化，形成了自己独特的工艺特点和品质管理，确保了产品一致性、稳定性。 产品应用覆盖Ai算力、光接入网、5G无线通信、光传输网、数据中心、微波光子、量子通信、屏下 ...",
+   "source_url": "https://www.ostech.com.cn/",
+   "bizline": "工业通信",
+   "keyword": "通用",
+   "first_seen": "2026-11-24",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-11-24 09:11"
+   }
+  },
+  {
+   "name": "河北镭族光电科技有限公司",
+   "scope_hint": "河北镭族光电科技有限公司（简称镭族光电）成立于2018年5月，主要从事光纤耦合激光器、激光模组、光束准直激光器等激光器件的研发、封装生产和销售。主要产品有：单模多模光纤耦合激光器、准直激光模组 、APD光电二极管、 EEL准直激光二极管、VCSEL激光二极管、系列激光二极管等产品。公司 ...",
+   "source_url": "https://www.hbleizu.com/",
+   "bizline": "工业通信",
+   "keyword": "通用",
+   "first_seen": "2026-11-24",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-11-24 09:11"
+   }
+  },
+  {
+   "name": "河北勒克斯光学薄膜技术有限公司",
+   "scope_hint": "河北勒克斯光学薄膜技术有限公司 河北勒克斯光学薄膜技术有限公司，依托自主研发中心团队，采用真空磁控溅射镀膜工艺，绿色安全状态生产，拥有多项核心专利，产品涉及大板面中国首创纳米抗氧化可钢镜、可钢化智能魔镜触摸屏玻璃、炫彩玻璃、AR减反射玻璃、高透隔热玻璃、全息幻影成像 ...",
+   "source_url": "http://www.lctglass.com/",
+   "bizline": "工业通信",
+   "keyword": "通用",
+   "first_seen": "2026-11-24",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-11-24 09:11"
    }
   }
  ]
