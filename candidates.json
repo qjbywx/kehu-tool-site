@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-26 07:38:32",
+ "generated_at": "2026-11-27 07:36:01",
  "source": "duckduckgo",
- "count": 181,
- "new_count": 0,
- "pages_used": 51,
+ "count": 185,
+ "new_count": 4,
+ "pages_used": 56,
  "candidates": [
   {
    "name": "北京金品高端科技有限公司",
@@ -5060,6 +5060,118 @@
      "reason": "来源页面可访问，双源佐证"
     },
     "checked_at": "2026-11-24 09:11"
+   }
+  },
+  {
+   "name": "河北智能生产线公司",
+   "scope_hint": "河北智能生产线公司招聘排名：河北博柯莱、河北三动科技有限公司、戈尔电梯、金奥博、秦皇岛晟成自动化设备有限公司、保定金阳光能源装备科技有限公司、百川智能、河北大元重科机械有限公司、江苏大全高压开关有限公司、济南天辰激光等，根据近60天 ...",
+   "source_url": "https://www.jobui.com/rank/company/jobs/hebei/zhinengshengchanxian/",
+   "bizline": "",
+   "keyword": "招聘-通用",
+   "first_seen": "2026-11-27",
+   "source_tag": "招聘-通用",
+   "verify": {
+    "b": {
+     "pass": false,
+     "reason": "名称缺少法定全称后缀（有限公司/集团等），疑似不完整"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "页面可访问，未见注销/吊销字样"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-11-27 07:36"
+   }
+  },
+  {
+   "name": "河北自动化生产线一体化公司",
+   "scope_hint": "智联招聘为您推荐河北自动化生产线一体化公司2026年最新相关岗位招聘信息，所有岗位均为2025年真实准确的招聘信息及公司简介，帮助求职者更好更快更全面地了解招聘信息。",
+   "source_url": "https://www.zhaopin.com/zhaopin/0a5714305f27407bab23e62e41808cf3/",
+   "bizline": "",
+   "keyword": "招聘-通用",
+   "first_seen": "2026-11-27",
+   "source_tag": "招聘-通用",
+   "verify": {
+    "b": {
+     "pass": false,
+     "reason": "名称缺少法定全称后缀（有限公司/集团等），疑似不完整"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-11-27 07:36"
+   }
+  },
+  {
+   "name": "河北生产制造公司",
+   "scope_hint": "智联招聘为您推荐河北生产制造公司2026年最新相关岗位招聘信息，所有岗位均为2025年真实准确的招聘信息及公司简介，帮助求职者更好更快更全面地了解招聘信息。",
+   "source_url": "https://www.zhaopin.com/zhaopin/a7a50390dbf54caab68535ff78b7e4ce/",
+   "bizline": "",
+   "keyword": "招聘-通用",
+   "first_seen": "2026-11-27",
+   "source_tag": "招聘-通用",
+   "verify": {
+    "b": {
+     "pass": false,
+     "reason": "名称缺少法定全称后缀（有限公司/集团等），疑似不完整"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-11-27 07:36"
+   }
+  },
+  {
+   "name": "「河北斯普莱供应链管理有限责任公司",
+   "scope_hint": "BOSS直聘为求职者提供2026年河北斯普莱供应链管理有限责任公司招聘信息，更有河北斯普莱供应链管理有限责任公司的品牌信息（斯普莱）、公司简介、公司地址、产品介绍、公司环境、CEO高管资料以及在线的BOSS们，河北斯普莱供应链管理有限责任公司正在线直聘2职位，找工作就登录BOSS直聘网站或 ...",
+   "source_url": "https://www.zhipin.com/companys/fe66b736827ebee31nd-3tm7FFM~.html",
+   "bizline": "",
+   "keyword": "招聘-通用",
+   "first_seen": "2026-11-27",
+   "source_tag": "招聘-通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-11-27 07:36"
    }
   }
  ]
