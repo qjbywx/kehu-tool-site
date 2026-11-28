@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-27 07:36:01",
+ "generated_at": "2026-11-28 07:04:25",
  "source": "duckduckgo",
- "count": 185,
- "new_count": 4,
- "pages_used": 56,
+ "count": 193,
+ "new_count": 45,
+ "pages_used": 100,
  "candidates": [
   {
    "name": "北京金品高端科技有限公司",
@@ -300,1042 +300,6 @@
      "reason": "官网信息不足，双源佐证不充分"
     },
     "checked_at": "2026-08-30 17:06"
-   }
-  },
-  {
-   "name": "北京天融信网络安全技术有限公司",
-   "scope_hint": "近日，北京天融信网络安全技术有限公司旗下天融信工控安全隔离与信息交换系统TopIGap在下一代互联网国家工程中心-全球IPv6测试中心（www.IPv6Ready.org.cn）正式通过IPv6 Ready核心协议Phase-2测试，并荣获由国际组织IPv6 Forum颁发的IPv6 Ready Logo Phase-2认证证书（Logo ID：02-C-0",
-   "source_url": "https://m.it168.com/article_6510808.html",
-   "bizline": "网络安全",
-   "keyword": "垂直-IT168-摘要",
-   "first_seen": "2026-10-29",
-   "source_tag": "垂直-IT168-摘要",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "搜索/名录来源 + 公司页面双源佐证"
-    },
-    "checked_at": "2026-10-29 05:04"
-   }
-  },
-  {
-   "name": "联想创新科技 (天津)有限公司",
-   "scope_hint": "联想创新科技 (天津)有限公司天津招聘测试工程师岗位，薪资6-8k·13薪,联想创新科技 (天津)有限公司公司规模500-999人,岗位要求本科学历，1-3年相关经验，加入联想创新科技 (天津)有限公司共同成长。立即在猎聘投递简历，祝你顺利获得联想创新科技 (天津)有限公司测试工程师职位!",
-   "source_url": "https://www.liepin.com/job/1981999715.shtml",
-   "bizline": "",
-   "keyword": "招聘-猎聘",
-   "first_seen": "2026-10-29",
-   "source_tag": "招聘-猎聘",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "搜索/名录来源 + 公司页面双源佐证"
-    },
-    "checked_at": "2026-10-29 05:04"
-   }
-  },
-  {
-   "name": "天津福莱迪科技发展有限公司",
-   "scope_hint": "公司简介 天津福莱迪科技发展有限公司是一家集研发、设计、制造和营销于一体的高新技术企业。 迄今已获得数十项创新专利，并取得了ISO9001：2008认证。 在不断同众多知名跨国企业合作中，建立并夯实了最可信赖战略合作伙伴关系。",
-   "source_url": "https://www.liepin.com/job/1980041071.shtml",
-   "bizline": "",
-   "keyword": "招聘-猎聘",
-   "first_seen": "2026-10-29",
-   "source_tag": "招聘-猎聘",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "搜索/名录来源 + 公司页面双源佐证"
-    },
-    "checked_at": "2026-10-29 05:04"
-   }
-  },
-  {
-   "name": "捷温汽车系统 (中国)有限公司",
-   "scope_hint": "捷温汽车系统 (中国)有限公司天津招聘LabVIEW测试工程师岗位，薪资10-17k·13薪,捷温汽车系统 (中国)有限公司公司规模1000-2000人,岗位要求大专学历，5年以上相关经验，加入捷温汽车系统 (中国)有限公司共同成长。立即在猎聘投递简历，祝你顺利获得捷温汽车系统 (中国)有限公司LabVIEW测试工程师职位!",
-   "source_url": "https://www.liepin.com/job/1980849413.shtml",
-   "bizline": "",
-   "keyword": "招聘-猎聘",
-   "first_seen": "2026-10-29",
-   "source_tag": "招聘-猎聘",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "搜索/名录来源 + 公司页面双源佐证"
-    },
-    "checked_at": "2026-10-29 05:04"
-   }
-  },
-  {
-   "name": "北京博数智源人工智能科技有限公司",
-   "scope_hint": "官方名单：名单-北京专精特新",
-   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
-   "bizline": "",
-   "keyword": "名单-北京专精特新",
-   "first_seen": "2026-10-29",
-   "source_tag": "名单-北京专精特新",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "来源页面可访问，双源佐证"
-    },
-    "checked_at": "2026-10-29 05:04"
-   }
-  },
-  {
-   "name": "北京冠林豪泰电子科技有限公司",
-   "scope_hint": "官方名单：名单-北京专精特新",
-   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
-   "bizline": "",
-   "keyword": "名单-北京专精特新",
-   "first_seen": "2026-10-29",
-   "source_tag": "名单-北京专精特新",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "来源页面可访问，双源佐证"
-    },
-    "checked_at": "2026-10-29 05:04"
-   }
-  },
-  {
-   "name": "北京公维电子信息技术有限公司",
-   "scope_hint": "官方名单：名单-北京专精特新",
-   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
-   "bizline": "",
-   "keyword": "名单-北京专精特新",
-   "first_seen": "2026-10-29",
-   "source_tag": "名单-北京专精特新",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "来源页面可访问，双源佐证"
-    },
-    "checked_at": "2026-10-29 05:04"
-   }
-  },
-  {
-   "name": "北京康华微电子有限公司",
-   "scope_hint": "官方名单：名单-北京专精特新",
-   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
-   "bizline": "",
-   "keyword": "名单-北京专精特新",
-   "first_seen": "2026-10-29",
-   "source_tag": "名单-北京专精特新",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "来源页面可访问，双源佐证"
-    },
-    "checked_at": "2026-10-29 05:04"
-   }
-  },
-  {
-   "name": "北京科大国泰能源环境工程技术有限公司",
-   "scope_hint": "官方名单：名单-北京专精特新",
-   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
-   "bizline": "",
-   "keyword": "名单-北京专精特新",
-   "first_seen": "2026-10-29",
-   "source_tag": "名单-北京专精特新",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "来源页面可访问，双源佐证"
-    },
-    "checked_at": "2026-10-29 05:04"
-   }
-  },
-  {
-   "name": "北京索德瀚智能科技有限公司",
-   "scope_hint": "官方名单：名单-北京专精特新",
-   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
-   "bizline": "",
-   "keyword": "名单-北京专精特新",
-   "first_seen": "2026-10-29",
-   "source_tag": "名单-北京专精特新",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "来源页面可访问，双源佐证"
-    },
-    "checked_at": "2026-10-29 05:04"
-   }
-  },
-  {
-   "name": "北京中建机鼎晟机电设备有限公司",
-   "scope_hint": "官方名单：名单-北京专精特新",
-   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
-   "bizline": "",
-   "keyword": "名单-北京专精特新",
-   "first_seen": "2026-10-29",
-   "source_tag": "名单-北京专精特新",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "来源页面可访问，双源佐证"
-    },
-    "checked_at": "2026-10-29 05:04"
-   }
-  },
-  {
-   "name": "北京中力明新材料科技有限公司",
-   "scope_hint": "官方名单：名单-北京专精特新",
-   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
-   "bizline": "",
-   "keyword": "名单-北京专精特新",
-   "first_seen": "2026-10-29",
-   "source_tag": "名单-北京专精特新",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "来源页面可访问，双源佐证"
-    },
-    "checked_at": "2026-10-29 05:04"
-   }
-  },
-  {
-   "name": "光轮智能（北京）科技有限公司",
-   "scope_hint": "官方名单：名单-北京专精特新",
-   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
-   "bizline": "",
-   "keyword": "名单-北京专精特新",
-   "first_seen": "2026-10-29",
-   "source_tag": "名单-北京专精特新",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "来源页面可访问，双源佐证"
-    },
-    "checked_at": "2026-10-29 05:04"
-   }
-  },
-  {
-   "name": "易慧创新（北京）智能科技有限公司",
-   "scope_hint": "官方名单：名单-北京专精特新",
-   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
-   "bizline": "",
-   "keyword": "名单-北京专精特新",
-   "first_seen": "2026-10-29",
-   "source_tag": "名单-北京专精特新",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "来源页面可访问，双源佐证"
-    },
-    "checked_at": "2026-10-29 05:04"
-   }
-  },
-  {
-   "name": "北京派克盛宏电子科技有限公司",
-   "scope_hint": "官方名单：名单-北京专精特新",
-   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
-   "bizline": "",
-   "keyword": "名单-北京专精特新",
-   "first_seen": "2026-10-29",
-   "source_tag": "名单-北京专精特新",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "来源页面可访问，双源佐证"
-    },
-    "checked_at": "2026-10-29 05:04"
-   }
-  },
-  {
-   "name": "中际联合（北京）装备制造有限公司",
-   "scope_hint": "官方名单：名单-北京专精特新",
-   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
-   "bizline": "",
-   "keyword": "名单-北京专精特新",
-   "first_seen": "2026-10-29",
-   "source_tag": "名单-北京专精特新",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "来源页面可访问，双源佐证"
-    },
-    "checked_at": "2026-10-29 05:04"
-   }
-  },
-  {
-   "name": "华芯威半导体科技（北京）有限责任公司",
-   "scope_hint": "官方名单：名单-北京专精特新",
-   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
-   "bizline": "",
-   "keyword": "名单-北京专精特新",
-   "first_seen": "2026-10-29",
-   "source_tag": "名单-北京专精特新",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "来源页面可访问，双源佐证"
-    },
-    "checked_at": "2026-10-29 05:04"
-   }
-  },
-  {
-   "name": "北京基业昌达新能源技术有限公司",
-   "scope_hint": "官方名单：名单-北京专精特新",
-   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
-   "bizline": "",
-   "keyword": "名单-北京专精特新",
-   "first_seen": "2026-10-29",
-   "source_tag": "名单-北京专精特新",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "来源页面可访问，双源佐证"
-    },
-    "checked_at": "2026-10-29 05:04"
-   }
-  },
-  {
-   "name": "北京易泰克电力科技有限公司",
-   "scope_hint": "官方名单：名单-北京专精特新",
-   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
-   "bizline": "",
-   "keyword": "名单-北京专精特新",
-   "first_seen": "2026-10-29",
-   "source_tag": "名单-北京专精特新",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "来源页面可访问，双源佐证"
-    },
-    "checked_at": "2026-10-29 05:04"
-   }
-  },
-  {
-   "name": "北京鼎驰智能环保设备有限公司",
-   "scope_hint": "官方名单：名单-北京专精特新",
-   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
-   "bizline": "",
-   "keyword": "名单-北京专精特新",
-   "first_seen": "2026-10-29",
-   "source_tag": "名单-北京专精特新",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "来源页面可访问，双源佐证"
-    },
-    "checked_at": "2026-10-29 05:04"
-   }
-  },
-  {
-   "name": "北京亦城亦联智能科技有限公司",
-   "scope_hint": "官方名单：名单-北京专精特新",
-   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
-   "bizline": "",
-   "keyword": "名单-北京专精特新",
-   "first_seen": "2026-10-29",
-   "source_tag": "名单-北京专精特新",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "来源页面可访问，双源佐证"
-    },
-    "checked_at": "2026-10-29 05:04"
-   }
-  },
-  {
-   "name": "北京纪梵希装饰材料有限公司",
-   "scope_hint": "官方名单：名单-北京专精特新",
-   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
-   "bizline": "",
-   "keyword": "名单-北京专精特新",
-   "first_seen": "2026-10-29",
-   "source_tag": "名单-北京专精特新",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "来源页面可访问，双源佐证"
-    },
-    "checked_at": "2026-10-29 05:04"
-   }
-  },
-  {
-   "name": "北京华恩中实能源技术有限公司",
-   "scope_hint": "官方名单：名单-北京专精特新",
-   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
-   "bizline": "",
-   "keyword": "名单-北京专精特新",
-   "first_seen": "2026-10-29",
-   "source_tag": "名单-北京专精特新",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "来源页面可访问，双源佐证"
-    },
-    "checked_at": "2026-10-29 05:04"
-   }
-  },
-  {
-   "name": "华太圣阳（北京）新能源有限公司",
-   "scope_hint": "官方名单：名单-北京专精特新",
-   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
-   "bizline": "",
-   "keyword": "名单-北京专精特新",
-   "first_seen": "2026-10-29",
-   "source_tag": "名单-北京专精特新",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "来源页面可访问，双源佐证"
-    },
-    "checked_at": "2026-10-29 05:04"
-   }
-  },
-  {
-   "name": "北京和尔泰新材料科技有限公司",
-   "scope_hint": "官方名单：名单-北京专精特新",
-   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
-   "bizline": "",
-   "keyword": "名单-北京专精特新",
-   "first_seen": "2026-10-29",
-   "source_tag": "名单-北京专精特新",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "来源页面可访问，双源佐证"
-    },
-    "checked_at": "2026-10-29 05:04"
-   }
-  },
-  {
-   "name": "中祥国瑞新能源科技（北京）有限公司",
-   "scope_hint": "官方名单：名单-北京专精特新",
-   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
-   "bizline": "",
-   "keyword": "名单-北京专精特新",
-   "first_seen": "2026-10-29",
-   "source_tag": "名单-北京专精特新",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "来源页面可访问，双源佐证"
-    },
-    "checked_at": "2026-10-29 05:04"
-   }
-  },
-  {
-   "name": "北京维盛复合材料有限公司",
-   "scope_hint": "官方名单：名单-北京专精特新",
-   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
-   "bizline": "",
-   "keyword": "名单-北京专精特新",
-   "first_seen": "2026-10-29",
-   "source_tag": "名单-北京专精特新",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "来源页面可访问，双源佐证"
-    },
-    "checked_at": "2026-10-29 05:04"
-   }
-  },
-  {
-   "name": "中建研智能技术（北京）有限公司",
-   "scope_hint": "官方名单：名单-北京专精特新",
-   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
-   "bizline": "",
-   "keyword": "名单-北京专精特新",
-   "first_seen": "2026-10-29",
-   "source_tag": "名单-北京专精特新",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "来源页面可访问，双源佐证"
-    },
-    "checked_at": "2026-10-29 05:04"
-   }
-  },
-  {
-   "name": "国家能源集团新能源技术研究院有限公司",
-   "scope_hint": "官方名单：名单-北京专精特新",
-   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
-   "bizline": "",
-   "keyword": "名单-北京专精特新",
-   "first_seen": "2026-10-29",
-   "source_tag": "名单-北京专精特新",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "来源页面可访问，双源佐证"
-    },
-    "checked_at": "2026-10-29 05:04"
-   }
-  },
-  {
-   "name": "中烨能源（北京）有限公司",
-   "scope_hint": "官方名单：名单-北京专精特新",
-   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
-   "bizline": "",
-   "keyword": "名单-北京专精特新",
-   "first_seen": "2026-10-29",
-   "source_tag": "名单-北京专精特新",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "来源页面可访问，双源佐证"
-    },
-    "checked_at": "2026-10-29 05:04"
-   }
-  },
-  {
-   "name": "国综智投（北京）能源科技有限公司",
-   "scope_hint": "官方名单：名单-北京专精特新",
-   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
-   "bizline": "",
-   "keyword": "名单-北京专精特新",
-   "first_seen": "2026-10-29",
-   "source_tag": "名单-北京专精特新",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "来源页面可访问，双源佐证"
-    },
-    "checked_at": "2026-10-29 05:04"
-   }
-  },
-  {
-   "name": "北京电通敏智电子技术有限公司",
-   "scope_hint": "官方名单：名单-北京专精特新",
-   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
-   "bizline": "",
-   "keyword": "名单-北京专精特新",
-   "first_seen": "2026-10-29",
-   "source_tag": "名单-北京专精特新",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "来源页面可访问，双源佐证"
-    },
-    "checked_at": "2026-10-29 05:04"
-   }
-  },
-  {
-   "name": "震宇智慧（北京）新能源科技有限公司",
-   "scope_hint": "官方名单：名单-北京专精特新",
-   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
-   "bizline": "",
-   "keyword": "名单-北京专精特新",
-   "first_seen": "2026-10-29",
-   "source_tag": "名单-北京专精特新",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "来源页面可访问，双源佐证"
-    },
-    "checked_at": "2026-10-29 05:04"
-   }
-  },
-  {
-   "name": "北京坤创建科智能科技有限公司",
-   "scope_hint": "官方名单：名单-北京专精特新",
-   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
-   "bizline": "",
-   "keyword": "名单-北京专精特新",
-   "first_seen": "2026-10-29",
-   "source_tag": "名单-北京专精特新",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "来源页面可访问，双源佐证"
-    },
-    "checked_at": "2026-10-29 05:04"
-   }
-  },
-  {
-   "name": "北京恒华腾达设备安装工程有限公司",
-   "scope_hint": "官方名单：名单-北京专精特新",
-   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
-   "bizline": "",
-   "keyword": "名单-北京专精特新",
-   "first_seen": "2026-10-29",
-   "source_tag": "名单-北京专精特新",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "来源页面可访问，双源佐证"
-    },
-    "checked_at": "2026-10-29 05:04"
-   }
-  },
-  {
-   "name": "北京鹏宇兴业精密模具制造有限公司",
-   "scope_hint": "官方名单：名单-北京专精特新",
-   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
-   "bizline": "",
-   "keyword": "名单-北京专精特新",
-   "first_seen": "2026-10-29",
-   "source_tag": "名单-北京专精特新",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "来源页面可访问，双源佐证"
-    },
-    "checked_at": "2026-10-29 05:04"
-   }
-  },
-  {
-   "name": "北京盛昌益态新能源科技有限公司",
-   "scope_hint": "官方名单：名单-北京专精特新",
-   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
-   "bizline": "",
-   "keyword": "名单-北京专精特新",
-   "first_seen": "2026-10-29",
-   "source_tag": "名单-北京专精特新",
-   "verify": {
-    "b": {
-     "pass": true,
-     "reason": "名称含法定全称后缀"
-    },
-    "e": {
-     "pass": true,
-     "reason": "名称/简介含研产关键词"
-    },
-    "a": {
-     "pass": true,
-     "reason": "官网/页面可访问，未见注销字样，含经营信息"
-    },
-    "d": {
-     "pass": true,
-     "reason": "来源页面可访问，双源佐证"
-    },
-    "checked_at": "2026-10-29 05:04"
    }
   },
   {
@@ -5172,6 +4136,1266 @@
      "reason": "来源页面可访问，双源佐证"
     },
     "checked_at": "2026-11-27 07:36"
+   }
+  },
+  {
+   "name": "天津嵌入式公司",
+   "scope_hint": "找到 56 条 天津嵌入式公司，名录按近期招聘需求排序，榜单每天更新，天津嵌入式公司招聘规模榜：经纬恒润、中科软、施耐德、麒麟软件、软通动力、金信达（天津）半导体科技有限公司、迈思、华宁电子、飞腾、天津海瑞电子科技有限公司等。榜单覆盖嵌入式软件开发、嵌入式硬件设计、嵌入 ...",
+   "source_url": "https://www.jobui.com/rank/company/jobs/tianjin/qianrushi/",
+   "bizline": "工业通信",
+   "keyword": "招聘-通用",
+   "first_seen": "2026-11-28",
+   "source_tag": "招聘-通用",
+   "verify": {
+    "b": {
+     "pass": false,
+     "reason": "名称缺少法定全称后缀（有限公司/集团等），疑似不完整"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-11-28 07:03"
+   }
+  },
+  {
+   "name": "天津）半导体科技有限公司",
+   "scope_hint": "找到 56 条 天津嵌入式公司，名录按近期招聘需求排序，榜单每天更新，天津嵌入式公司招聘规模榜：经纬恒润、中科软、施耐德、麒麟软件、软通动力、金信达（天津）半导体科技有限公司、迈思、华宁电子、飞腾、天津海瑞电子科技有限公司等。榜单覆盖嵌入式软件开发、嵌入式硬件设计、嵌入 ...",
+   "source_url": "https://www.jobui.com/rank/company/jobs/tianjin/qianrushi/",
+   "bizline": "工业通信",
+   "keyword": "招聘-通用-摘要",
+   "first_seen": "2026-11-28",
+   "source_tag": "招聘-通用-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-11-28 07:03"
+   }
+  },
+  {
+   "name": "天津嵌入式软件公司",
+   "scope_hint": "找到 10 条 天津嵌入式软件公司，名录按近期招聘需求排序，榜单每天更新，天津嵌入式软件公司招聘规模榜：中科软、迈思、善诚科技、天津凌浩科技有限公司、慧博云通、东软集团、信必优、上海思芮、中孚信息、光电安辰等。榜单覆盖嵌入式、智能化、软件、IT服务、人工智能等多个领域 ...",
+   "source_url": "https://www.jobui.com/rank/company/jobs/tianjin/qianrushiruanjian/",
+   "bizline": "工业通信",
+   "keyword": "招聘-通用",
+   "first_seen": "2026-11-28",
+   "source_tag": "招聘-通用",
+   "verify": {
+    "b": {
+     "pass": false,
+     "reason": "名称缺少法定全称后缀（有限公司/集团等），疑似不完整"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-11-28 07:03"
+   }
+  },
+  {
+   "name": "天津垠石精工技术有限公司",
+   "scope_hint": "天津垠石精工技术有限公司天津招聘嵌入式软件开发岗位，薪资15-20k,天津垠石精工技术有限公司公司规模1-49人,岗位要求统招本科学历，3-5年相关经验，加入天津垠石精工技术有限公司共同成长。立即在猎聘投递简历，祝你顺利获得天津垠石精工技术有限公司嵌入式软件开发职位!",
+   "source_url": "https://www.liepin.com/job/1984893661.shtml",
+   "bizline": "工业通信",
+   "keyword": "招聘-通用",
+   "first_seen": "2026-11-28",
+   "source_tag": "招聘-通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-11-28 07:03"
+   }
+  },
+  {
+   "name": "威尔创新（天津）科技发展有限公司",
+   "scope_hint": "威尔创新（天津）科技发展有限公司 威尔创新（TIGERWAY）成立于2018年，是一家集ODM/OEM定制与行业IT解决方案的硬件提供商。 公司专注于网络安全产品、超融合一体机、边缘计算服务器、A1 GPU集群服务器、工作站、物联网等产品与其行业解决方案的研发设计和生产。",
+   "source_url": "https://www.tccia.org.cn/493/18106/1274568",
+   "bizline": "服务器/信创整机",
+   "keyword": "通用",
+   "first_seen": "2026-11-28",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-11-28 07:03"
+   }
+  },
+  {
+   "name": "弘德（天津）网络信息安全硬件有限责任公司",
+   "scope_hint": "1、基本信息 弘德（天津）网络信息安全硬件有限责任公司（曾用名：天津滨海高新区弘德网络信息安全硬件有限责任公司）是⼀家成⽴于2024年10月14日的有限责任公司，属于以从事批发和零售业为主的企业。位于天津市滨海新区，法定代表人为贾秀英，目前处于存续状态。注册资本：1万元。",
+   "source_url": "https://www.qcc.com/firm/c277af2db1f92040408b490954d433e8.html",
+   "bizline": "网络安全",
+   "keyword": "通用",
+   "first_seen": "2026-11-28",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-11-28 07:03"
+   }
+  },
+  {
+   "name": "天津）网络信息安全硬件有限责任公司",
+   "scope_hint": "1、基本信息 弘德（天津）网络信息安全硬件有限责任公司（曾用名：天津滨海高新区弘德网络信息安全硬件有限责任公司）是⼀家成⽴于2024年10月14日的有限责任公司，属于以从事批发和零售业为主的企业。位于天津市滨海新区，法定代表人为贾秀英，目前处于存续状态。注册资本：1万元。",
+   "source_url": "https://www.qcc.com/firm/c277af2db1f92040408b490954d433e8.html",
+   "bizline": "网络安全",
+   "keyword": "通用-摘要",
+   "first_seen": "2026-11-28",
+   "source_tag": "通用-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-11-28 07:03"
+   }
+  },
+  {
+   "name": "天津滨海高新区弘德网络信息安全硬件有限责任公司",
+   "scope_hint": "1、基本信息 弘德（天津）网络信息安全硬件有限责任公司（曾用名：天津滨海高新区弘德网络信息安全硬件有限责任公司）是⼀家成⽴于2024年10月14日的有限责任公司，属于以从事批发和零售业为主的企业。位于天津市滨海新区，法定代表人为贾秀英，目前处于存续状态。注册资本：1万元。",
+   "source_url": "https://www.qcc.com/firm/c277af2db1f92040408b490954d433e8.html",
+   "bizline": "网络安全",
+   "keyword": "通用-摘要",
+   "first_seen": "2026-11-28",
+   "source_tag": "通用-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-11-28 07:03"
+   }
+  },
+  {
+   "name": "天津）网络安全科技有限公司",
+   "scope_hint": "信安（天津）网络安全科技有限公司成立于2023年12月13日，注册地位于天津市南开区科研西路天津科技广场6-1-1406（天开园），法定代表人为任永正。经营范围包括一般项目：网络与信息安全软件开发；信息安全设备销售；信息安全设备制造；商用密码产品生产；商用密码产品销售；信息技术咨询 ...",
+   "source_url": "https://aiqicha.baidu.com/company_detail_49320417859984",
+   "bizline": "网络安全",
+   "keyword": "通用-摘要",
+   "first_seen": "2026-11-28",
+   "source_tag": "通用-摘要",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "页面可访问，未见注销/吊销字样"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-11-28 07:04"
+   }
+  },
+  {
+   "name": "信安（天津）网络安全科技有限公司",
+   "scope_hint": "公司主要从事信息安全设备制造与销售，并提供网络技术服务。在技术研发方面，公司拥有龙芯架构下RDP图形渲染指令流高危操作实时阻断方法相关专利，并具备无人机集群任务调度系统、智慧工厂数字孪生平台等软件著作权。 公司获评2026年国家级科技型中小企业、2025年国家级高新技术企业，并 ...",
+   "source_url": "https://www.qcc.com/firm/612bed33c067843c5889f5cfc48a468f.html",
+   "bizline": "网络安全",
+   "keyword": "通用",
+   "first_seen": "2026-11-28",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-11-28 07:03"
+   }
+  },
+  {
+   "name": "天津odm公司",
+   "scope_hint": "天津ODM公司前十名单，都是真实用户浏览，公司达到一定热度才能上榜，包括最佳人气TOP10, 招聘需求TOP10, 招聘增长TOP10, 薪酬待遇TOP10，名单具有相关性，但可能并不准确。 有误请 联系客服 职友集线上客服 了解会员服务，解答疑问 。仅供参考。",
+   "source_url": "https://www.jobui.com/rank/company/view/tianjin/odm/top10/",
+   "bizline": "网络安全",
+   "keyword": "通用",
+   "first_seen": "2026-11-28",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": false,
+     "reason": "名称缺少法定全称后缀（有限公司/集团等），疑似不完整"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-11-28 07:04"
+   }
+  },
+  {
+   "name": "天津网络安全公司",
+   "scope_hint": "找到 45 条天津网络安全公司名单， 名录按近一年人气排序， 今日上榜只统计Top500上榜企业， 都是真实用户浏览，公司达到一定热度才能上榜， 榜单每天更新， 天津网络安全公司头部企业：南大通用、中海油信科网络安全技术中心、中电云脑（天津）科技有限公司、星络互联科技（天津）有限公司 ...",
+   "source_url": "https://www.jobui.com/rank/company/view/tianjin/wangluoanquan/",
+   "bizline": "网络安全",
+   "keyword": "通用",
+   "first_seen": "2026-11-28",
+   "source_tag": "通用",
+   "verify": {
+    "b": {
+     "pass": false,
+     "reason": "名称缺少法定全称后缀（有限公司/集团等），疑似不完整"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "搜索/名录来源 + 公司页面双源佐证"
+    },
+    "checked_at": "2026-11-28 07:04"
+   }
+  },
+  {
+   "name": "北京博数智源人工智能科技有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-11-28",
+   "source_tag": "名单-北京专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-11-28 07:03"
+   }
+  },
+  {
+   "name": "北京冠林豪泰电子科技有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-11-28",
+   "source_tag": "名单-北京专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-11-28 07:03"
+   }
+  },
+  {
+   "name": "北京公维电子信息技术有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-11-28",
+   "source_tag": "名单-北京专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-11-28 07:03"
+   }
+  },
+  {
+   "name": "北京康华微电子有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-11-28",
+   "source_tag": "名单-北京专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-11-28 07:04"
+   }
+  },
+  {
+   "name": "北京科大国泰能源环境工程技术有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-11-28",
+   "source_tag": "名单-北京专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-11-28 07:04"
+   }
+  },
+  {
+   "name": "北京索德瀚智能科技有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-11-28",
+   "source_tag": "名单-北京专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-11-28 07:04"
+   }
+  },
+  {
+   "name": "北京中建机鼎晟机电设备有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-11-28",
+   "source_tag": "名单-北京专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-11-28 07:04"
+   }
+  },
+  {
+   "name": "北京中力明新材料科技有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-11-28",
+   "source_tag": "名单-北京专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-11-28 07:04"
+   }
+  },
+  {
+   "name": "光轮智能（北京）科技有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-11-28",
+   "source_tag": "名单-北京专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-11-28 07:04"
+   }
+  },
+  {
+   "name": "易慧创新（北京）智能科技有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-11-28",
+   "source_tag": "名单-北京专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-11-28 07:04"
+   }
+  },
+  {
+   "name": "北京派克盛宏电子科技有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-11-28",
+   "source_tag": "名单-北京专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-11-28 07:04"
+   }
+  },
+  {
+   "name": "中际联合（北京）装备制造有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-11-28",
+   "source_tag": "名单-北京专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-11-28 07:04"
+   }
+  },
+  {
+   "name": "华芯威半导体科技（北京）有限责任公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-11-28",
+   "source_tag": "名单-北京专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-11-28 07:04"
+   }
+  },
+  {
+   "name": "北京基业昌达新能源技术有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-11-28",
+   "source_tag": "名单-北京专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-11-28 07:04"
+   }
+  },
+  {
+   "name": "北京易泰克电力科技有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-11-28",
+   "source_tag": "名单-北京专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-11-28 07:04"
+   }
+  },
+  {
+   "name": "北京鼎驰智能环保设备有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-11-28",
+   "source_tag": "名单-北京专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-11-28 07:04"
+   }
+  },
+  {
+   "name": "北京亦城亦联智能科技有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-11-28",
+   "source_tag": "名单-北京专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-11-28 07:04"
+   }
+  },
+  {
+   "name": "北京纪梵希装饰材料有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-11-28",
+   "source_tag": "名单-北京专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-11-28 07:04"
+   }
+  },
+  {
+   "name": "北京华恩中实能源技术有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-11-28",
+   "source_tag": "名单-北京专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-11-28 07:04"
+   }
+  },
+  {
+   "name": "华太圣阳（北京）新能源有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-11-28",
+   "source_tag": "名单-北京专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-11-28 07:04"
+   }
+  },
+  {
+   "name": "北京和尔泰新材料科技有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-11-28",
+   "source_tag": "名单-北京专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-11-28 07:04"
+   }
+  },
+  {
+   "name": "中祥国瑞新能源科技（北京）有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-11-28",
+   "source_tag": "名单-北京专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-11-28 07:04"
+   }
+  },
+  {
+   "name": "北京维盛复合材料有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-11-28",
+   "source_tag": "名单-北京专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-11-28 07:04"
+   }
+  },
+  {
+   "name": "中建研智能技术（北京）有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-11-28",
+   "source_tag": "名单-北京专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-11-28 07:04"
+   }
+  },
+  {
+   "name": "国家能源集团新能源技术研究院有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-11-28",
+   "source_tag": "名单-北京专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-11-28 07:04"
+   }
+  },
+  {
+   "name": "中烨能源（北京）有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-11-28",
+   "source_tag": "名单-北京专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-11-28 07:04"
+   }
+  },
+  {
+   "name": "国综智投（北京）能源科技有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-11-28",
+   "source_tag": "名单-北京专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-11-28 07:04"
+   }
+  },
+  {
+   "name": "北京电通敏智电子技术有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-11-28",
+   "source_tag": "名单-北京专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-11-28 07:04"
+   }
+  },
+  {
+   "name": "震宇智慧（北京）新能源科技有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-11-28",
+   "source_tag": "名单-北京专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-11-28 07:04"
+   }
+  },
+  {
+   "name": "北京坤创建科智能科技有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-11-28",
+   "source_tag": "名单-北京专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-11-28 07:04"
+   }
+  },
+  {
+   "name": "北京恒华腾达设备安装工程有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-11-28",
+   "source_tag": "名单-北京专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-11-28 07:04"
+   }
+  },
+  {
+   "name": "北京鹏宇兴业精密模具制造有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-11-28",
+   "source_tag": "名单-北京专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-11-28 07:04"
+   }
+  },
+  {
+   "name": "北京盛昌益态新能源科技有限公司",
+   "scope_hint": "官方名单：名单-北京专精特新",
+   "source_url": "https://jxj.beijing.gov.cn/jxdt/tzgg/202505/P020250522628076218888.docx",
+   "bizline": "",
+   "keyword": "名单-北京专精特新",
+   "first_seen": "2026-11-28",
+   "source_tag": "名单-北京专精特新",
+   "verify": {
+    "b": {
+     "pass": true,
+     "reason": "名称含法定全称后缀"
+    },
+    "e": {
+     "pass": true,
+     "reason": "名称/简介含研产关键词"
+    },
+    "a": {
+     "pass": true,
+     "reason": "官网/页面可访问，未见注销字样，含经营信息"
+    },
+    "d": {
+     "pass": true,
+     "reason": "来源页面可访问，双源佐证"
+    },
+    "checked_at": "2026-11-28 07:04"
    }
   }
  ]
